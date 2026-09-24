@@ -21,7 +21,7 @@ EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be
 
 body
 {
-	font-family: Aptos;
+	font-family: Helvetica;
 	line-height: 1.5em;
 	background-color: #F1F4F5;
 	/* Synergy page background */
@@ -243,7 +243,7 @@ p.tile-title
 	text-align: left;
 	color: #000000;
 	font-size: 1em;
-	font-family: Aptos;
+	font-family: Helvetica;
 	font-weight: 600;
 }
 
@@ -294,7 +294,20 @@ div.media-strip-head a:hover
 
 div.hub-links a:hover
 {
-	color: #1c5cfc;
+	background-color: #F2F6FF;
+	color: #1C5CFC;
+	padding-left: 14px;
+}
+
+div.hub-links a:hover::after
+{
+	opacity: 1;
+	transform: translateX(2px) rotate(45deg);
+}
+
+html[data-theme="dark"] div.hub-links a:hover
+{
+	color: #62B9FF;
 }
 
 /*=Info-container section=*/
@@ -1958,8 +1971,8 @@ div.hub-grid > div
 
 div.hub-grid > div:hover
 {
-	border-color: #1c5cfc;
-	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.18), 0 10px 26px rgba(28, 92, 252, 0.20);
+	border-color: #D7E0EC;
+	box-shadow: 0 2px 4px rgba(20, 30, 40, 0.06), 0 10px 22px rgba(20, 30, 40, 0.10);
 }
 
 /*=Card heading: icon and label on one line=*/
@@ -2000,13 +2013,46 @@ div.hub-links
 
 div.hub-links a
 {
-	display: block;
-	padding: 6px 0;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin: 2px -8px;
+	padding: 8px 10px;
 	font-size: 0.85em;
 	font-weight: 500;
 	line-height: 1.4;
 	color: #1F2933;
 	text-decoration: none;
+	border-radius: 8px;
+	transition: background-color 0.18s ease, color 0.18s ease, padding-left 0.18s ease;
+}
+
+div.hub-links a::after
+{
+	content: '';
+	flex: 0 0 auto;
+	width: 6px;
+	height: 6px;
+	border-top: 1.5px solid currentColor;
+	border-right: 1.5px solid currentColor;
+	transform: rotate(45deg);
+	opacity: 0.45;
+	transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+div.hub-links a:focus-visible
+{
+	background-color: #F2F6FF;
+	color: #1C5CFC;
+	padding-left: 14px;
+}
+
+div.hub-links a:focus-visible::after
+{
+	opacity: 1;
+	transform: translateX(2px) rotate(45deg);
 }
 
 /*=Mediums - mirror the div.media-strip breakpoints=*/
@@ -2044,8 +2090,15 @@ html[data-theme="dark"] div.hub-grid > div
 
 html[data-theme="dark"] div.hub-grid > div:hover
 {
-	border-color: #3D9BFF;
-	box-shadow: 0 0 0 3px rgba(61,155,255,0.14), 0 14px 32px rgba(0,0,0,0.28);
+	border-color: #33465B;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.20), 0 12px 26px rgba(0,0,0,0.24);
+}
+
+html[data-theme="dark"] div.hub-links a:hover,
+html[data-theme="dark"] div.hub-links a:focus-visible
+{
+	background-color: rgba(61, 155, 255, 0.10);
+	color: #62B9FF;
 }
 
 html[data-theme="dark"] p.hub-title
@@ -2068,8 +2121,16 @@ html[data-theme="dark"] div.hub-links a
 	color: #C6D3E2;
 }
 
-html[data-theme="dark"] div.hub-links a:hover
+/*==============================================================================
+  REDUCED MOTION
+  Respects the user's operating-system accessibility preference.
+
+  Animated Home page posters remain visually meaningful, but repeating motion,
+  ripples, cursor movement, and unnecessary transitions stop.
+==============================================================================*/
+
+@media 
 {
-	color: #62B9FF;
+	
 }
 

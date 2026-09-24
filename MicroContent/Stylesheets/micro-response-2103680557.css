@@ -594,7 +594,7 @@
 	border-bottom: none;
 	font-size: 1em;
 	font-weight: 600;
-	background-image: url('../../../radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-collapsed.png');
+	background-image: url('../../Content/resources/Images/Assets/Icons/Dropdown/chevron-collapsed.png');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 16px 16px;
@@ -614,7 +614,7 @@
 .micro-response-2103680557 MadCap|dropDownHead.MCDropDownHead_Open MadCap|dropDownHotspot,
 .micro-response-2103680557 .MCDropDown_Open MadCap|dropDownHotspot
 {
-	background-image: url('../../../radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-expanded.png');
+	background-image: url('../../Content/resources/Images/Assets/Icons/Dropdown/chevron-expanded.png');
 }
 
 .micro-response-2103680557 MadCap|dropDownBody
@@ -1753,11 +1753,171 @@
 	background-image: linear-gradient(90deg, #00A3FF 0%, #62B9FF 100%);
 }
 
+/*==============================================================================
+  ACCESSIBLE KEYBOARD FOCUS STATES
+  Shows focus indicators for keyboard navigation without affecting mouse clicks.
+==============================================================================*/
+
+/*------------------------------------------------------------------------------
+  1. GLOBAL INTERACTIVE ELEMENTS
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 a:focus-visible,
+.micro-response-2103680557 button:focus-visible,
+.micro-response-2103680557 input:focus-visible,
+.micro-response-2103680557 select:focus-visible,
+.micro-response-2103680557 textarea:focus-visible,
+.micro-response-2103680557 [role="button"]:focus-visible,
+.micro-response-2103680557 [tabindex="0"]:focus-visible
+{
+	outline: 3px solid rgba(28, 92, 252, 0.55);
+	outline-offset: 3px;
+	border-radius: 6px;
+}
+
+/*------------------------------------------------------------------------------
+  2. SEARCH BAR
+  The search container already uses :focus-within, so avoid a second ring
+  around the input itself.
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .search-bar .search-field:focus-visible
+{
+	outline: none;
+}
+
+/*------------------------------------------------------------------------------
+  3. SIDE NAVIGATION
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .sidenav-wrapper a:focus-visible,
+.micro-response-2103680557 .off-canvas-list a:focus-visible
+{
+	outline: 3px solid rgba(28, 92, 252, 0.45);
+	outline-offset: -2px;
+	border-radius: 6px;
+}
+
+/*------------------------------------------------------------------------------
+  4. HOME PAGE MEDIA CARDS
+  Highlight the whole card when a link inside receives keyboard focus.
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .media-strip > div:focus-within
+{
+	border-color: #1C5CFC;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.18), 0 12px 28px rgba(20, 40, 70, 0.18);
+}
+
+.micro-response-2103680557 .media-strip > div > a:focus-visible
+{
+	outline: none;
+}
+
+/*------------------------------------------------------------------------------
+  5. HOME PAGE HUB CARDS
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .hub-grid > div:focus-within
+{
+	border-color: #1C5CFC;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.18), 0 10px 26px rgba(28, 92, 252, 0.20);
+}
+
+.micro-response-2103680557 .hub-links a:focus-visible
+{
+	color: #1C5CFC;
+	outline: 2px solid rgba(28, 92, 252, 0.45);
+	outline-offset: 3px;
+	border-radius: 4px;
+}
+
+/*------------------------------------------------------------------------------
+  6. VIDEO FLYOUT MENU
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .media-menu a:focus-visible
+{
+	background-color: #F1F8FF;
+	color: #007BFF;
+	outline: 2px solid rgba(28, 92, 252, 0.50);
+	outline-offset: -2px;
+	border-radius: 11px;
+}
+
+.micro-response-2103680557 .media-menu a:focus-visible .media-menu-title
+{
+	color: #007BFF;
+}
+
+/*------------------------------------------------------------------------------
+  7. THEME TOGGLE
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 button.theme-toggle:focus-visible
+{
+	outline: 3px solid rgba(28, 92, 252, 0.55);
+	outline-offset: 3px;
+}
+
+/*------------------------------------------------------------------------------
+  8. TOPIC TOOLBAR BUTTONS
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .toolbar a:focus-visible,
+.micro-response-2103680557 .toolbar button:focus-visible,
+.micro-response-2103680557 .toolbar .button:focus-visible
+{
+	outline: 3px solid rgba(28, 92, 252, 0.50);
+	outline-offset: 3px;
+	border-radius: 6px;
+}
+
+/*------------------------------------------------------------------------------
+  9. DROPDOWNS / EXPANDING CONTENT
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 .MCDropDownHotSpot:focus-visible,
+.micro-response-2103680557 .MCExpandingHotSpot:focus-visible
+{
+	outline: 3px solid rgba(28, 92, 252, 0.45);
+	outline-offset: 3px;
+	border-radius: 4px;
+}
+
+/*------------------------------------------------------------------------------
+  10. DARK MODE
+------------------------------------------------------------------------------*/
+
+.micro-response-2103680557 html[data-theme="dark"] a:focus-visible,
+.micro-response-2103680557 html[data-theme="dark"] button:focus-visible,
+.micro-response-2103680557 html[data-theme="dark"] [role="button"]:focus-visible,
+.micro-response-2103680557 html[data-theme="dark"] [tabindex="0"]:focus-visible
+{
+	outline-color: rgba(98, 185, 255, 0.80);
+}
+
+.micro-response-2103680557 html[data-theme="dark"] .media-strip > div:focus-within,
+.micro-response-2103680557 html[data-theme="dark"] .hub-grid > div:focus-within
+{
+	border-color: #62B9FF;
+	box-shadow: 0 0 0 3px rgba(98, 185, 255, 0.20), 0 12px 28px rgba(0, 0, 0, 0.28);
+}
+
 @media print
 {
 	.micro-response-2103680557 div.reading-progress
 	{
 		display: none;
 	}
+}
+
+/*==============================================================================
+  REDUCED MOTION — TOPIC PAGES
+==============================================================================*/
+
+@media 
+{
+	
 }
 
