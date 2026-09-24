@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Viewing Data Sources in a Workspace</title>
+        <!-- ================================================================
+		ANTI-FLASH FOUNDATION
+
+		IMPORTANT:
+		This must be the FIRST style inside <head>.
+
+		Normal topic pages always begin with a dark browser canvas.
+		If light mode is active, the script immediately below changes
+		the canvas to light before the page renders.
+		================================================================ -->
+        <!-- ================================================================
+		APPLY THE SAVED THEME BEFORE ANY EXTERNAL CSS LOADS
+		================================================================ -->
+        <!-- ================================================================
+		NORMAL STYLESHEETS
+		DarkMode.css MUST remain last.
+		================================================================ -->
+        <!-- ================================================================
+		THEME CONTROLLER
+		================================================================ -->
+        <!-- ================================================================
+		RESPONSIVE IMAGE MAPS
+		================================================================ -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+</style>
+        <link href="../../resources/Stylesheets/Styles_1.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../resources/TableStylesheets/PresightKey.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">
+			//<![CDATA[
+
+			(function ()
+			{
+			var theme = "light";
+
+			try
+			{
+			var savedTheme =
+			window.localStorage.getItem(
+			"synergy-help-theme"
+			);
+
+			if (
+			savedTheme === "dark" ||
+			savedTheme === "light"
+			)
+			{
+			theme = savedTheme;
+			}
+			}
+			catch (e)
+			{
+			theme = "light";
+			}
+
+
+			/*
+			Apply the theme attribute immediately.
+			*/
+
+			document.documentElement.setAttribute(
+			"data-theme",
+			theme
+			);
+
+
+			/*
+			Set the actual browser document canvas immediately.
+
+			This is particularly important for dark mode because
+			it prevents Chrome from displaying its default white
+			document canvas while a new Flare topic is loading.
+			*/
+
+			if (theme === "dark")
+			{
+			document.documentElement.style.backgroundColor =
+			"#0B111B";
+
+			document.documentElement.style.colorScheme =
+			"dark";
+			}
+			else
+			{
+			document.documentElement.style.backgroundColor =
+			"#EEF2F7";
+
+			document.documentElement.style.colorScheme =
+			"light";
+			}
+
+			})();
+
+			//]]></script>
+        <script src="../../resources/Scripts/ThemeToggle.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/ReadingProgress.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/jquery.rwdImageMaps.min.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1288px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Try searching for &quot;analysis&quot;" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a name="top"></a>
+                                    <!-- ================================================================
+		TOPIC TOOLBAR
+		================================================================ -->
+                                    <div class="toolbar">
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="  ⦁  " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                            </div>
+                                        </div>
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBarNew mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footertext">&#160;</p>
+                                    <!-- ================================================================
+		TOPIC CONTENT
+		================================================================ -->
+                                    <div class="background">
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Viewing Data Sources in a Workspace</h1>
+                                            <p>Data Management enables you to navigate across workspace data sources in a hierarchical tree structure. You can view database schemas, tables, columns, and associated data types.</p>
+                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The Data Management component is available for Data Engineers with relevant permissions.</p>
+                                            <p>To view the data sources available to you and their details, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span> </li>
+                                                <li value="2">From the <b>Management</b> drop-down, select <b>Data Management</b>. All data sources allocated to the workspace are displayed.</li>
+                                                <li value="3">You can do the following:<ul><li>Expand the data sources to view the buckets, folders, and files available in it.</li><li>Right-click the data source and click <b>Sync</b> to sync the data within the data source.</li></ul></li>
+                                                <li value="4">(Optional) To create a folder in a minio data source bucket, do the following:<ol style="list-style-type: lower-alpha;"><li value="1">Expand a minio data source. All available data source elements are displayed.</li><li value="2">Right-click the data source bucket in which you want to create a folder and then click <b>Create Folder</b>. The Create a new Folder pop-up is displayed.</li><li value="3">Enter a name and a description for the folder and click <b>Save</b>. A new folder is created and is displayed under the selected data source bucket.<p class="tip" data-mc-autonum="&lt;b&gt;Tip: &lt;/b&gt;"><span class="autonumber"><span><b>Tip: </b></span></span>You can right-click a folder and click <b>Create Folder</b> to create a folder within a folder.</p></li></ol></li>
+                                                <li value="5">(Optional) To upload a file to a folder, do the following:<ol style="list-style-type: lower-alpha;"><li value="1">Expand a data source bucket and right-click the folder in which you want to upload a file.</li><li value="2">Click <b>Upload File</b>. A pop-up is displayed.</li><li value="3">Click anywhere within the upload section. The <b>Open</b> window is displayed.</li><li value="4">Browse and select the file you want to upload and then click <b>Open</b>. The uploaded file name is displayed in the <b>Upload File</b> pop-up.</li><li value="5">Click <b>Upload</b> to upload the file into the selected folder. The selected file is uploaded and displayed under the selected folder.</li></ol></li>
+                                                <li value="6">(Optional) To view the details of a folder, data table, folder, or a file, right-click the relevant element and click <b>Open details</b> for that element. The Item Details pop-up is displayed.<p>The following table explains the fields you can view in the respective data source elements:</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 25%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 75%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Element</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight" data-mc-conditions=""><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Data Table</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Displays the following details of the data table:</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 219px;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 75%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Name</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the name of the data table.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Data Source</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the Data Source name in which the data table is available.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Schema</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the schema name in which the data table is available.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Description</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Displays the description of the folder.</td></tr></tbody></table><p>You can do the following in the Item details pop-up for a data table:</p><ul><li>Add or remove columns.</li><li>View and configure Lineage.</li><li>View and configure indexes.</li><li>View the projection details.</li><li>View and configure TTL.</li><li>View the partition details.</li><li>View the activity history in the data table.</li><li>View the DDL Statement.</li><li>Run the data table to preview the results.</li></ul></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Folder</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Displays the following details of the folder in the General tab:</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 25%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 75%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Name</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the name of the folder.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Data Source</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the Data Source name in which the folder is available.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Bucket</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the Bucket name in which the folder is available.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Path</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the folder path.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Description</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the description of the folder.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Statistics tab</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Displays the activities performed within the folder.</td></tr></tbody></table></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">File</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight"><p>Displays the following details of the file in the General tab</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 25%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 75%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Name</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the name of the File. You can modify the name, if required.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Data Source</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the Data Source name in which the File is available.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Bucket</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the Bucket name in which the File is available.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Extension type</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Displays the file extension. For example, csv.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Path</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Displays the File path.</td></tr></tbody></table><ul><li>You can do the following in the Column tab:<ul style="list-style-type: circle;"><li>View existing columns.</li><li>Add a new column.</li></ul></li><li>On the Statistics tab, click <b>Refresh</b> to view the statistical data of the file.</li><li>On the Preview tab, you can add parameters and run queries.</li></ul></td></tr></tbody></table></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <!-- ================================================================
+		BACK TO TOP
+		================================================================ -->
+                                    <div class="btn-back-to-top">
+                                        <p style="text-align: right"><a href="#top"><img src="../../resources/Images/Arrows/back-to-top-circle_25x25.png" style="width: 25;height: 25;" /></a>
+                                        </p>
+                                    </div>
+                                    <!-- ================================================================
+		FOOTER
+		================================================================ -->
+                                    <div class="footer">
+                                        <p class="footertext">
+				Copyright © – All rights reserved
+			</p>
+                                    </div>
+                                    <!-- ================================================================
+		RESPONSIVE IMAGE MAP INITIALIZATION
+		================================================================ -->
+                                    <script type="text/javascript">
+			//<![CDATA[
+
+			if (
+			window.jQuery &&
+			typeof jQuery.fn.rwdImageMaps === "function"
+			)
+			{
+			jQuery(
+			"img[usemap]"
+			).rwdImageMaps();
+			}
+
+			//]]></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

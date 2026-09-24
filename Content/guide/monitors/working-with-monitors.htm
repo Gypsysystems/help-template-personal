@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Working with Data Monitors</title>
+        <!-- ================================================================
+		ANTI-FLASH FOUNDATION
+
+		IMPORTANT:
+		This must be the FIRST style inside <head>.
+
+		Normal topic pages always begin with a dark browser canvas.
+		If light mode is active, the script immediately below changes
+		the canvas to light before the page renders.
+		================================================================ -->
+        <!-- ================================================================
+		APPLY THE SAVED THEME BEFORE ANY EXTERNAL CSS LOADS
+		================================================================ -->
+        <!-- ================================================================
+		NORMAL STYLESHEETS
+		DarkMode.css MUST remain last.
+		================================================================ -->
+        <!-- ================================================================
+		THEME CONTROLLER
+		================================================================ -->
+        <!-- ================================================================
+		RESPONSIVE IMAGE MAPS
+		================================================================ -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+</style>
+        <link href="../../resources/Stylesheets/Styles_1.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../resources/TableStylesheets/PresightKey.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">
+			//<![CDATA[
+
+			(function ()
+			{
+			var theme = "light";
+
+			try
+			{
+			var savedTheme =
+			window.localStorage.getItem(
+			"synergy-help-theme"
+			);
+
+			if (
+			savedTheme === "dark" ||
+			savedTheme === "light"
+			)
+			{
+			theme = savedTheme;
+			}
+			}
+			catch (e)
+			{
+			theme = "light";
+			}
+
+
+			/*
+			Apply the theme attribute immediately.
+			*/
+
+			document.documentElement.setAttribute(
+			"data-theme",
+			theme
+			);
+
+
+			/*
+			Set the actual browser document canvas immediately.
+
+			This is particularly important for dark mode because
+			it prevents Chrome from displaying its default white
+			document canvas while a new Flare topic is loading.
+			*/
+
+			if (theme === "dark")
+			{
+			document.documentElement.style.backgroundColor =
+			"#0B111B";
+
+			document.documentElement.style.colorScheme =
+			"dark";
+			}
+			else
+			{
+			document.documentElement.style.backgroundColor =
+			"#EEF2F7";
+
+			document.documentElement.style.colorScheme =
+			"light";
+			}
+
+			})();
+
+			//]]></script>
+        <script src="../../resources/Scripts/ThemeToggle.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/ReadingProgress.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/jquery.rwdImageMaps.min.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1288px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Try searching for &quot;analysis&quot;" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a name="top"></a>
+                                    <!-- ================================================================
+		TOPIC TOOLBAR
+		================================================================ -->
+                                    <div class="toolbar">
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="  ⦁  " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                            </div>
+                                        </div>
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBarNew mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footertext">&#160;</p>
+                                    <!-- ================================================================
+		TOPIC CONTENT
+		================================================================ -->
+                                    <div class="background">
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Working with Data Monitors</h1>
+                                            <p>You can create, configure, activate, and manage Data Monitors to track new records within a case and review the results of each scheduled execution.</p>
+                                            <h6 class="reference">In this Topic</h6>
+                                            <ul>
+                                                <li><a href="#Creating" class="MCXref xref">Creating a Data Monitor</a>
+                                                </li>
+                                                <li><a href="#Configur" class="MCXref xref">Configuring Data Monitor Notifications</a>
+                                                </li>
+                                            </ul>
+                                            <h3><a name="Creating"></a>Creating a Data Monitor</h3>
+                                            <p>To create a data monitor, do the following:</p>
+                                            <ol start="1">
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Do one of the following:<ul><li>Right-click the <b>Monitors</b> component and select <b>New Monitor</b>.</li><li>Click the <b>Monitors</b> icon at the upper-right corner of the navigation bar and select <b>+ New Monitor</b>.<p>The Create monitor pop-up is displayed</p></li></ul></li>
+                                                <li value="4">Enter a <b>Name</b> and a <b>Description</b> for the data monitor and click <b>OK</b>. The newly created data monitor page is displayed.</li>
+                                                <li value="5">In the <b>Details</b> section, from the <b>Tags</b> drop-down, select the applicable tags.</li>
+                                                <li value="6">In the <b>How often to run</b> section, do the following:<ol style="list-style-type: lower-alpha;"><li value="1">Select how frequently the monitor must run. You can select a predefined interval or enter a custom frequency.</li><li value="2">Select how far back each execution must search for matching records.<p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Align the lookback period with the run schedule. A lookback period shorter than the schedule leave gaps, while a longer lookback period cause the monitor to evaluate some records more than once.</p><p class="example" data-mc-autonum="&lt;b&gt;Example: &lt;/b&gt;"><span class="autonumber"><span><b>Example: </b></span></span>If the monitor runs every 12 hours, set the lookback to 12 hours so each run searches the full period since the previous execution.</p></li></ol></li>
+                                                <li value="7">
+                                                    <p>In the <b>Monitor</b> <b>criteria</b> section, to configure the required search criteria, do the following:</p>
+                                                    <ol style="list-style-type: lower-alpha;">
+                                                        <li value="1">
+                        To search and add a specific profile from Profile Search, click <b>Add profile</b>.</li>
+                                                        <li value="2">To add a profile set, click <b>Add profile set</b>.</li>
+                                                        <li value="3">To add an identifier, click <b>Add identifier</b>. The identifier-specific fields are displayed.</li>
+                                                        <li value="4">Enter the following details:<table style="width: 100%;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Identifier type</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select the type of identifier that you want to monitor.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Values</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter the identifier values that the monitor must match.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Search terms</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter keywords or terms to refine the search for matching identifiers.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Add area</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Click Add area and select the relevant geographic areas to the monitor criteria.</td></tr></tbody></table></li>
+                                                        <li value="5">To upload multiple identifiers, click <b>Upload identifiers</b>. The Upload Identifiers pop-up is displayed.</li>
+                                                        <li value="6">Browse and upload the CSV file containing the list of identifiers.</li>
+                                                    </ol>
+                                                </li>
+                                                <li value="8">In the <b>Schemas to watch</b> section, click <b>+ Add schemas</b>. The Add schemas pop-up is displayed.</li>
+                                                <li value="9">Select the schemas the monitor must search and click <b>OK</b>.</li>
+                                                <li value="10">To activate the data monitor, in the <b>Details</b> section, enable the toggle icon. The data monitor is activated and the status changes to Active.</li>
+                                                <li value="11">Click <b>Save changes</b> to save the data monitor.</li>
+                                                <li value="12">To test the monitor, in the <b>Dry run</b> section, click <b>Dry run</b>. The monitor evaluates the current criteria immediate and displays the matching records.<p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Dry run does not save an execution, update the seen ledger, write records to a collection, or sending notifications.</p></li>
+                                            </ol>
+                                            <h3><a name="Configur"></a>Configuring Data Monitor Notifications</h3>
+                                            <p>Data monitor notifications enable you to alert selected users or groups when a scheduled execution identifies new matching records. You can configure the notification severity, labels, destinations, subject, and message for the monitor.</p>
+                                            <p>To configure data monitor notifications, do the following:</p>
+                                            <ol start="1">
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">In the <b>Monitors</b> component, select the relevant data monitor. The details of the selected monitor are displayed.</li>
+                                                <li value="4">In the <b>Settings</b> section, do the following:<table style="width: 100%;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Notifications</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Enable the toggle icon to send notifications when the monitor identifies new matching records.</p><p>Turn it off to disable notifications.</p></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Labels</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter and select the labels to categorize the notification.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Severity</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Select the notification priority. The available options are as follows:</p><ul><li>Normal</li><li>Medium</li><li>Critical</li></ul></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Destination</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select the users or groups that must receive the notification.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Save matches into collection</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>To add new matches to an existing collection:</p><ol><li value="1">Select <b>Existing</b>. The Select records collection pop-up is displayed.</li><li value="2">Select the collection in which you want to add the new matches and click <b>Add</b>. The new matches are added to the selected collection.</li></ol><p>To add new matches to a new collection each time the data monitor runs:</p><ol><li value="1">Select <b>New</b>.</li><li value="2">In <b>New collection name prefix</b> enter the prefix name for the new collection. For example, investigation-anomalies.</li></ol><p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Collections that receive records from a Data Monitor display the <b>Sourced by monitor</b> label.</p></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Max records per schema</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Enter the maximum number of matching records that can be written to the collection from each schema during a monitor run.</td></tr></tbody></table></li>
+                                                <li value="5">Click <b>Save changes</b> to save the notification settings.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <!-- ================================================================
+		BACK TO TOP
+		================================================================ -->
+                                    <div class="btn-back-to-top">
+                                        <p style="text-align: right"><a href="#top"><img src="../../resources/Images/Arrows/back-to-top-circle_25x25.png" style="width: 25;height: 25;" /></a>
+                                        </p>
+                                    </div>
+                                    <!-- ================================================================
+		FOOTER
+		================================================================ -->
+                                    <div class="footer">
+                                        <p class="footertext">
+				Copyright © – All rights reserved
+			</p>
+                                    </div>
+                                    <!-- ================================================================
+		RESPONSIVE IMAGE MAP INITIALIZATION
+		================================================================ -->
+                                    <script type="text/javascript">
+			//<![CDATA[
+
+			if (
+			window.jQuery &&
+			typeof jQuery.fn.rwdImageMaps === "function"
+			)
+			{
+			jQuery(
+			"img[usemap]"
+			).rwdImageMaps();
+			}
+
+			//]]></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

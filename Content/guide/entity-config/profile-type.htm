@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Creating a Profile Type</title>
+        <!-- ================================================================
+		ANTI-FLASH FOUNDATION
+
+		IMPORTANT:
+		This must be the FIRST style inside <head>.
+
+		Normal topic pages always begin with a dark browser canvas.
+		If light mode is active, the script immediately below changes
+		the canvas to light before the page renders.
+		================================================================ -->
+        <!-- ================================================================
+		APPLY THE SAVED THEME BEFORE ANY EXTERNAL CSS LOADS
+		================================================================ -->
+        <!-- ================================================================
+		NORMAL STYLESHEETS
+		DarkMode.css MUST remain last.
+		================================================================ -->
+        <!-- ================================================================
+		THEME CONTROLLER
+		================================================================ -->
+        <!-- ================================================================
+		RESPONSIVE IMAGE MAPS
+		================================================================ -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+</style>
+        <link href="../../resources/Stylesheets/Styles_1.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../resources/TableStylesheets/PresightKey.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">
+			//<![CDATA[
+
+			(function ()
+			{
+			var theme = "light";
+
+			try
+			{
+			var savedTheme =
+			window.localStorage.getItem(
+			"synergy-help-theme"
+			);
+
+			if (
+			savedTheme === "dark" ||
+			savedTheme === "light"
+			)
+			{
+			theme = savedTheme;
+			}
+			}
+			catch (e)
+			{
+			theme = "light";
+			}
+
+
+			/*
+			Apply the theme attribute immediately.
+			*/
+
+			document.documentElement.setAttribute(
+			"data-theme",
+			theme
+			);
+
+
+			/*
+			Set the actual browser document canvas immediately.
+
+			This is particularly important for dark mode because
+			it prevents Chrome from displaying its default white
+			document canvas while a new Flare topic is loading.
+			*/
+
+			if (theme === "dark")
+			{
+			document.documentElement.style.backgroundColor =
+			"#0B111B";
+
+			document.documentElement.style.colorScheme =
+			"dark";
+			}
+			else
+			{
+			document.documentElement.style.backgroundColor =
+			"#EEF2F7";
+
+			document.documentElement.style.colorScheme =
+			"light";
+			}
+
+			})();
+
+			//]]></script>
+        <script src="../../resources/Scripts/ThemeToggle.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/ReadingProgress.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/jquery.rwdImageMaps.min.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1288px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Try searching for &quot;analysis&quot;" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a name="top"></a>
+                                    <!-- ================================================================
+		TOPIC TOOLBAR
+		================================================================ -->
+                                    <div class="toolbar">
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="  ⦁  " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                            </div>
+                                        </div>
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBarNew mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footertext">&#160;</p>
+                                    <!-- ================================================================
+		TOPIC CONTENT
+		================================================================ -->
+                                    <div class="background">
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Creating a Profile Type</h1>
+                                            <p>Profile Type enables data engineers to create and configure Profiles using identified entities, identifiers, and attributes. It connects data between Profiles (entities) and schemas. It also supports Profile ingestion steps within data pipelines.</p>
+                                            <p>Profile Types define how related identifiers and attributes are grouped to represent a real&#8209;world entity in <span class="mc-variable General.ProdTitle variable">Synergy</span>. A Profile Type determines which identifiers can be associated, how Profiles appear in the user interface, and how data is consolidated during profile ingestion.</p>
+                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Profile Type configuration also controls how Profiles are displayed in components such as Profile cards, Graph Analysis nodes, and the Profile Details page.</p>
+                                            <p>To create a profile type, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">In the top navigation bar, from the <b>Management</b> drop-down, select <b>Entity Configuration</b>. All existing entity configurations are displayed in the Entity Configuration page.</li>
+                                                <li value="3">From the <b>New</b> drop-down, select <b>Profile Type</b>. The New Profile Type section is displayed.</li>
+                                                <li value="4">In the <b>General</b> tab, enter the following:<p>The General tab enables you to enter essential details, such as name, icon, color, and description, and to select identifiers when creating a Profile Type.</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 152px;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Name</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a name for the Profile type.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Icon</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select an icon for the Profile type from the drop-down list.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Color</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select a color for the Profile type from the color picker.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Order</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Enables you to define the position of the profile type in profile-type selectors. <span class="mc-variable General.ProdTitle variable">Synergy</span> displays lower values first.</p><p>Leave the field blank to sort the profile type alphabetically after the explicitly ordered entries.</p></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Description</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a description about the Profile type.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">All Search</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enables you to include profiles of this type in All Search results. Turn off the toggle to exclude the profile type from All Search.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Identifiers</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Select the identifiers you want to include in a Profile table from the drop-down list.</p></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Tags</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Enables you to assign tags to the profile type for classification, filtering, and easier identification.</td></tr></tbody></table></li>
+                                                <li value="5">Click <b>Save</b>. The new Profile type is saved and displayed in the Entity Configuration pane under Profile Types.</li>
+                                                <li value="6">In the <b>Attributes</b> tab, click <b>Add Attribute</b>. The Add New Attribute pop-up is displayed.<p>The Attributes tab enables you to add and configure attributes for a Profile Type by defining their  properties and behaviors.</p></li>
+                                                <li value="7">In the <b>Add New Attribute</b> pop-up, enter the following:<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Field</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Name</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a name for the Profile type.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Description</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a description for the Profile type.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Value Type</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select the data value type from the drop-down list.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Format</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select the format of the attribute value type from the drop-down list.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Is Nullable</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Enable the toggle icon to indicate that the attribute can be empty.</p></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Show in Profile Search</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enable the toggle icon to indicate that the attribute should be searchable in Profile Search.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight" data-mc-conditions=""><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Always on Screen</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enable the toggle icon to indicate that the attribute can be displayed always on the screen.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Input Type</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Select the input type for this attribute. The following input types are available:</p><ul><li>Select:&#160;Enables you to select one value from the drop-down.</li><li>Multiple: Enables you to select multiple values from the drop-down.</li><li>Plain: Enables you to enter plain text.</li></ul></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Value Placeholder</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a placeholder text for the attribute value field. For example, select the Marital status of the Profile.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Match Type</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Select the Match Type for the attribute value. The following Match Types are available:</p><ul><li>Exact: Matches the attribute values exactly as entered.</li><li>Like: Matches the attribute values based on a partial pattern.</li><li>FTS (Full-Text Search): Matches attribute values using a full-text search, allowing more flexible text matching.</li></ul></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">System attribute</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Select the matching system attribute.</td></tr></tbody></table></li>
+                                                <li value="8">In the <b>Input options</b> section, do the following:<ol style="list-style-type: lower-alpha;"><li value="1">In the <b>Value</b> field, enter a value for the attribute.</li><li value="2">In the <b>Label</b> field, enter a label for the attribute.</li><li value="3">Click <b>Add</b>. The Value and the Label are displayed in the <b>Input options</b> section.</li></ol></li>
+                                                <li value="9">Click <b>Apply</b>. The attribute is displayed in the Attribute tab.</li>
+                                                <li value="10">Go to the <b>UI Cards</b> tab and select the relevant attributes and identifiers in the following sections:<p>The UI Cards tab lets you configure the attributes and identifiers displayed in search cards, mini cards, and the profile details sidebar.</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Section</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Search card config</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">The selected attributes and identifiers to use when performing a Profile search.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Mini card config</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">The selected attributes and identifiers are displayed on the Profile card preview.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Profile details sidebar</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">The selected attributes and identifiers are displayed in the Profile Details section.</td></tr></tbody></table></li>
+                                                <li value="11">Go to the <b>Activity</b> tab and do the following:<p>The Activity tab enables you to configure time-based records, schemas, date ranges, and dashboards for Profile activities.</p><table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Element</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Activity Tab</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enable the toggle icon to display all records with a time field in the Profile cards.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Identifiers and Attributes Tab</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enable the toggle icon to display the Identifiers and Attributes in the Profile cards.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Other Records Tab</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enable the toggle icon to display the time-based information in the Profile cards.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Default date range</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select the default date range to be displayed when performing a Profile search.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Schemas to query</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select the required schemas to retrieve Profile events on the Activity tab.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Dashboards</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Select the dashboard in which you want to display the Profile details. You can also create visualizations. For more information about creating visualizations, see <a href="../dashboards/create-dashboard.htm" class="MCXref xref">Creating Dashboard</a>.</td></tr></tbody></table></li>
+                                                <li value="12">Click <b>Save</b>. The Activities for the Profile Type are defined.</li>
+                                                <li value="13">Go to the <b>Reports</b> tab and do the following:<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Element</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Available Templates</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select a relevant template for your report.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">+ (Add Template)</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Click <b>+ (Add Template)</b> to create a report template.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Title</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a title for the report.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Watermark</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a text to insert it as a watermark on the report.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Landscape</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enable the toggle icon to switch the report to landscape orientation.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">RTL&#160;(Right-to-Left) Text Direction</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Enable the toggle icon to change the text direction in the report to right-to-left.</td></tr></tbody></table></li>
+                                                <li value="14">Modify the codes in the following tabs to make changes in the report:<ul><li>HTML</li><li>Main</li><li>Table</li><li>Profile</li><li>Sample</li></ul></li>
+                                            </ol>
+                                            <div class="tipbullets" data-mc-autonum="&lt;b&gt;Tip: &lt;/b&gt;"><span class="autonumber"><span><b>Tip: </b></span></span>
+                                                <p>After configuring the report, you can do the following:</p>
+                                                <ul>
+                                                    <li>Click <b>Download</b> at the top of the report to download the report.</li>
+                                                    <li>Click <b>Preview</b> to preview the report. To return to the report edit mode, click <b>Edit</b>.</li>
+                                                </ul>
+                                            </div>
+                                            <ol data-mc-continue="true">
+                                                <li value="15">Click <b>Save</b> to save the report.</li>
+                                            </ol>
+                                            <p>The new Profile Type is created and is displayed under Profile Types.</p>
+                                        </div>
+                                    </div>
+                                    <!-- ================================================================
+		BACK TO TOP
+		================================================================ -->
+                                    <div class="btn-back-to-top">
+                                        <p style="text-align: right"><a href="#top"><img src="../../resources/Images/Arrows/back-to-top-circle_25x25.png" style="width: 25;height: 25;" /></a>
+                                        </p>
+                                    </div>
+                                    <!-- ================================================================
+		FOOTER
+		================================================================ -->
+                                    <div class="footer">
+                                        <p class="footertext">
+				Copyright © – All rights reserved
+			</p>
+                                    </div>
+                                    <!-- ================================================================
+		RESPONSIVE IMAGE MAP INITIALIZATION
+		================================================================ -->
+                                    <script type="text/javascript">
+			//<![CDATA[
+
+			if (
+			window.jQuery &&
+			typeof jQuery.fn.rwdImageMaps === "function"
+			)
+			{
+			jQuery(
+			"img[usemap]"
+			).rwdImageMaps();
+			}
+
+			//]]></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

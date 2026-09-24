@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Working with Collections</title>
+        <!-- ================================================================
+		ANTI-FLASH FOUNDATION
+
+		IMPORTANT:
+		This must be the FIRST style inside <head>.
+
+		Normal topic pages always begin with a dark browser canvas.
+		If light mode is active, the script immediately below changes
+		the canvas to light before the page renders.
+		================================================================ -->
+        <!-- ================================================================
+		APPLY THE SAVED THEME BEFORE ANY EXTERNAL CSS LOADS
+		================================================================ -->
+        <!-- ================================================================
+		NORMAL STYLESHEETS
+		DarkMode.css MUST remain last.
+		================================================================ -->
+        <!-- ================================================================
+		THEME CONTROLLER
+		================================================================ -->
+        <!-- ================================================================
+		RESPONSIVE IMAGE MAPS
+		================================================================ -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+</style>
+        <link href="../../resources/Stylesheets/Styles_1.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">
+			//<![CDATA[
+
+			(function ()
+			{
+			var theme = "light";
+
+			try
+			{
+			var savedTheme =
+			window.localStorage.getItem(
+			"synergy-help-theme"
+			);
+
+			if (
+			savedTheme === "dark" ||
+			savedTheme === "light"
+			)
+			{
+			theme = savedTheme;
+			}
+			}
+			catch (e)
+			{
+			theme = "light";
+			}
+
+
+			/*
+			Apply the theme attribute immediately.
+			*/
+
+			document.documentElement.setAttribute(
+			"data-theme",
+			theme
+			);
+
+
+			/*
+			Set the actual browser document canvas immediately.
+
+			This is particularly important for dark mode because
+			it prevents Chrome from displaying its default white
+			document canvas while a new Flare topic is loading.
+			*/
+
+			if (theme === "dark")
+			{
+			document.documentElement.style.backgroundColor =
+			"#0B111B";
+
+			document.documentElement.style.colorScheme =
+			"dark";
+			}
+			else
+			{
+			document.documentElement.style.backgroundColor =
+			"#EEF2F7";
+
+			document.documentElement.style.colorScheme =
+			"light";
+			}
+
+			})();
+
+			//]]></script>
+        <script src="../../resources/Scripts/ThemeToggle.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/ReadingProgress.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/jquery.rwdImageMaps.min.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1288px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Try searching for &quot;analysis&quot;" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a name="top"></a>
+                                    <!-- ================================================================
+		TOPIC TOOLBAR
+		================================================================ -->
+                                    <div class="toolbar">
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="  ⦁  " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                            </div>
+                                        </div>
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBarNew mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footertext">&#160;</p>
+                                    <!-- ================================================================
+		TOPIC CONTENT
+		================================================================ -->
+                                    <div class="background">
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Working with Collections</h1>
+                                            <p>Collections enable you to organize related records for focused analysis and reuse.</p>
+                                            <p>In the Collections component, you can:</p>
+                                            <ul>
+                                                <li>Create collections.</li>
+                                                <li>Add records from one or more schemas.</li>
+                                                <li>Compare collections using set operations such as union, intersect, subtract, and symmetric difference.</li>
+                                            </ul>
+                                            <h6 class="reference">In this Topic</h6>
+                                            <ul>
+                                                <li><a href="#Creating" class="MCXref xref">Creating a Collection</a>
+                                                </li>
+                                                <li><a href="#Adding" class="MCXref xref">Adding Records to a Collection</a>
+                                                </li>
+                                                <li><a href="#Performi" class="MCXref xref">Performing Set Operations on Collections</a>
+                                                </li>
+                                            </ul>
+                                            <h3><a name="Creating"></a>Creating a Collection</h3>
+                                            <p>To create a Collection from the Collection component, do the following:</p>
+                                            <ol start="1">
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Click the <b>Collections</b> icon. All existing collections are displayed.</li>
+                                                <li value="4">To create a new collection, click the <b>Add</b> (<b>+</b>) icon beside the Search bar. The Create Collections pop-up is displayed.</li>
+                                                <li value="5">Enter a <b>Name</b> and a <b>Description</b> for the collection and click <b>OK</b>. The Collection is created and displayed in the Collections component.</li>
+                                            </ol>
+                                            <h3><a name="Adding"></a>Adding Records to a Collection</h3>
+                                            <p>To add records to a Collection, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Mouse over <b>Tools</b> and click <b>Explorer</b>. The New Explorer tab is displayed.</li>
+                                                <li value="4">From the <b>Select a schema</b> drop-down, select a relevant schema. The schemas in this drop-down list are displayed depending on the database selected while creating the workspace.</li>
+                                                <li value="5">From the <b>widget type</b> drop-down, select <b>Grid</b>.</li>
+                                                <li value="6">Enter relevant Filter criteria and click the <b>Search</b> icon. The records are displayed based on the filter criteria.</li>
+                                                <li value="7">You can do one of the following:<ul><li>To add all the records from the search results to a collection, right-click any record and select <b>Add all to collection</b>.</li><li>To add specific records to a collection, do the following:<ol style="list-style-type: lower-alpha;"><li value="1">Hold the <b>Ctrl</b> key and select the required records.</li><li value="2">Right-click a record and select <b>Add to collection</b>.</li></ol></li></ul><p>The Add to collection pop-up is displayed.</p></li>
+                                                <li value="8">Do one of the following:<ul><li>To add the selected records to an existing collection, select <b>Add to an existing collection</b>.</li><li>To create a new collection and add the selected records to it, select <b>Create new collection</b>.</li></ul></li>
+                                                <li value="9">Based on the option selected in the previous step, do one of the following:<ul><li>If you have selected Add to an existing collection, select an existing collection and click <b>Add</b>. The selected records are added to the selected collection.</li><li>If you have selected Create new collection, enter a name for the new collection and click <b>Add</b>. The new collection is created in the Collection component, and the selected records are added to it.</li></ul></li>
+                                            </ol>
+                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>You can add records from another schema to an existing collection.</p>
+                                            <h3><a name="Performi"></a>Performing Set Operations on Collections</h3>
+                                            <p>You can use set operations to compare two collections and identify the relationship between their records. This helps you analyze whether records from one collection also appear in another, or whether one collection contains records that the other does not.</p>
+                                            <p class="example" data-mc-autonum="&lt;b&gt;Example: &lt;/b&gt;"><span class="autonumber"><span><b>Example: </b></span></span>You can compare two collections to find common records across both collections. You can also subtract one collection from another to identify records that appear only in one of the collections.</p>
+                                            <p>You can perform the following set operations:</p>
+                                            <ul>
+                                                <li><b>Union:</b> Combines records from both selected collections and removes duplicates.</li>
+                                                <li><b>Intersect:</b> Finds records that exist in both selected collections.</li>
+                                                <li><b>Subtract:</b> Finds records that exist in the first selected collection but not in the second selected collection.</li>
+                                                <li><b>Symmetric Difference:</b> Finds records that exist in either collection, but not in both collections.</li>
+                                            </ul>
+                                            <p>To perform a set operation, do the following:</p>
+                                            <ol start="1">
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Click the <b>Collections</b> icon. All existing collections are displayed.</li>
+                                                <li value="4">Click the <b>Combine two collections</b> icon beside the Search bar. All existing collections are displayed on the Left and Right sections in the <b>Combine two collections</b> pop-up.</li>
+                                                <li value="5">In the <b>Left</b> and <b>Right</b> sections, select the collections that you want to compare.</li>
+                                                <li value="6">Select the required set operation and click <b>Preview</b>. The Preview section displays the number of records returned by the selected set operation.</li>
+                                                <li value="7">To save the result as a new collection, in the <b>New collection</b> field, enter a name for the New collection.</li>
+                                                <li value="8">Click <b>Create</b>. The new collection is created with the records returned by the set operation and displayed in the Collection component.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <!-- ================================================================
+		BACK TO TOP
+		================================================================ -->
+                                    <div class="btn-back-to-top">
+                                        <p style="text-align: right"><a href="#top"><img src="../../resources/Images/Arrows/back-to-top-circle_25x25.png" style="width: 25;height: 25;" /></a>
+                                        </p>
+                                    </div>
+                                    <!-- ================================================================
+		FOOTER
+		================================================================ -->
+                                    <div class="footer">
+                                        <p class="footertext">
+				Copyright © – All rights reserved
+			</p>
+                                    </div>
+                                    <!-- ================================================================
+		RESPONSIVE IMAGE MAP INITIALIZATION
+		================================================================ -->
+                                    <script type="text/javascript">
+			//<![CDATA[
+
+			if (
+			window.jQuery &&
+			typeof jQuery.fn.rwdImageMaps === "function"
+			)
+			{
+			jQuery(
+			"img[usemap]"
+			).rwdImageMaps();
+			}
+
+			//]]></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

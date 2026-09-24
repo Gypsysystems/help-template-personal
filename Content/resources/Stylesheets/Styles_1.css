@@ -1,0 +1,1763 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*==============================================================================
+  1. PAGE FOUNDATION
+==============================================================================*/
+
+body
+{
+	line-height: 1.7em;
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	/*fallback stack — bare 'Helvetica' falls back to serif on Windows*/
+	display: block;
+	margin: 0px;
+	/*background: #EEF2F7;	light mode — page canvas*/
+	background: radial-gradient(1200px 620px at 50% -160px, #DCE8FA 0%, #E3ECF8 42%, #EEF2F7 100%);
+	background-attachment: fixed;
+	color: #24292F;
+	/*light mode*/
+}
+
+/* Keep the Flare wrappers transparent so the page canvas shows through */
+
+.body-container,
+#contentBody,
+.off-canvas-content,
+.off-canvas-wrapper,
+.main-section,
+.outer-row
+{
+	background-color: transparent;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+div.background	/*light mode — the white content card*/
+{
+	background: #FFFFFF;
+	border: 1px solid #E4EAF2;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(16,32,64,0.06);
+	box-sizing: border-box;
+	padding: 40px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin-bottom: 40px;
+}
+
+div.nocontent
+{
+	display: inline-block;
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
+div.content
+{
+	float: right;
+	width: 66.66%;
+	display: inline;
+}
+
+/*==============================================================================
+  2. HEADINGS
+  Darkest at H1, stepping lighter as the level descends.
+==============================================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+td,
+th,
+a,
+caption
+{
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1
+{
+	margin-bottom: 8px;
+	margin-top: 16px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 2.0em;
+	page-break-after: avoid;
+	page-break-before: inherit;
+	color: #1C5CFC;
+	/*light mode*/
+	border-bottom: 1px solid #DBE4F5;
+	/*light mode*/
+}
+
+h2
+{
+	margin-bottom: 4px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 1.8em;
+	page-break-after: avoid;
+	page-break-before: inherit;
+	color: #0B2A5B;
+	/*light mode*/
+}
+
+h3
+{
+	margin-bottom: 4px;
+	margin-top: 16px;
+	font-size: 1.6em;
+	font-weight: bold;
+	page-break-after: avoid;
+	page-break-before: inherit;
+	color: #23407A;
+	/*light mode*/
+}
+
+h4
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	page-break-after: avoid;
+	color: #475569;
+	/*light mode*/
+}
+
+h5
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	mc-heading-level: 0;
+	color: #475569;
+	/*light mode*/
+}
+
+h6
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	mc-heading-level: 0;
+	color: #475569;
+	/*light mode*/
+}
+
+h6.reference
+{
+	margin-bottom: 4px;
+	margin-top: 16px;
+	mc-heading-level: 0;
+	color: #475569;
+	/*light mode*/
+}
+
+/*==============================================================================
+  3. BODY TEXT
+==============================================================================*/
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 11pt;
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	line-height: 14pt;
+	color: #24292F;
+	/*light mode*/
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	font-size: 11pt;
+	color: #24292F;
+	/*light mode*/
+}
+
+ol,
+ul
+{
+	letter-spacing: .25;
+	line-height: 20pt;
+}
+
+black
+{
+	color: #24292F;
+	/*light mode*/
+}
+
+b,
+strong
+{
+	color: #0B2A5B;
+	/*light mode — bold lifts to the H1 navy*/
+}
+
+b.path
+{
+	font-style: italic;
+}
+
+code
+{
+	font-size: 1em;
+	padding: 24;
+}
+
+label
+{
+	padding: 16;
+	border-left: solid 4px #1C5CFC;
+	/*light mode*/
+}
+
+img
+{
+	border: none;
+	padding: 0px 0px 0px 0px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+img.Thumbnail
+{
+	mc-thumbnail: none;
+}
+
+div.background img	/*light mode — seats app screenshots into the white card*/
+{
+	border: 1px solid #E4EAF2;
+	border-radius: 8px;
+}
+
+/*==============================================================================
+  4. LINKS AND CROSS-REFERENCES
+==============================================================================*/
+
+a,
+a:link
+{
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+a:visited
+{
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+a:hover,
+a:active
+{
+	color: #0F3FD1;
+	/*light mode*/
+}
+
+a.Popup
+{
+	
+}
+
+MadCap|xref
+{
+	text-decoration: underline;
+	mc-format: '{para}';
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+MadCap|xref:hover,
+MadCap|xref:focus
+{
+	color: #0F3FD1;
+	/*light mode*/
+}
+
+MadCap|popup
+{
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+MadCap|popup:hover,
+MadCap|popup:focus
+{
+	color: #0F3FD1;
+	/*light mode*/
+}
+
+MadCap|popupBody
+{
+	background-color: #FFFFFF;
+	/*light mode*/
+	border: solid 1px #E4EAF2;
+	/*light mode*/
+	color: #24292F;
+	/*light mode*/
+}
+
+/*==============================================================================
+  5. BREADCRUMBS
+==============================================================================*/
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-style: normal;
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	mc-breadcrumbs-prefix: ' ';
+	display: inline;
+	mc-breadcrumbs-divider: '  ⦁  ';
+	font-size: 0.8em;
+	frame-break-after: avoid;
+	page-break-after: avoid;
+	color: #6B7378;
+	/*light mode*/
+}
+
+a.MCBreadcrumbsLink,
+a.MCBreadcrumbsLink:visited
+{
+	font-style: normal;
+	text-decoration: none;
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1em;
+	color: #6B7378;
+	/*light mode*/
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+div.MCBreadcrumbsBox_0
+{
+	margin-left: 10px;
+}
+
+/*==============================================================================
+  6. TABLES
+  The table stylesheet loads after this file, hence the !important flags.
+==============================================================================*/
+
+table	/*light mode*/
+{
+	border-collapse: collapse;
+	width: 100%;
+	background-color: transparent !important;
+	border: 1px solid #E4EAF2 !important;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 14px 0 22px;
+}
+
+th,
+td
+{
+	background-image: none !important;
+	padding: 11px 16px !important;
+	vertical-align: top;
+	line-height: 1.55em;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+}
+
+th	/*light mode — header row*/
+{
+	background-color: #0B2A5B !important;
+	color: #FFFFFF !important;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: none !important;
+}
+
+td	/*light mode — body cells*/
+{
+	background-color: transparent !important;
+	color: #24292F !important;
+	border-bottom: 1px solid #EEF1F5 !important;
+}
+
+tr:last-child td
+{
+	border-bottom: none !important;
+}
+
+tbody tr:nth-child(even) td	/*light mode — zebra*/
+{
+	background-color: #FAFBFD !important;
+}
+
+tbody tr:hover td	/*light mode — row hover*/
+{
+	background-color: #F2F6FF !important;
+}
+
+td:first-child	/*light mode — quiet row label*/
+{
+	color: #475569 !important;
+}
+
+td table	/*light mode — nested tables read as inset*/
+{
+	border-color: #E9EDF4 !important;
+	margin: 4px 0 !important;
+}
+
+td table th
+{
+	background-color: #23407A !important;
+}
+
+td p,
+td li
+{
+	color: #24292F;
+	/*light mode*/
+}
+
+caption
+{
+	font-style: italic;
+	mc-auto-number-format: 'Table: ';
+	font-size: 10pt;
+	mc-conditions: 'Default.PrintOnly';
+	color: #6B7378;
+	/*light mode*/
+}
+
+/*==============================================================================
+  7. TOPIC SEARCH BAR
+==============================================================================*/
+
+.search-bar	/*light mode*/
+{
+	position: relative;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	border: 1px solid #E4EAF2;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(16,32,64,0.05);
+	transition: border-color 0.3s ease, box-shadow 0.35s cubic-bezier(.25,.8,.25,1);
+}
+
+.search-bar:hover,
+.search-bar:focus-within	/*light mode*/
+{
+	border-color: #1C5CFC;
+	box-shadow: 0 0 0 3px rgba(28,92,252,0.15);
+}
+
+.search-bar .search-field
+{
+	padding: 0 85px 0 12px;
+	line-height: 1em;
+	top: 0;
+	left: 0;
+	position: relative;
+	height: 32px;
+	border: none;
+	outline: none;
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 12px;
+	background-color: transparent;
+	box-shadow: none;
+	color: #24292F;
+	/*light mode*/
+}
+
+.search-bar .search-field::placeholder	/*light mode*/
+{
+	color: #8A9197;
+	opacity: 1;
+}
+
+.search-bar .search-field:hover,
+.search-bar .search-field:focus
+{
+	border: none;
+	outline: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.search-bar .search-submit
+{
+	border: none;
+}
+
+/* Suggestion / results panel — was rendering white-on-white */
+
+.search-results,
+.search-bar .results,
+ul.search-suggestions,
+div.search-filter-wrapper	/*light mode*/
+{
+	background-color: #FFFFFF !important;
+	border: 1px solid #E4EAF2 !important;
+	color: #24292F !important;
+	box-shadow: 0 8px 20px rgba(16,32,64,0.10) !important;
+}
+
+.search-results a,
+ul.search-suggestions li
+{
+	color: #24292F !important;
+	/*light mode*/
+}
+
+.search-results a:hover,
+ul.search-suggestions li:hover
+{
+	background-color: #F2F6FF !important;
+	/*light mode*/
+	color: #0B2A5B !important;
+}
+
+/*==============================================================================
+  8. TOPIC TOOLBAR
+==============================================================================*/
+
+div.toolbar	/*light mode*/
+{
+	background: #FFFFFF;
+	border: 1px solid #E4EAF2;
+	border-radius: 12px;
+	box-shadow: 0 2px 6px rgba(16,32,64,0.04);
+}
+
+.btn-back-to-top
+{
+	text-align: right;
+	position: sticky;
+	bottom: 20px;
+	opacity: 0.5;
+}
+
+/*==============================================================================
+  9. DROP-DOWNS AND EXPANDING TEXT
+==============================================================================*/
+
+MadCap|dropDown
+{
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	padding: 10px 0;
+	min-height: 8px;
+	min-width: 8px;
+	page-break-before: avoid;
+	page-break-after: avoid;
+}
+
+MadCap|dropDownHead
+{
+	font-size: 1em;
+	mc-heading-level: 4;
+	page-break-after: avoid;
+	page-break-before: avoid;
+	font-weight: bold;
+	font-style: normal;
+	margin: 0;
+	color: #23407A;
+	/*light mode*/
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: pointer;
+	text-decoration: none;
+	border-bottom: none;
+	font-size: 1em;
+	font-weight: 600;
+	background-image: url('../../../../radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-collapsed.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 16px 16px;
+	padding-left: 26px;
+	transition: color 0.2s ease;
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+MadCap|dropDownHotspot:hover,
+MadCap|dropDownHotspot:focus
+{
+	color: #0F3FD1;
+	/*light mode*/
+}
+
+MadCap|dropDownHead.MCDropDownHead_Open MadCap|dropDownHotspot,
+.MCDropDown_Open MadCap|dropDownHotspot
+{
+	background-image: url('../../../../radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-expanded.png');
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+	page-break-after: avoid;
+	page-break-before: avoid;
+	color: #24292F;
+	/*light mode*/
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: pointer;
+	text-decoration: none;
+	color: #1C5CFC;
+	/*light mode*/
+}
+
+MadCap|expandingBody
+{
+	font-style: italic;
+	color: #24292F;
+	/*light mode*/
+}
+
+/*==============================================================================
+  10. CALLOUTS / ADMONITIONS
+  One consolidated set. Shared geometry first, then one hue per type as a
+  light tint. The !important flags keep every callout on the same indent.
+
+      Note                #1C5CFC  accent blue
+      Example             #7C5CE0  violet
+      Tip                 #0E9384  teal
+      Info                #64748B  neutral slate
+      Warning             #B45309  amber
+      Caution / Important #DC2626  red
+==============================================================================*/
+
+/*--10.1 Shared geometry-------------------------------------------------------*/
+
+p.note,
+p.tip,
+p.example,
+p.info,
+p.warning,
+p.caution,
+p.important,
+p.notes,
+p.tips,
+p.examples,
+p.warnings,
+p.description,
+p.on-demand-video,
+p.video-release-date,
+div.note,
+div.tip,
+div.example,
+div.info,
+div.warning,
+div.caution,
+div.important,
+div.notes,
+div.tips,
+div.examples,
+div.warnings,
+div.description,
+div.notebullets,
+div.tipbullets,
+div.examplebullets,
+div.infobullets,
+div.warningbullets
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	width: auto !important;
+	margin: 14px 0 !important;
+	padding: 12px 18px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-left-width: 3px !important;
+	border-radius: 8px !important;
+	line-height: 1.45em;
+	font-style: italic;
+	background-image: none;
+	overflow: hidden;
+	color: #24292F !important;
+	/*light mode*/
+	transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+/*--10.2 Auto-number labels (unchanged)----------------------------------------*/
+
+p.note
+{
+	mc-auto-number-format: '{b}Note: {/b}';
+}
+
+div.notebullets
+{
+	mc-auto-number-format: '{b}Notes: {/b}';
+}
+
+p.tip
+{
+	mc-auto-number-format: '{b}Tip: {/b}';
+}
+
+div.tipbullets
+{
+	mc-auto-number-format: '{b}Tips: {/b}';
+}
+
+p.example
+{
+	mc-auto-number-format: '{b}Example: {/b}';
+}
+
+div.examplebullets
+{
+	mc-auto-number-format: '{b}Example: {/b}';
+}
+
+p.info
+{
+	mc-auto-number-format: '{b}Info: {/b}';
+}
+
+div.infobullets
+{
+	mc-auto-number-format: '{b}Info: {/b}';
+}
+
+p.warning
+{
+	mc-auto-number-format: '{b}Warning: {/b}';
+}
+
+div.warningbullets
+{
+	mc-auto-number-format: '{b}Warnings: {/b}';
+}
+
+p.on-demand-video
+{
+	mc-auto-number-format: 'Looking for a video from an earlier package? Raise a request specifying the SOP title and we will create and publish the SOP video for you.';
+}
+
+p.video-release-date
+{
+	mc-auto-number-format: 'This video is for illustrative purposes only and may not capture all the application features. This video was last updated for Package ';
+}
+
+/*--10.3 Note — accent blue----------------------------------------------------*/
+
+p.note,
+p.notes,
+div.note,
+div.notes,
+div.notebullets	/*light mode*/
+{
+	mc-auto-number-format: '{b}Note: {/b}';
+	background-color: #F2F6FF !important;
+	border-color: #DBE4F5 !important;
+	border-left-color: #1C5CFC !important;
+}
+
+p.note:hover,
+p.notes:hover,
+div.note:hover,
+div.notes:hover,
+div.notebullets:hover
+{
+	background-color: #EAF1FF !important;
+}
+
+p.note b,
+p.note strong,
+p.notes b,
+p.notes strong,
+div.note b,
+div.note strong,
+div.notes b,
+div.notes strong,
+div.notebullets b,
+div.notebullets strong
+{
+	color: #1C5CFC;
+	/*light mode*/
+	font-weight: bold;
+}
+
+/*--10.4 Example — violet------------------------------------------------------*/
+
+p.example,
+p.examples,
+div.example,
+div.examples,
+div.examplebullets	/*light mode*/
+{
+	mc-auto-number-format: '{b}Example: {/b}';
+	background-color: #F6F3FF !important;
+	border-color: #E4DCFB !important;
+	border-left-color: #7C5CE0 !important;
+}
+
+p.example:hover,
+p.examples:hover,
+div.example:hover,
+div.examples:hover,
+div.examplebullets:hover
+{
+	background-color: #F0EBFF !important;
+}
+
+p.example b,
+p.example strong,
+p.examples b,
+p.examples strong,
+div.example b,
+div.example strong,
+div.examples b,
+div.examples strong,
+div.examplebullets b,
+div.examplebullets strong
+{
+	color: #7C5CE0;
+	/*light mode*/
+	font-weight: bold;
+}
+
+/*--10.5 Tip — teal------------------------------------------------------------*/
+
+p.tip,
+p.tips,
+div.tip,
+div.tips,
+div.tipbullets	/*light mode*/
+{
+	mc-auto-number-format: '{b}Tip: {/b}';
+	background-color: #EEFAF7 !important;
+	border-color: #D3EFE9 !important;
+	border-left-color: #0E9384 !important;
+}
+
+p.tip:hover,
+p.tips:hover,
+div.tip:hover,
+div.tips:hover,
+div.tipbullets:hover
+{
+	background-color: #E4F6F2 !important;
+}
+
+p.tip b,
+p.tip strong,
+p.tips b,
+p.tips strong,
+div.tip b,
+div.tip strong,
+div.tips b,
+div.tips strong,
+div.tipbullets b,
+div.tipbullets strong
+{
+	color: #0E9384;
+	/*light mode*/
+	font-weight: bold;
+}
+
+/*--10.6 Info / description / video notices — neutral slate--------------------*/
+
+p.info,
+div.info,
+div.infobullets	/*light mode*/
+{
+	mc-auto-number-format: '{b}Info: {/b}';
+}
+
+p.info,
+div.info,
+div.infobullets,
+p.description,
+div.description,
+p.on-demand-video,
+p.video-release-date	/*light mode*/
+{
+	background-color: #F5F7FA !important;
+	border-color: #E3E8EF !important;
+	border-left-color: #64748B !important;
+}
+
+p.info:hover,
+div.info:hover,
+div.infobullets:hover
+{
+	background-color: #EEF1F6 !important;
+}
+
+p.info b,
+p.info strong,
+div.info b,
+div.info strong,
+div.infobullets b,
+div.infobullets strong
+{
+	color: #475569;
+	/*light mode*/
+	font-weight: bold;
+}
+
+/*--10.7 Warning — amber-------------------------------------------------------*/
+
+p.warning,
+p.warnings,
+div.warning,
+div.warnings,
+div.warningbullets	/*light mode*/
+{
+	mc-auto-number-format: '{b}Warning: {/b}';
+	background-color: #FFF7EC !important;
+	border-color: #F8E3C4 !important;
+	border-left-color: #B45309 !important;
+}
+
+p.warning:hover,
+p.warnings:hover,
+div.warning:hover,
+div.warnings:hover,
+div.warningbullets:hover
+{
+	background-color: #FEF1DE !important;
+}
+
+p.warning b,
+p.warning strong,
+p.warnings b,
+p.warnings strong,
+div.warning b,
+div.warning strong,
+div.warnings b,
+div.warnings strong,
+div.warningbullets b,
+div.warningbullets strong
+{
+	color: #B45309;
+	/*light mode*/
+	font-weight: bold;
+}
+
+/*--10.8 Caution / Important — red---------------------------------------------*/
+
+p.caution,
+p.important,
+div.caution,
+div.important	/*light mode*/
+{
+	background-color: #FFF3F3 !important;
+	border-color: #F8D7D7 !important;
+	border-left-color: #DC2626 !important;
+}
+
+p.caution:hover,
+p.important:hover,
+div.caution:hover,
+div.important:hover
+{
+	background-color: #FFEAEA !important;
+}
+
+p.caution b,
+p.caution strong,
+p.important b,
+p.important strong,
+div.caution b,
+div.caution strong,
+div.important b,
+div.important strong
+{
+	color: #DC2626;
+	/*light mode*/
+	font-weight: bold;
+}
+
+/*--10.9 Content nested inside a callout---------------------------------------*/
+
+div.note p,
+div.tip p,
+div.example p,
+div.info p,
+div.warning p,
+div.caution p,
+div.important p,
+div.notes p,
+div.tips p,
+div.examples p,
+div.warnings p,
+div.description p,
+div.notebullets p,
+div.tipbullets p,
+div.examplebullets p,
+div.infobullets p,
+div.warningbullets p
+{
+	margin: 0 0 6px;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+div.notes ul,
+div.notes ol,
+div.tips ul,
+div.tips ol,
+div.examples ul,
+div.examples ol,
+div.warnings ul,
+div.warnings ol,
+div.notebullets ul,
+div.notebullets ol,
+div.tipbullets ul,
+div.tipbullets ol,
+div.examplebullets ul,
+div.examplebullets ol,
+div.infobullets ul,
+div.infobullets ol,
+div.warningbullets ul,
+div.warningbullets ol
+{
+	margin: 8px 0 0;
+	padding-left: 22px;
+}
+
+div.notes li,
+div.tips li,
+div.examples li,
+div.warnings li,
+div.notebullets li,
+div.tipbullets li,
+div.examplebullets li,
+div.infobullets li,
+div.warningbullets li
+{
+	margin-bottom: 6px;
+	color: #24292F;
+	/*light mode*/
+}
+
+div.notes li:last-child,
+div.tips li:last-child,
+div.examples li:last-child,
+div.warnings li:last-child,
+div.notebullets li:last-child,
+div.tipbullets li:last-child,
+div.examplebullets li:last-child,
+div.infobullets li:last-child,
+div.warningbullets li:last-child
+{
+	margin-bottom: 0;
+}
+
+/*--10.10 Callouts inside table cells------------------------------------------
+  The cell already provides a surface, so drop the outer hairline and let the
+  left rail carry the colour.
+----------------------------------------------------------------------------*/
+
+td p.note,
+td p.tip,
+td p.example,
+td p.info,
+td p.warning,
+td p.caution,
+td p.important,
+td div.note,
+td div.tip,
+td div.example,
+td div.info,
+td div.warning,
+td div.caution,
+td div.important
+{
+	border-top-color: transparent !important;
+	border-right-color: transparent !important;
+	border-bottom-color: transparent !important;
+}
+
+/*==============================================================================
+  11. NUMBERED LISTS
+==============================================================================*/
+
+p.numList
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 1em;
+	mc-auto-number-offset: 15px;
+	padding-left: 10px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{n=1}.  ';
+	margin-left: 25px;
+	text-indent: -25px;
+}
+
+p.numListSeq
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 1em;
+	mc-auto-number-offset: 15px;
+	padding-left: 10px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{n+}.  ';
+	margin-left: 25px;
+	text-indent: -25px;
+}
+
+ol.NumCont
+{
+	list-style-type: decimal;
+	list-style-image: none;
+}
+
+ol.NumCont > li::marker
+{
+	content: '{n+}.';
+}
+
+/*==============================================================================
+  12. CAPTIONS AND DISCLAIMERS
+==============================================================================*/
+
+p.figurecaption
+{
+	text-align: left;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	mc-auto-number-format: 'Figure: ';
+	padding-left: 12px;
+	font-style: italic;
+	font-size: 10pt;
+	page-break-after: avoid;
+	mc-conditions: 'Default.PrintOnly';
+	color: #6B7378;
+	/*light mode*/
+}
+
+p.image-disclaimer
+{
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-top: 1em;
+	mc-auto-number-format: 'This image is for illustrative purposes only and does not represent real data.';
+	padding-left: 12px;
+	font-style: italic;
+	font-size: 10pt;
+	page-break-after: avoid;
+	color: #6B7378;
+	/*light mode*/
+}
+
+p.video-disclaimer
+{
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-top: 1em;
+	mc-auto-number-format: 'This video is for illustrative purposes only and does not represent real data.';
+	padding-left: 12px;
+	font-style: italic;
+	font-size: 10pt;
+	page-break-after: avoid;
+	color: #6B7378;
+	/*light mode*/
+}
+
+/*==============================================================================
+  13. TOC PROXY AND GLOSSARY
+==============================================================================*/
+
+p.TOC1,
+p.TOC2,
+p.TOC3,
+p.TOC4,
+p.TOC5,
+p.TOC6,
+MadCap|tocProxy
+{
+	color: #6B7378;
+	/*light mode*/
+}
+
+MadCap|tocProxy.main-section
+{
+	
+}
+
+div.GlossaryPageHeading
+{
+	border-bottom-color: #E4EAF2;
+	/*light mode*/
+	mc-expandable: true;
+	mc-feader-type: all;
+	mc-help-control-display: list;
+	display: block;
+	mc-concepts-list-headings: true;
+	mc-heading-format: '{A}';
+}
+
+MadCap|bodyProxy
+{
+	frame-break-after: avoid;
+	page-break-after: avoid;
+}
+
+/*==============================================================================
+  14. HOME PAGE LAYOUTS  (structure only — untouched)
+==============================================================================*/
+
+div.home-layout
+{
+	padding: 2% 5%;
+}
+
+div.home-section
+{
+	padding: 5% 0;
+	border-bottom: solid 1px #E4EAF2;
+	/*light mode*/
+}
+
+div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-tiles-layout > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout > div:nth-child(2)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout p
+{
+	line-height: 1.2;
+}
+
+div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+div.quick-links > div:nth-child(2)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(5)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+p.product-title
+{
+	margin-top: 8px;
+	text-align: left;
+	margin-bottom: 2px;
+	font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 64pt;
+	font-weight: bold;
+	color: #0B2A5B;
+	/*light mode*/
+}
+
+/*==============================================================================
+  15. FOOTER
+==============================================================================*/
+
+div.footer
+{
+	margin: 0;
+	padding: 20px;
+	padding-top: 20px;
+	color: #6B7378;
+	/*light mode*/
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: #6B7378;
+	/*light mode*/
+}
+
+p.footertext
+{
+	text-align: center;
+	font-size: 0.6em;
+	margin: 0.8em;
+	line-height: 0.8em;
+	color: #6B7378;
+	/*light mode*/
+}
+
+/*==============================================================================
+  16. SEARCH RESULT HIGHLIGHTING  (unchanged)
+==============================================================================*/
+
+span.SearchHighlight1
+{
+	color: #000000;
+	background-color: #ffff66;
+}
+
+span.SearchHighlight2
+{
+	color: #000000;
+	background-color: #a0ffff;
+}
+
+span.SearchHighlight3
+{
+	color: #000000;
+	background-color: #99ff99;
+}
+
+span.SearchHighlight4
+{
+	color: #000000;
+	background-color: #ff9999;
+}
+
+span.SearchHighlight5
+{
+	color: #000000;
+	background-color: #ff66ff;
+}
+
+span.SearchHighlight6
+{
+	color: #ffffff;
+	background-color: #880000;
+}
+
+span.SearchHighlight7
+{
+	color: #ffffff;
+	background-color: #00aa00;
+}
+
+span.SearchHighlight8
+{
+	color: #ffffff;
+	background-color: #886800;
+}
+
+span.SearchHighlight9
+{
+	color: #ffffff;
+	background-color: #004699;
+}
+
+span.SearchHighlight10
+{
+	color: #ffffff;
+	background-color: #990099;
+}
+
+/*==============================================================================
+  17. RESPONSIVE  (structure only — untouched)
+==============================================================================*/
+
+@media only screen and (max-width: 1288px)
+{
+	html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.home-tiles-layout > div:nth-child(1)
+	{
+		width: 40%;
+		margin-left: 30%;
+	}
+
+	div.home-tiles-layout > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	div.home-tiles-layout p
+	{
+		line-height: 1.2;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+}
+
+@media print
+{
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} on page {page}';
+		text-decoration: none;
+	}
+}
+
+/*.container { position: relative; overflow: hidden; width: 100%; padding-top: 51.25%; }
+.responsive-iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; }*/
+
+/*==Interactive wireframe frame (home page)==*/
+
+.container
+{
+	position: relative;
+	overflow: hidden;
+	width: calc(100% - 96px);
+	/* 48px of breathing room on each side */
+	max-width: 1240px;
+	margin: 34px auto 44px;
+	padding-top: 51.25%;
+	/* keeps the 16:8.2 aspect ratio */
+	background-color: #ffffff;
+	background-image: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+	border: 1px solid #e7edf4;
+	border-radius: 22px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.05), 0 18px 44px -14px rgba(20, 40, 70, 0.22);
+	transition: box-shadow 0.35s cubic-bezier(.25,.8,.25,1), border-color 0.35s;
+}
+
+.container:hover
+{
+	border-color: #d7e3f5;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.05), 0 26px 60px -16px rgba(20, 40, 70, 0.28);
+}
+
+/* thin blue accent line across the top of the frame */
+
+.container::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-image: linear-gradient(90deg, #00A3FF 0%, #007BFF 50%, rgba(0, 163, 255, 0) 100%);
+	z-index: 2;
+}
+
+.responsive-iframe
+{
+	position: absolute;
+	top: 3px;
+	/* clears the accent line */
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: calc(100% - 3px);
+	border: 0;
+	display: block;
+	border-radius: 0 0 22px 22px;
+}
+
+@media only screen and (max-width: 1288px)
+{
+	.container
+	{
+		width: calc(100% - 48px);
+		margin: 24px auto 32px;
+		border-radius: 18px;
+		padding-top: 62%;
+	}
+
+	.responsive-iframe
+	{
+		border-radius: 0 0 18px 18px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.container
+	{
+		width: calc(100% - 24px);
+		margin: 16px auto 24px;
+		border-radius: 14px;
+		padding-top: 96%;
+	}
+
+	.responsive-iframe
+	{
+		border-radius: 0 0 14px 14px;
+	}
+}
+
+/*==Side nav: make the selected item (Home) match the others==*/
+
+.sidenav-wrapper li.tree-node > a.selected,
+.sidenav-wrapper li.tree-node.selected > a,
+.sidenav-wrapper li.tree-node > a.current,
+.sidenav-wrapper li.tree-node.current > a,
+.sidenav-wrapper li.tree-node > a[aria-current="page"]
+{
+	color: #007BFF !important;
+	font-weight: 600 !important;
+	background-color: rgba(0, 163, 255, 0.10) !important;
+}
+
+div.nav-search-wrapper
+{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding-right: 16px;
+}
+
+div.nav-search-wrapper .search-bar
+{
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+div.nav-search-wrapper .theme-toggle
+{
+	flex: 0 0 36px;
+	margin-left: 0;
+}
+
+/*==============================================================================
+  TOPIC READING PROGRESS
+  Add to Styles_1.css (the topic stylesheet). The element is created by
+  ReadingProgress.js; these rules only paint it.
+
+  It is fixed rather than a real border on the header, so it cannot be clipped
+  by Flare's off-canvas containers and needs no knowledge of the skin's markup.
+==============================================================================*/
+
+div.reading-progress
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	z-index: 8000;
+	background-color: rgba(28, 92, 252, 0.10);
+	pointer-events: none;
+	transition: opacity 0.25s ease;
+}
+
+div.reading-progress > span
+{
+	display: block;
+	width: 0;
+	height: 100%;
+	background-image: linear-gradient(90deg, #00A3FF 0%, #1c5cfc 100%);
+	transition: width 0.08s linear;
+}
+
+html[data-theme="dark"] div.reading-progress
+{
+	background-color: rgba(61, 155, 255, 0.14);
+}
+
+html[data-theme="dark"] div.reading-progress > span
+{
+	background-image: linear-gradient(90deg, #00A3FF 0%, #62B9FF 100%);
+}
+
+@media print
+{
+	div.reading-progress
+	{
+		display: none;
+	}
+}
+

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Using the Executors Component</title>
+        <!-- ================================================================
+		ANTI-FLASH FOUNDATION
+
+		IMPORTANT:
+		This must be the FIRST style inside <head>.
+
+		Normal topic pages always begin with a dark browser canvas.
+		If light mode is active, the script immediately below changes
+		the canvas to light before the page renders.
+		================================================================ -->
+        <!-- ================================================================
+		APPLY THE SAVED THEME BEFORE ANY EXTERNAL CSS LOADS
+		================================================================ -->
+        <!-- ================================================================
+		NORMAL STYLESHEETS
+		DarkMode.css MUST remain last.
+		================================================================ -->
+        <!-- ================================================================
+		THEME CONTROLLER
+		================================================================ -->
+        <!-- ================================================================
+		RESPONSIVE IMAGE MAPS
+		================================================================ -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+</style>
+        <link href="../../resources/Stylesheets/Styles_1.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../resources/TableStylesheets/PresightKey.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">
+			//<![CDATA[
+
+			(function ()
+			{
+			var theme = "light";
+
+			try
+			{
+			var savedTheme =
+			window.localStorage.getItem(
+			"synergy-help-theme"
+			);
+
+			if (
+			savedTheme === "dark" ||
+			savedTheme === "light"
+			)
+			{
+			theme = savedTheme;
+			}
+			}
+			catch (e)
+			{
+			theme = "light";
+			}
+
+
+			/*
+			Apply the theme attribute immediately.
+			*/
+
+			document.documentElement.setAttribute(
+			"data-theme",
+			theme
+			);
+
+
+			/*
+			Set the actual browser document canvas immediately.
+
+			This is particularly important for dark mode because
+			it prevents Chrome from displaying its default white
+			document canvas while a new Flare topic is loading.
+			*/
+
+			if (theme === "dark")
+			{
+			document.documentElement.style.backgroundColor =
+			"#0B111B";
+
+			document.documentElement.style.colorScheme =
+			"dark";
+			}
+			else
+			{
+			document.documentElement.style.backgroundColor =
+			"#EEF2F7";
+
+			document.documentElement.style.colorScheme =
+			"light";
+			}
+
+			})();
+
+			//]]></script>
+        <script src="../../resources/Scripts/ThemeToggle.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/ReadingProgress.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/jquery.rwdImageMaps.min.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1288px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Try searching for &quot;analysis&quot;" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a name="top"></a>
+                                    <!-- ================================================================
+		TOPIC TOOLBAR
+		================================================================ -->
+                                    <div class="toolbar">
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBarNew mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footertext">&#160;</p>
+                                    <!-- ================================================================
+		TOPIC CONTENT
+		================================================================ -->
+                                    <div class="background">
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Using the Executors Component</h1>
+                                            <p>The Executors component automates task execution in a data pipeline by monitoring specific events, such as the arrival of new data files, and triggering the appropriate tasks to maintain a smooth data flow. It enables you to register the existing executors already deployed in your environment.</p>
+                                            <p>You can create ETL Executors or modify the existing code executors.</p>
+                                            <p>Executors provide the execution environments that <span class="mc-variable General.ProdTitle variable">Synergy</span> uses to run data processing tasks and custom code. The Executors page contains two tabs:</p>
+                                            <ul>
+                                                <li><b>ETL Executors:</b> You can manage executors used for ETL processes.</li>
+                                                <li><b>Code Executors:</b> You can view, modify, or remove code executors used for script and code execution.</li>
+                                            </ul>
+                                            <p>Administrators can configure and manage executors based on operational requirements.</p>
+                                            <h6 class="reference">In this Topic</h6>
+                                            <ul>
+                                                <li><a href="#Adding" class="MCXref xref">Adding an ETL&#160;Executor</a>
+                                                </li>
+                                                <li><a href="#Modifyin" class="MCXref xref">Modifying an ETL&#160;Executor</a>
+                                                </li>
+                                                <li><a href="#Modifyin2" class="MCXref xref">Modifying a Code Executor</a>
+                                                </li>
+                                            </ul>
+                                            <h3><a name="Adding"></a>Adding an ETL&#160;Executor</h3>
+                                            <p>To add an ETL&#160;Executor, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Admin</b> drop-down, select <b>Executors</b>. All existing data executors are displayed in the <b>ETL&#160;Executors</b> tab.</li>
+                                                <li value="3">In the upper-right corner, click <b>+ Add</b>. The Create pop-up is displayed.</li>
+                                                <li value="4">In the <b>Create</b> pop-up, do the following:<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 20%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 80%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk">Field</th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk">Description</th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Name</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter the name of the executor.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Username</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a username to access the executor.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Password</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a password to access the executor.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Timezone (Optional)</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Select a timezone.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Description (Optional)</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter a description for the executor.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Executor Type</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight"><p>Select the executor type.</p><p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Based on the selected Executor Type, additional fields appear that require your input.</p></td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Connection URL</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter the database URL </td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Host</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter the Internet Protocol (IP) address of the host server where the database is located.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Port</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter the port number of the server where the database is accessible.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Database</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Enter the database type.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">System</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Select the checkbox to integrate the executor into the system.</td></tr></tbody></table><p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The Driver Class fields are auto-populated based on the details entered in Type, Host, Port, and Database fields.</p></li>
+                                                <li value="5">(Optional) To test the connection to the database, click the <b>Edit</b> icon and click <b>Test Connection</b> in the Edit pop-up.<ul><li>If the executor is connected to the database, a success message is displayed.</li><li>If the executor is not connected to the database, an error message is displayed.</li></ul></li>
+                                                <li value="6">Click <b>Save</b>. The executor is added and displayed in the ETL&#160;Executors tab. You can now add the executor in any of the workspaces available to you.<p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;" data-mc-conditions="Roles.User"><span class="autonumber"><span><b>Note: </b></span></span>For more information about adding executors to a workspace, see <a href="../managing-workspaces/executors.htm" class="MCXref xref">Managing Workspace Executors</a>.</p></li>
+                                            </ol>
+                                            <h3><a name="Modifyin"></a>Modifying an ETL&#160;Executor</h3>
+                                            <p>To modify an ETL&#160;executor, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Admin</b> drop-down, select <b>Executors</b>. All existing data executors are displayed in the <b>ETL&#160;Executors</b> tab.</li>
+                                                <li value="3">In the <b>Actions</b> column for the executor that you want to modify, click the <b>Edit</b> icon. The Edit pop-up is displayed.</li>
+                                                <li value="4">Make the necessary changes and click <b>Save</b>. A confirmation message is displayed.</li>
+                                                <li value="5">Click <b>OK</b>. The changes are saved.</li>
+                                            </ol>
+                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>To delete an executor, in the Edit pop-up, click <b>Delete</b>.</p>
+                                            <h3><a name="Modifyin2"></a>Modifying a Code Executor</h3>
+                                            <p>To modify a Code Executor, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Admin</b> drop-down, select <b>Executors</b>. All existing data executors are displayed in the <b>ETL&#160;Executors</b> tab.</li>
+                                                <li value="3">Navigate to the Code Executors tab, and in the <b>Actions</b> column for the Code Executor that you want to modify, click the <b>Edit</b> icon. The Edit Code Executor pop-up is displayed.</li>
+                                                <li value="4">Make the necessary changes and click <b>Save</b>. A confirmation message is displayed.</li>
+                                                <li value="5">Click <b>OK</b>. The changes are saved.</li>
+                                            </ol>
+                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>To delete a Code Executor, in the Action column, click the <b>Delete</b> icon.</p>
+                                        </div>
+                                    </div>
+                                    <!-- ================================================================
+		BACK TO TOP
+		================================================================ -->
+                                    <div class="btn-back-to-top">
+                                        <p style="text-align: right"><a href="#top"><img src="../../resources/Images/Arrows/back-to-top-circle_25x25.png" style="width: 25;height: 25;" /></a>
+                                        </p>
+                                    </div>
+                                    <!-- ================================================================
+		FOOTER
+		================================================================ -->
+                                    <div class="footer">
+                                        <p class="footertext">
+				Copyright © – All rights reserved
+			</p>
+                                    </div>
+                                    <!-- ================================================================
+		RESPONSIVE IMAGE MAP INITIALIZATION
+		================================================================ -->
+                                    <script type="text/javascript">
+			//<![CDATA[
+
+			if (
+			window.jQuery &&
+			typeof jQuery.fn.rwdImageMaps === "function"
+			)
+			{
+			jQuery(
+			"img[usemap]"
+			).rwdImageMaps();
+			}
+
+			//]]></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

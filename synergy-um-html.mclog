@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadCap Flare 2026 Generated synergy-um-html.fltar" Date="2026-09-24T16:37:56.3207041+04:00">
+    <Messages>9/24/2026 4:36:12 PM - Compiling target synergy-um-html...
+9/24/2026 4:36:13 PM - Removing previously generated content...
+9/24/2026 4:36:15 PM - Loading skin info...
+9/24/2026 4:36:16 PM - Gathering Glossary information...
+9/24/2026 4:36:16 PM - Gathering Auto-index information...
+9/24/2026 4:36:16 PM - Loading Primary TOC...
+9/24/2026 4:36:16 PM - Processing Primary TOC...
+9/24/2026 4:36:18 PM - Collecting source files...
+9/24/2026 4:36:18 PM - Processing source files...
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/create-notifications.htm.
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/create-rule-description.htm.
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/exploring-rule-ui.htm.
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/rule-execution.htm.
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/schedule-rule.htm.
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/search-data-using-rules.htm.
+9/24/2026 4:36:22 PM - Excluded from output:file:///C:/Projects/test-template/Content/guide/rules/working-with-rules.htm.
+9/24/2026 4:36:23 PM - Processing CSS: resources\Stylesheets\DarkMode.css...
+9/24/2026 4:36:23 PM - Processing CSS: resources\Stylesheets\Styles.css...
+9/24/2026 4:36:23 PM - Processing CSS: resources\Stylesheets\StylesForHomePage.css...
+9/24/2026 4:36:23 PM - Missing linked source file: C:\Projects\test-template\Content\resources\Images\Assets\Icons\MainIcons\Tips-white.png
+9/24/2026 4:36:23 PM - Processing CSS: resources\Stylesheets\Styles_1.css...
+9/24/2026 4:36:23 PM - Link points outside project file:///C:/Projects/radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-collapsed.png
+9/24/2026 4:36:23 PM - Link points outside project file:///C:/Projects/radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-expanded.png
+9/24/2026 4:36:23 PM - Processing CSS: resources\TableStylesheets\PresightKey.css...
+9/24/2026 4:36:23 PM - Processing CSS: resources\TableStylesheets\Standard.css...
+9/24/2026 4:36:23 PM - Processing CSS: resources\TableStylesheets\table-in-table.css...
+9/24/2026 4:36:23 PM - Generating output files...
+9/24/2026 4:36:23 PM - Processing topic: home.htm...
+9/24/2026 4:36:31 PM - Topic marked 'not searchable': home.htm...
+9/24/2026 4:36:31 PM - Applying template page HomePage.flmsp...
+9/24/2026 4:36:31 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:31 PM - Generated home.htm
+9/24/2026 4:36:31 PM - Processing topic: guide\about-users.htm...
+9/24/2026 4:36:32 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:32 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:32 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:34 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:34 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:35 PM - Generated guide\about-users.htm
+9/24/2026 4:36:35 PM - Processing topic: guide\introduction\introduction.htm...
+9/24/2026 4:36:35 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:35 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:35 PM - Generated guide\introduction\introduction.htm
+9/24/2026 4:36:35 PM - Processing topic: guide\introduction\about.htm...
+9/24/2026 4:36:37 PM - Cross-reference to excluded file removed from output.
+9/24/2026 4:36:38 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:38 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Generated guide\introduction\about.htm
+9/24/2026 4:36:39 PM - Processing topic: guide\introduction\getting-started.htm...
+9/24/2026 4:36:39 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Generated guide\introduction\getting-started.htm
+9/24/2026 4:36:39 PM - Processing topic: guide\interactive-walkthrough.htm...
+9/24/2026 4:36:39 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Generated guide\interactive-walkthrough.htm
+9/24/2026 4:36:39 PM - Processing topic: guide\workspaces\working-with-workspaces.htm...
+9/24/2026 4:36:39 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Generated guide\workspaces\working-with-workspaces.htm
+9/24/2026 4:36:39 PM - Processing topic: guide\workspaces\exploring-workspace-ui.htm...
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:39 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:40 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:40 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:40 PM - Generated guide\workspaces\exploring-workspace-ui.htm
+9/24/2026 4:36:40 PM - Processing topic: guide\workspaces\create-workspace.htm...
+9/24/2026 4:36:40 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:40 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:40 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:40 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Generated guide\workspaces\create-workspace.htm
+9/24/2026 4:36:41 PM - Processing topic: guide\workspaces\viewing-a-workspace.htm...
+9/24/2026 4:36:41 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Generated guide\workspaces\viewing-a-workspace.htm
+9/24/2026 4:36:41 PM - Processing topic: guide\workspaces\create-workspace-folder.htm...
+9/24/2026 4:36:41 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Generated guide\workspaces\create-workspace-folder.htm
+9/24/2026 4:36:41 PM - Processing topic: guide\documentation\create-a-document.htm...
+9/24/2026 4:36:41 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Generated guide\documentation\create-a-document.htm
+9/24/2026 4:36:41 PM - Processing topic: guide\workspaces\all-search.htm...
+9/24/2026 4:36:41 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Generated guide\workspaces\all-search.htm
+9/24/2026 4:36:41 PM - Processing topic: guide\managing-workspaces\manage-workspaces.htm...
+9/24/2026 4:36:41 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:41 PM - Generated guide\managing-workspaces\manage-workspaces.htm
+9/24/2026 4:36:41 PM - Processing topic: guide\managing-workspaces\modifying-workspace-details.htm...
+9/24/2026 4:36:41 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Generated guide\managing-workspaces\modifying-workspace-details.htm
+9/24/2026 4:36:42 PM - Processing topic: guide\managing-workspaces\manage-members-of-workspace.htm...
+9/24/2026 4:36:42 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Generated guide\managing-workspaces\manage-members-of-workspace.htm
+9/24/2026 4:36:42 PM - Processing topic: guide\managing-workspaces\managing-workspace-data.htm...
+9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Generated guide\managing-workspaces\managing-workspace-data.htm
+9/24/2026 4:36:42 PM - Processing topic: guide\managing-workspaces\configuring-data-catalog.htm...
+9/24/2026 4:36:42 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Generated guide\managing-workspaces\configuring-data-catalog.htm
+9/24/2026 4:36:42 PM - Processing topic: guide\managing-workspaces\executors.htm...
+9/24/2026 4:36:42 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Generated guide\managing-workspaces\executors.htm
+9/24/2026 4:36:42 PM - Processing topic: guide\workspaces\managing-data.htm...
+9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:42 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Generated guide\workspaces\managing-data.htm
+9/24/2026 4:36:43 PM - Processing topic: guide\workspaces\viewing-activities.htm...
+9/24/2026 4:36:43 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Generated guide\workspaces\viewing-activities.htm
+9/24/2026 4:36:43 PM - Processing topic: guide\managing-workspaces\delete-workspace.htm...
+9/24/2026 4:36:43 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Generated guide\managing-workspaces\delete-workspace.htm
+9/24/2026 4:36:43 PM - Processing topic: guide\AI-assistant\ai-assistant.htm...
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:43 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:44 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Generated guide\AI-assistant\ai-assistant.htm
+9/24/2026 4:36:44 PM - Processing topic: guide\entity-config\entity-config.htm...
+9/24/2026 4:36:44 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:44 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Generated guide\entity-config\entity-config.htm
+9/24/2026 4:36:44 PM - Processing topic: guide\entity-config\identifier-type.htm...
+9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:44 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Generated guide\entity-config\identifier-type.htm
+9/24/2026 4:36:44 PM - Processing topic: guide\entity-config\profile-type.htm...
+9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Generated guide\entity-config\profile-type.htm
+9/24/2026 4:36:45 PM - Processing topic: guide\entity-config\relation-type.htm...
+9/24/2026 4:36:45 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Generated guide\entity-config\relation-type.htm
+9/24/2026 4:36:45 PM - Processing topic: guide\entity-config\profile-involvement-type.htm...
+9/24/2026 4:36:45 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Generated guide\entity-config\profile-involvement-type.htm
+9/24/2026 4:36:45 PM - Processing topic: guide\managing-data\managing-data.htm...
+9/24/2026 4:36:45 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:45 PM - Generated guide\managing-data\managing-data.htm
+9/24/2026 4:36:45 PM - Processing topic: guide\managing-data\data-management\data-management.htm...
+9/24/2026 4:36:45 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:46 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:46 PM - Generated guide\managing-data\data-management\data-management.htm
+9/24/2026 4:36:46 PM - Processing topic: guide\managing-data\data-management\working-with-datasource.htm...
+9/24/2026 4:36:46 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:46 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:46 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:46 PM - Generated guide\managing-data\data-management\working-with-datasource.htm
+9/24/2026 4:36:46 PM - Processing topic: guide\managing-data\data-management\clickhouse-data-source.htm...
+9/24/2026 4:36:46 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:49 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Generated guide\managing-data\data-management\clickhouse-data-source.htm
+9/24/2026 4:36:49 PM - Processing topic: guide\managing-data\data-management\s3-minio-datasource.htm...
+9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:49 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Generated guide\managing-data\data-management\s3-minio-datasource.htm
+9/24/2026 4:36:49 PM - Processing topic: guide\managing-data\data-catalog\data-catalog.htm...
+9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:49 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Generated guide\managing-data\data-catalog\data-catalog.htm
+9/24/2026 4:36:49 PM - Processing topic: guide\sql-editor\code-editor.htm...
+9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Generated guide\sql-editor\code-editor.htm
+9/24/2026 4:36:50 PM - Processing topic: guide\data-pipeline\data-pipeline.htm...
+9/24/2026 4:36:50 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Generated guide\data-pipeline\data-pipeline.htm
+9/24/2026 4:36:50 PM - Processing topic: guide\data-pipeline\exploring-datapipeline-ui.htm...
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:50 PM - Generated guide\data-pipeline\exploring-datapipeline-ui.htm
+9/24/2026 4:36:50 PM - Processing topic: guide\data-pipeline\creating-pipelines.htm...
+9/24/2026 4:36:51 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Generated guide\data-pipeline\creating-pipelines.htm
+9/24/2026 4:36:51 PM - Processing topic: guide\data-pipeline\creating-SQL-query-pipeline.htm...
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Generated guide\data-pipeline\creating-SQL-query-pipeline.htm
+9/24/2026 4:36:51 PM - Processing topic: guide\data-pipeline\create-mirror-pipeline.htm...
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Generated guide\data-pipeline\create-mirror-pipeline.htm
+9/24/2026 4:36:51 PM - Processing topic: guide\data-pipeline\creating-python-pipeline.htm...
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Generated guide\data-pipeline\creating-python-pipeline.htm
+9/24/2026 4:36:51 PM - Processing topic: guide\data-pipeline\ingesting-profiles-entities.htm...
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Generated guide\data-pipeline\ingesting-profiles-entities.htm
+9/24/2026 4:36:52 PM - Processing topic: guide\data-pipeline\ingesting-identifiers.htm...
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Generated guide\data-pipeline\ingesting-identifiers.htm
+9/24/2026 4:36:52 PM - Processing topic: guide\data-pipeline\ingesting-image-audio.htm...
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Generated guide\data-pipeline\ingesting-image-audio.htm
+9/24/2026 4:36:52 PM - Processing topic: guide\data-pipeline\vectorizing-image-audio.htm...
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Generated guide\data-pipeline\vectorizing-image-audio.htm
+9/24/2026 4:36:52 PM - Processing topic: guide\data-pipeline\creating-DQ-step.htm...
+9/24/2026 4:36:52 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:52 PM - Generated guide\data-pipeline\creating-DQ-step.htm
+9/24/2026 4:36:52 PM - Processing topic: guide\data-pipeline\creating-iterator-step.htm...
+9/24/2026 4:36:52 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Generated guide\data-pipeline\creating-iterator-step.htm
+9/24/2026 4:36:53 PM - Processing topic: guide\data-pipeline\creating-execute-pipeline-step.htm...
+9/24/2026 4:36:53 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Generated guide\data-pipeline\creating-execute-pipeline-step.htm
+9/24/2026 4:36:53 PM - Processing topic: guide\analytics-pipeline\creating-analytics-pipelines.htm...
+9/24/2026 4:36:53 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Generated guide\analytics-pipeline\creating-analytics-pipelines.htm
+9/24/2026 4:36:53 PM - Processing topic: guide\analytics-pipeline\creating-search-pipeline.htm...
+9/24/2026 4:36:53 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Generated guide\analytics-pipeline\creating-search-pipeline.htm
+9/24/2026 4:36:53 PM - Processing topic: guide\analytics-pipeline\creating-explorer-search-pipeline.htm...
+9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Generated guide\analytics-pipeline\creating-explorer-search-pipeline.htm
+9/24/2026 4:36:53 PM - Processing topic: guide\analytics-pipeline\creating-query-search-pipeline.htm...
+9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:53 PM - Generated guide\analytics-pipeline\creating-query-search-pipeline.htm
+9/24/2026 4:36:53 PM - Processing topic: guide\analytics-pipeline\creating-condition-step.htm...
+9/24/2026 4:36:53 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:54 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:54 PM - Generated guide\analytics-pipeline\creating-condition-step.htm
+9/24/2026 4:36:54 PM - Processing topic: guide\analytics-pipeline\creating-iterator-step.htm...
+9/24/2026 4:36:57 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:57 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:57 PM - Generated guide\analytics-pipeline\creating-iterator-step.htm
+9/24/2026 4:36:57 PM - Processing topic: guide\data-pipeline\working-with-data-pipeline.htm...
+9/24/2026 4:36:58 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:58 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:58 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:58 PM - Generated guide\data-pipeline\working-with-data-pipeline.htm
+9/24/2026 4:36:58 PM - Processing topic: guide\data-explorer-schema-search\database-schema-search.htm...
+9/24/2026 4:36:58 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:58 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Generated guide\data-explorer-schema-search\database-schema-search.htm
+9/24/2026 4:36:59 PM - Processing topic: guide\data-explorer-schema-search\exploring-explorer-ui.htm...
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Generated guide\data-explorer-schema-search\exploring-explorer-ui.htm
+9/24/2026 4:36:59 PM - Processing topic: guide\data-explorer-schema-search\search-data-explorer.htm...
+9/24/2026 4:36:59 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Generated guide\data-explorer-schema-search\search-data-explorer.htm
+9/24/2026 4:36:59 PM - Processing topic: guide\record-collection\record-collection.htm...
+9/24/2026 4:36:59 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Generated guide\record-collection\record-collection.htm
+9/24/2026 4:36:59 PM - Processing topic: guide\record-collection\exploring-collections-ui.htm...
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:36:59 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Generated guide\record-collection\exploring-collections-ui.htm
+9/24/2026 4:37:00 PM - Processing topic: guide\record-collection\working-with-collections.htm...
+9/24/2026 4:37:00 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Generated guide\record-collection\working-with-collections.htm
+9/24/2026 4:37:00 PM - Processing topic: guide\record-collection\working-with-records-in-collection.htm...
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:00 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Generated guide\record-collection\working-with-records-in-collection.htm
+9/24/2026 4:37:01 PM - Processing topic: guide\monitors\monitors.htm...
+9/24/2026 4:37:01 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Generated guide\monitors\monitors.htm
+9/24/2026 4:37:01 PM - Processing topic: guide\monitors\exploring-monitors-ui.htm...
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Generated guide\monitors\exploring-monitors-ui.htm
+9/24/2026 4:37:01 PM - Processing topic: guide\monitors\working-with-monitors.htm...
+9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Generated guide\monitors\working-with-monitors.htm
+9/24/2026 4:37:02 PM - Processing topic: guide\graph-analysis\graph-analysis.htm...
+9/24/2026 4:37:02 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Generated guide\graph-analysis\graph-analysis.htm
+9/24/2026 4:37:02 PM - Processing topic: guide\graph-analysis\exploring-graph-analysis-ui.htm...
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:02 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Generated guide\graph-analysis\exploring-graph-analysis-ui.htm
+9/24/2026 4:37:03 PM - Processing topic: guide\graph-analysis\viewing-analyzing-relationships.htm...
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Generated guide\graph-analysis\viewing-analyzing-relationships.htm
+9/24/2026 4:37:03 PM - Processing topic: guide\data-quality\data-quality.htm...
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Generated guide\data-quality\data-quality.htm
+9/24/2026 4:37:04 PM - Processing topic: guide\map-explorer\map-explorer.htm...
+9/24/2026 4:37:04 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Generated guide\map-explorer\map-explorer.htm
+9/24/2026 4:37:04 PM - Processing topic: guide\map-explorer\exploring-map-ui.htm...
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:04 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Generated guide\map-explorer\exploring-map-ui.htm
+9/24/2026 4:37:05 PM - Processing topic: guide\map-explorer\using-map-toolbar.htm...
+9/24/2026 4:37:05 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Generated guide\map-explorer\using-map-toolbar.htm
+9/24/2026 4:37:05 PM - Processing topic: guide\map-explorer\view-analyze-data-on-map.htm...
+9/24/2026 4:37:05 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Generated guide\map-explorer\view-analyze-data-on-map.htm
+9/24/2026 4:37:05 PM - Processing topic: guide\map-explorer\adding-point-layer.htm...
+9/24/2026 4:37:05 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Generated guide\map-explorer\adding-point-layer.htm
+9/24/2026 4:37:05 PM - Processing topic: guide\map-explorer\adding-path-layer.htm...
+9/24/2026 4:37:05 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:05 PM - Generated guide\map-explorer\adding-path-layer.htm
+9/24/2026 4:37:05 PM - Processing topic: guide\map-explorer\adding-heatmap-layer.htm...
+9/24/2026 4:37:05 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:10 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:10 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:10 PM - Generated guide\map-explorer\adding-heatmap-layer.htm
+9/24/2026 4:37:10 PM - Processing topic: guide\map-explorer\adding-cluster-layer.htm...
+9/24/2026 4:37:10 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Generated guide\map-explorer\adding-cluster-layer.htm
+9/24/2026 4:37:11 PM - Processing topic: guide\profile-search\profile-search.htm...
+9/24/2026 4:37:11 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Generated guide\profile-search\profile-search.htm
+9/24/2026 4:37:11 PM - Processing topic: guide\profile-search\searching-for-profiles.htm...
+9/24/2026 4:37:11 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Generated guide\profile-search\searching-for-profiles.htm
+9/24/2026 4:37:11 PM - Processing topic: guide\profile-search\viewing-and-analyzing-profiles.htm...
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:11 PM - Generated guide\profile-search\viewing-and-analyzing-profiles.htm
+9/24/2026 4:37:11 PM - Processing topic: guide\workspaces\managing-profile-set.htm...
+9/24/2026 4:37:12 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Generated guide\workspaces\managing-profile-set.htm
+9/24/2026 4:37:12 PM - Processing topic: guide\reports\reports.htm...
+9/24/2026 4:37:12 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Generated guide\reports\reports.htm
+9/24/2026 4:37:12 PM - Processing topic: guide\reports\exploring-reports-ui.htm...
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:12 PM - Generated guide\reports\exploring-reports-ui.htm
+9/24/2026 4:37:12 PM - Processing topic: guide\reports\working-with-reports.htm...
+9/24/2026 4:37:13 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Generated guide\reports\working-with-reports.htm
+9/24/2026 4:37:13 PM - Processing topic: guide\dashboards\dashboards.htm...
+9/24/2026 4:37:13 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Generated guide\dashboards\dashboards.htm
+9/24/2026 4:37:13 PM - Processing topic: guide\dashboards\exploring-dashboard-ui.htm...
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:13 PM - Generated guide\dashboards\exploring-dashboard-ui.htm
+9/24/2026 4:37:13 PM - Processing topic: guide\dashboards\create-dashboard.htm...
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Generated guide\dashboards\create-dashboard.htm
+9/24/2026 4:37:14 PM - Processing topic: SOPs\SOPs.htm...
+9/24/2026 4:37:14 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Generated SOPs\SOPs.htm
+9/24/2026 4:37:14 PM - Processing topic: SOPs\create-workspace.htm...
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Generated SOPs\create-workspace.htm
+9/24/2026 4:37:14 PM - Processing topic: SOPs\manage-existing-workspace.htm...
+9/24/2026 4:37:14 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Generated SOPs\manage-existing-workspace.htm
+9/24/2026 4:37:14 PM - Processing topic: SOPs\create-anlytical-schema.htm...
+9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:14 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:15 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:15 PM - Generated SOPs\create-anlytical-schema.htm
+9/24/2026 4:37:15 PM - Processing topic: SOPs\create-run-mirror-pipeline.htm...
+9/24/2026 4:37:15 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:15 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:15 PM - Generated SOPs\create-run-mirror-pipeline.htm
+9/24/2026 4:37:15 PM - Processing topic: admin-guide\intro\about-synergy-admin.htm...
+9/24/2026 4:37:15 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Generated admin-guide\intro\about-synergy-admin.htm
+9/24/2026 4:37:16 PM - Processing topic: guide\geo-search\exploring-geo-search-ui.htm...
+9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:16 PM - Generated guide\geo-search\exploring-geo-search-ui.htm
+9/24/2026 4:37:16 PM - Processing topic: guide\advanced-search\search-by-identifiers.htm...
+9/24/2026 4:37:17 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:17 PM - Generated guide\advanced-search\search-by-identifiers.htm
+9/24/2026 4:37:17 PM - Processing topic: guide\geo-search\view-analyze-data-on-map.htm...
+9/24/2026 4:37:17 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:17 PM - Generated guide\geo-search\view-analyze-data-on-map.htm
+9/24/2026 4:37:17 PM - Processing topic: guide\common-features\save-profiles-as-set.htm...
+9/24/2026 4:37:17 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:17 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:17 PM - Generated guide\common-features\save-profiles-as-set.htm
+9/24/2026 4:37:17 PM - Processing topic: guide\geo-search\geo-search.htm...
+9/24/2026 4:37:17 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:17 PM - Generated guide\geo-search\geo-search.htm
+9/24/2026 4:37:17 PM - Processing topic: resources\interactive-wireframes\exploring-synergy\synergy-home-ui.html...
+9/24/2026 4:37:17 PM - Topic contains invalid XHTML.
+9/24/2026 4:37:18 PM - Generated resources\interactive-wireframes\exploring-synergy\synergy-home-ui.html
+9/24/2026 4:37:18 PM - Processing topic: guide\advanced-search\sequential-search.htm...
+9/24/2026 4:37:18 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Generated guide\advanced-search\sequential-search.htm
+9/24/2026 4:37:18 PM - Processing topic: guide\common-features\save-search-query.htm...
+9/24/2026 4:37:18 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Generated guide\common-features\save-search-query.htm
+9/24/2026 4:37:18 PM - Processing topic: guide\advanced-search\exploring-advanced-search-ui.htm...
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:18 PM - Generated guide\advanced-search\exploring-advanced-search-ui.htm
+9/24/2026 4:37:18 PM - Processing topic: guide\advanced-search\analyze-data-combining-data-sets.htm...
+9/24/2026 4:37:19 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:19 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:19 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:19 PM - Generated guide\advanced-search\analyze-data-combining-data-sets.htm
+9/24/2026 4:37:19 PM - Processing topic: guide\advanced-search\advanced-search.htm...
+9/24/2026 4:37:24 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:24 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:24 PM - Generated guide\advanced-search\advanced-search.htm
+9/24/2026 4:37:24 PM - Processing topic: guide\advanced-search\search-step-operations.htm...
+9/24/2026 4:37:24 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:24 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:24 PM - Generated guide\advanced-search\search-step-operations.htm
+9/24/2026 4:37:24 PM - Processing topic: guide\executors\adding-executors.htm...
+9/24/2026 4:37:24 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.
+9/24/2026 4:37:25 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:25 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:25 PM - Generated guide\executors\adding-executors.htm
+9/24/2026 4:37:25 PM - Generating micro content...
+9/24/2026 4:37:25 PM - Processing micro content: resources\microcontent\microcontent.flmco#data-explorer--schema-in-data-explorer--benefits-of-data-explorer...
+9/24/2026 4:37:25 PM - Generated MicroContent\Stylesheets\micro-response-2103680557.css
+9/24/2026 4:37:25 PM - Generated MicroContent\resources\microcontent\microcontent\data-explorer--schema-in-data-explorer--benefits-of-data-explo.htm
+9/24/2026 4:37:25 PM - Processing micro content: resources\microcontent\microcontent.flmco#what-is-advanced-search--advanced-search--multi-step-search--multi-step-search--sequential-search--using-advanced-search...
+9/24/2026 4:37:25 PM - Generated MicroContent\Stylesheets\micro-response1502798441.css
+9/24/2026 4:37:25 PM - Generated MicroContent\resources\microcontent\microcontent\what-is-advanced-search--advanced-search--multi-step-search--m.htm
+9/24/2026 4:37:28 PM - Generating output skins...
+9/24/2026 4:37:28 PM - Generating synonyms file...
+9/24/2026 4:37:28 PM - Generating alias file...
+9/24/2026 4:37:28 PM - Generating final TOC...
+9/24/2026 4:37:28 PM - Generating language strings...
+9/24/2026 4:37:30 PM - Generating concept and keyword anchors in output files...
+9/24/2026 4:37:30 PM - Generating Index...
+9/24/2026 4:37:30 PM - Generating Concepts...
+9/24/2026 4:37:30 PM - Generating Template Topics...
+9/24/2026 4:37:30 PM - Generating Search.htm...
+9/24/2026 4:37:30 PM - Topic marked 'not searchable': Search.htm...
+9/24/2026 4:37:30 PM - Applying template page OtherTopics.flmsp...
+9/24/2026 4:37:30 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.
+9/24/2026 4:37:30 PM - Generated Search.htm
+9/24/2026 4:37:30 PM - Resolving links in output files...
+9/24/2026 4:37:35 PM - Generating Search Database...
+9/24/2026 4:37:35 PM - Writing search entry cache...
+9/24/2026 4:37:44 PM - Generating final output...
+9/24/2026 4:37:53 PM - Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
+9/24/2026 4:37:53 PM - Generated Skins\Default\Stylesheets\Topic.micro-content.css
+9/24/2026 4:37:53 PM - Generated Default.htm
+9/24/2026 4:37:53 PM - Saving result set...
+9/24/2026 4:37:53 PM - Output generated in 1 minute(s) and 38 second(s).
+
+9/24/2026 4:37:53 PM - Done
+9/24/2026 4:37:56 PM - Saving log to "C:\Projects\test-template\Output\balasubramanya_r\synergy-um-html\synergy-um-html.mclog"
+</Messages>
+    <Warnings>
+        <LogEntry File="../../../Content/resources/Stylesheets/StylesForHomePage.css" Message="9/24/2026 4:36:23 PM - Missing linked source file: C:\Projects\test-template\Content\resources\Images\Assets\Icons\MainIcons\Tips-white.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="10001" />
+        <LogEntry File="../../../Content/resources/Stylesheets/Styles_1.css" Message="9/24/2026 4:36:23 PM - Link points outside project file:///C:/Projects/radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-collapsed.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="10056" />
+        <LogEntry File="../../../Content/resources/Stylesheets/Styles_1.css" Message="9/24/2026 4:36:23 PM - Link points outside project file:///C:/Projects/radar-help-en/Content/resources/Images/Assets/Icons/Dropdown/chevron-expanded.png&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="10056" />
+        <LogEntry File="Content\resources\MasterPages\HomePage.flmsp" Message="9/24/2026 4:36:31 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\about-users.htm" Message="9/24/2026 4:36:32 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\about-users.htm" Message="9/24/2026 4:36:32 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\about-users.htm" Message="9/24/2026 4:36:32 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:34 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:35 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="../../../Content/guide/introduction/about.htm" Message="9/24/2026 4:36:37 PM - Cross-reference to excluded file removed from output.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="10027" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:38 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\workspaces\exploring-workspace-ui.htm" Message="9/24/2026 4:36:39 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:40 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\create-workspace.htm" Message="9/24/2026 4:36:40 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\workspaces\create-workspace.htm" Message="9/24/2026 4:36:40 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\workspaces\create-workspace.htm" Message="9/24/2026 4:36:40 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\create-workspace-folder.htm" Message="9/24/2026 4:36:41 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\documentation\create-a-document.htm" Message="9/24/2026 4:36:41 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\all-search.htm" Message="9/24/2026 4:36:41 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:41 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\managing-workspaces\managing-workspace-data.htm" Message="9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\managing-workspaces\managing-workspace-data.htm" Message="9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\managing-data.htm" Message="9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\workspaces\managing-data.htm" Message="9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\workspaces\managing-data.htm" Message="9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\workspaces\managing-data.htm" Message="9/24/2026 4:36:42 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:42 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\AI-assistant\ai-assistant.htm" Message="9/24/2026 4:36:43 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:44 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:44 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\entity-config\identifier-type.htm" Message="9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:44 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\entity-config\profile-type.htm" Message="9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\entity-config\profile-type.htm" Message="9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\entity-config\profile-type.htm" Message="9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\entity-config\profile-type.htm" Message="9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\entity-config\profile-type.htm" Message="9/24/2026 4:36:44 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\entity-config\relation-type.htm" Message="9/24/2026 4:36:45 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\entity-config\profile-involvement-type.htm" Message="9/24/2026 4:36:45 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:45 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:46 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\managing-data\data-management\working-with-datasource.htm" Message="9/24/2026 4:36:46 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:46 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\managing-data\data-management\clickhouse-data-source.htm" Message="9/24/2026 4:36:46 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:49 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\managing-data\data-management\s3-minio-datasource.htm" Message="9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:49 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\managing-data\data-catalog\data-catalog.htm" Message="9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:49 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\sql-editor\code-editor.htm" Message="9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\sql-editor\code-editor.htm" Message="9/24/2026 4:36:49 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\exploring-datapipeline-ui.htm" Message="9/24/2026 4:36:50 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:50 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\creating-SQL-query-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\creating-SQL-query-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\creating-SQL-query-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\create-mirror-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\create-mirror-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\create-mirror-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\creating-python-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\creating-python-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\creating-python-pipeline.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:51 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-profiles-entities.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-profiles-entities.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-profiles-entities.htm" Message="9/24/2026 4:36:51 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-identifiers.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-identifiers.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-identifiers.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-image-audio.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-image-audio.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\ingesting-image-audio.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\vectorizing-image-audio.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\vectorizing-image-audio.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-pipeline\vectorizing-image-audio.htm" Message="9/24/2026 4:36:52 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:52 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\analytics-pipeline\creating-explorer-search-pipeline.htm" Message="9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\analytics-pipeline\creating-explorer-search-pipeline.htm" Message="9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\analytics-pipeline\creating-query-search-pipeline.htm" Message="9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\analytics-pipeline\creating-query-search-pipeline.htm" Message="9/24/2026 4:36:53 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:53 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:54 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:57 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-pipeline\working-with-data-pipeline.htm" Message="9/24/2026 4:36:58 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:58 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:58 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-explorer-schema-search\exploring-explorer-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-explorer-schema-search\exploring-explorer-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-explorer-schema-search\exploring-explorer-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-explorer-schema-search\exploring-explorer-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\exploring-collections-ui.htm" Message="9/24/2026 4:36:59 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\record-collection\working-with-records-in-collection.htm" Message="9/24/2026 4:37:00 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\monitors\exploring-monitors-ui.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:01 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\monitors\working-with-monitors.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\monitors\working-with-monitors.htm" Message="9/24/2026 4:37:01 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\graph-analysis\exploring-graph-analysis-ui.htm" Message="9/24/2026 4:37:02 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\graph-analysis\viewing-analyzing-relationships.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\graph-analysis\viewing-analyzing-relationships.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\graph-analysis\viewing-analyzing-relationships.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\data-quality\data-quality.htm" Message="9/24/2026 4:37:03 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\exploring-map-ui.htm" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\exploring-map-ui.htm" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\exploring-map-ui.htm" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\exploring-map-ui.htm" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\exploring-map-ui.htm" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\exploring-map-ui.htm" Message="9/24/2026 4:37:04 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:04 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\using-map-toolbar.htm" Message="9/24/2026 4:37:05 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\adding-point-layer.htm" Message="9/24/2026 4:37:05 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:05 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\map-explorer\adding-heatmap-layer.htm" Message="9/24/2026 4:37:05 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:10 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\searching-for-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\profile-search\viewing-and-analyzing-profiles.htm" Message="9/24/2026 4:37:11 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:11 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\workspaces\managing-profile-set.htm" Message="9/24/2026 4:37:12 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\reports\exploring-reports-ui.htm" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\reports\exploring-reports-ui.htm" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\reports\exploring-reports-ui.htm" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\reports\exploring-reports-ui.htm" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\reports\exploring-reports-ui.htm" Message="9/24/2026 4:37:12 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:12 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\reports\working-with-reports.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\reports\working-with-reports.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\dashboards\exploring-dashboard-ui.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\dashboards\exploring-dashboard-ui.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\dashboards\exploring-dashboard-ui.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\dashboards\exploring-dashboard-ui.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\dashboards\exploring-dashboard-ui.htm" Message="9/24/2026 4:37:13 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:13 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\dashboards\create-dashboard.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\SOPs\create-workspace.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\SOPs\create-workspace.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:14 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\SOPs\create-anlytical-schema.htm" Message="9/24/2026 4:37:14 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:15 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:15 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\geo-search\exploring-geo-search-ui.htm" Message="9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\geo-search\exploring-geo-search-ui.htm" Message="9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\geo-search\exploring-geo-search-ui.htm" Message="9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\geo-search\exploring-geo-search-ui.htm" Message="9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\geo-search\exploring-geo-search-ui.htm" Message="9/24/2026 4:37:16 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:16 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\common-features\save-profiles-as-set.htm" Message="9/24/2026 4:37:17 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:17 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="../../../Content/resources/interactive-wireframes/exploring-synergy/synergy-home-ui.html" Message="9/24/2026 4:37:17 PM - Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20058" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\common-features\save-search-query.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\advanced-search\exploring-advanced-search-ui.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\advanced-search\exploring-advanced-search-ui.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\advanced-search\exploring-advanced-search-ui.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\advanced-search\exploring-advanced-search-ui.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\advanced-search\exploring-advanced-search-ui.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\guide\advanced-search\exploring-advanced-search-ui.htm" Message="9/24/2026 4:37:18 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:18 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\advanced-search\analyze-data-combining-data-sets.htm" Message="9/24/2026 4:37:19 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:19 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:24 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:24 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\guide\executors\adding-executors.htm" Message="9/24/2026 4:37:24 PM - Accessibility: Table element does not contain a caption or summary. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20037" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:25 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+        <LogEntry File="Content\resources\MasterPages\OtherTopics.flmsp" Message="9/24/2026 4:37:30 PM - Accessibility: Image element does not contain alt text. Please see the Help for more information.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="synergy-um-html" ErrorID="20041" />
+    </Warnings>
+    <Errors />
+</MadCapLog>

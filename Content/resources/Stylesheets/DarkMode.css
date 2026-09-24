@@ -1,0 +1,1844 @@
+/*<meta />*/
+
+/*==============================================================================
+  DARK MODE
+  Shared dark-theme overrides for the Synergy Help output.
+
+  IMPORTANT:
+  1. Load this stylesheet AFTER your normal stylesheets.
+  2. Dark mode activates when ThemeToggle.js adds:
+     data-theme="dark"
+     to the <html> element.
+
+  CHANGES IN THIS REVISION
+  - Old section 36 and the earlier "FIX: SELECTED SIDE-NAVIGATION ITEM" block
+    are removed; both are superseded by section 38, which also covers the
+    selected row's children and pseudo-elements (that was the missing reach).
+  - New section 39 makes the header logo/wordmark legible in dark mode using
+    the no-extra-asset route (filter), plus the logo cell background.
+  - Dead fully-commented blocks (old sections 1, 2 and 9) deleted.
+==============================================================================*/
+
+/*==============================================================================
+  ANTI-FLASH FOUNDATION
+==============================================================================*/
+
+html
+{
+	background-color: #EEF2F7;
+}
+
+html[data-theme="dark"]
+{
+	background-color: #0B111B !important;
+}
+
+html[data-theme="dark"] body
+{
+	background-color: #0B111B;
+}
+
+/*==============================================================================
+  1. THEME TOGGLE
+==============================================================================*/
+
+/*
+  IMPORTANT:
+  Do not change Flare's nav-search-wrapper to display:flex.
+  Flare controls the search/header geometry.
+
+  We reserve space for the theme button and position it independently.
+*/
+
+.theme-toggle-host
+{
+	position: relative !important;
+	box-sizing: border-box !important;
+	/*
+      Reserve room to the right of the search bar for the button.
+    */
+	padding-right: 58px !important;
+}
+
+/*------------------------------------------------------------------------------
+  Button
+------------------------------------------------------------------------------*/
+
+button.theme-toggle
+{
+	position: absolute !important;
+	top: 50% !important;
+	right: 25px !important;
+	transform: translateY(-50%) !important;
+	width: 32px !important;
+	height: 32px !important;
+	min-width: 32px !important;
+	min-height: 32px !important;
+	max-width: 32px !important;
+	max-height: 32px !important;
+	display: block !important;
+	box-sizing: border-box !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: hidden !important;
+	border: 1px solid rgba(15, 42, 91, 0.14) !important;
+	border-radius: 10px !important;
+	background-color: #FFFFFF !important;
+	color: #243447 !important;
+	cursor: pointer !important;
+	z-index: 100 !important;
+	font-size: 0 !important;
+	line-height: 0 !important;
+	box-shadow: 0 1px 3px rgba(16, 32, 64, 0.08) !important;
+	transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+button.theme-toggle:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #1C5CFC !important;
+	color: #1C5CFC !important;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.12), 0 3px 8px rgba(16, 32, 64, 0.10) !important;
+}
+
+button.theme-toggle:focus
+{
+	outline: none !important;
+}
+
+button.theme-toggle:focus-visible
+{
+	border-color: #1C5CFC !important;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.20) !important;
+}
+
+/*------------------------------------------------------------------------------
+  Icon container
+------------------------------------------------------------------------------*/
+
+button.theme-toggle .theme-icon
+{
+	position: absolute !important;
+	top: 50% !important;
+	left: 50% !important;
+	width: 18px !important;
+	height: 18px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	transform: translate(-50%, -50%) !important;
+	line-height: 0 !important;
+}
+
+/*------------------------------------------------------------------------------
+  SVG
+------------------------------------------------------------------------------*/
+
+button.theme-toggle .theme-icon svg
+{
+	display: block !important;
+	width: 18px !important;
+	height: 18px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: visible !important;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+/*------------------------------------------------------------------------------
+  Moon
+------------------------------------------------------------------------------*/
+
+button.theme-toggle .theme-icon-moon
+{
+	display: block !important;
+}
+
+button.theme-toggle .theme-icon-moon svg
+{
+	fill: currentColor !important;
+	stroke: none !important;
+}
+
+/*------------------------------------------------------------------------------
+  Sun hidden in light theme
+------------------------------------------------------------------------------*/
+
+button.theme-toggle .theme-icon-sun
+{
+	display: none !important;
+}
+
+/*------------------------------------------------------------------------------
+  Dark mode: hide moon, show sun
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] button.theme-toggle .theme-icon-moon
+{
+	display: none !important;
+}
+
+html[data-theme="dark"] button.theme-toggle .theme-icon-sun
+{
+	display: block !important;
+}
+
+/*------------------------------------------------------------------------------
+  Dark button
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] button.theme-toggle
+{
+	background-color: #152131 !important;
+	border-color: #304158 !important;
+	color: #F2C94C !important;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22) !important;
+}
+
+html[data-theme="dark"] button.theme-toggle:hover
+{
+	background-color: #1A293C !important;
+	border-color: #62B9FF !important;
+	color: #FFD966 !important;
+	box-shadow: 0 0 0 3px rgba(98, 185, 255, 0.12), 0 4px 10px rgba(0, 0, 0, 0.24) !important;
+}
+
+/*==============================================================================
+  3. DARK MODE FOUNDATION
+==============================================================================*/
+
+html[data-theme="dark"]
+{
+	color-scheme: dark;
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B;
+	color: #D7E0EA;
+}
+
+html[data-theme="dark"] body
+{
+	background-image: radial-gradient(
+            1200px 620px at 50% -160px,
+            #17253D 0%,
+            #111B2C 42%,
+            #0B111B 100%
+        );
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+html[data-theme="dark"] .body-container,
+html[data-theme="dark"] #contentBody,
+html[data-theme="dark"] #content-section,
+html[data-theme="dark"] .off-canvas-content,
+html[data-theme="dark"] .off-canvas-wrapper,
+html[data-theme="dark"] .main-section,
+html[data-theme="dark"] .outer-row
+{
+	background-color: transparent !important;
+}
+
+/*==============================================================================
+  4. TOPIC CONTENT CARD
+==============================================================================*/
+
+html[data-theme="dark"] div.background
+{
+	background-color: #111A26;
+	border-color: #263445;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+/*==============================================================================
+  5. BODY TEXT
+==============================================================================*/
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] li
+{
+	color: #D7E0EA;
+}
+
+html[data-theme="dark"] b,
+html[data-theme="dark"] strong
+{
+	color: #F1F5F9;
+}
+
+html[data-theme="dark"] black
+{
+	color: #D7E0EA;
+}
+
+html[data-theme="dark"] label
+{
+	border-left-color: #62B9FF;
+}
+
+/*==============================================================================
+  6. HEADINGS
+==============================================================================*/
+
+html[data-theme="dark"] h1
+{
+	color: #62B9FF;
+	border-bottom-color: #27374C;
+}
+
+html[data-theme="dark"] h2
+{
+	color: #E6EEF8;
+}
+
+html[data-theme="dark"] h3
+{
+	color: #C9D9EF;
+}
+
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] h6.reference
+{
+	color: #AFC0D5;
+}
+
+/*==============================================================================
+  7. LINKS
+==============================================================================*/
+
+html[data-theme="dark"] a,
+html[data-theme="dark"] a:link,
+html[data-theme="dark"] a:visited
+{
+	color: #62B9FF;
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:active
+{
+	color: #8DCEFF;
+}
+
+/*==============================================================================
+  8. SEARCH BAR
+==============================================================================*/
+
+html[data-theme="dark"] .search-bar
+{
+	background-color: #121D2B;
+	border-color: #2B3B4F;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.20);
+}
+
+html[data-theme="dark"] .search-bar:hover,
+html[data-theme="dark"] .search-bar:focus-within
+{
+	border-color: #3D9BFF;
+	box-shadow: 0 0 0 3px rgba(61, 155, 255, 0.15);
+}
+
+html[data-theme="dark"] .search-bar .search-field
+{
+	color: #E6EDF5;
+	background-color: transparent;
+}
+
+html[data-theme="dark"] .search-bar .search-field::placeholder
+{
+	color: #8493A5;
+	opacity: 1;
+}
+
+html[data-theme="dark"] .search-bar .search-field:hover,
+html[data-theme="dark"] .search-bar .search-field:focus
+{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+/*==============================================================================
+  10. SEARCH RESULTS
+==============================================================================*/
+
+html[data-theme="dark"] .search-results,
+html[data-theme="dark"] .search-bar .results,
+html[data-theme="dark"] ul.search-suggestions,
+html[data-theme="dark"] div.search-filter-wrapper
+{
+	background-color: #121C29 !important;
+	border-color: #2B3B4F !important;
+	color: #DCE5EF !important;
+	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32) !important;
+}
+
+html[data-theme="dark"] .search-results a,
+html[data-theme="dark"] ul.search-suggestions li
+{
+	color: #DCE5EF !important;
+}
+
+html[data-theme="dark"] .search-results a:hover,
+html[data-theme="dark"] ul.search-suggestions li:hover
+{
+	background-color: #192A3D !important;
+	color: #FFFFFF !important;
+}
+
+/*==============================================================================
+  11. TOPIC TOOLBAR
+==============================================================================*/
+
+html[data-theme="dark"] div.toolbar
+{
+	background-color: #111A26;
+	border-color: #263445;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+/*==============================================================================
+  12. BREADCRUMBS
+==============================================================================*/
+
+html[data-theme="dark"] .MCBreadcrumbsBox,
+html[data-theme="dark"] .MCBreadcrumbsBox a,
+html[data-theme="dark"] a.MCBreadcrumbsLink,
+html[data-theme="dark"] a.MCBreadcrumbsLink:visited
+{
+	color: #96A5B6;
+}
+
+html[data-theme="dark"] a.MCBreadcrumbsLink:hover
+{
+	color: #62B9FF;
+}
+
+/*==============================================================================
+  13. HOME PAGE BACKGROUND
+==============================================================================*/
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] .off-canvas-content,
+html[data-theme="dark"] .off-canvas-wrapper,
+html[data-theme="dark"] .body-container,
+html[data-theme="dark"] #contentBody,
+html[data-theme="dark"] #content-section
+{
+	background-color: #0B111B;
+	background-image: radial-gradient(
+            ellipse 900px 500px at 50% 0%,
+            rgba(25, 92, 160, 0.30),
+            rgba(11, 17, 27, 0) 70%
+        );
+	background-repeat: no-repeat;
+}
+
+/*==============================================================================
+  14. HOME PAGE HERO
+==============================================================================*/
+
+html[data-theme="dark"] div.topic-hero
+{
+	background: none;
+	background-color: transparent;
+}
+
+html[data-theme="dark"] div.topic-hero h1
+{
+	color: #EDF4FB;
+}
+
+html[data-theme="dark"] div.topic-hero h2
+{
+	color: #C8D5E4;
+}
+
+/*==============================================================================
+  15. HOME TILES
+==============================================================================*/
+
+html[data-theme="dark"] div.home-tiles > div
+{
+	background-color: #121C29;
+	border-color: #27374A;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20), 0 10px 24px rgba(0, 0, 0, 0.20);
+}
+
+html[data-theme="dark"] div.home-tiles > div:hover
+{
+	border-color: #3D9BFF;
+	box-shadow: 0 0 0 3px rgba(61, 155, 255, 0.14), 0 14px 32px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] div.home-tiles a
+{
+	color: #E5EDF6;
+}
+
+html[data-theme="dark"] div.home-tiles a:hover
+{
+	color: #62B9FF;
+}
+
+html[data-theme="dark"] p.tile-title
+{
+	color: #EDF3F9;
+}
+
+html[data-theme="dark"] p.tile-content,
+html[data-theme="dark"] p.tile-items
+{
+	color: #98A8BA;
+}
+
+/*==============================================================================
+  16. MEDIA STRIP
+==============================================================================*/
+
+html[data-theme="dark"] div.media-strip > div
+{
+	background-color: #121C29;
+	border-color: #27374A;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20), 0 10px 24px rgba(0, 0, 0, 0.20);
+}
+
+html[data-theme="dark"] div.media-strip > div:hover
+{
+	border-color: #3D9BFF;
+	box-shadow: 0 0 0 3px rgba(61, 155, 255, 0.13), 0 14px 32px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] p.media-strip-title
+{
+	color: #EDF3F9;
+}
+
+html[data-theme="dark"] p.media-title
+{
+	color: #E3EBF4;
+}
+
+html[data-theme="dark"] p.media-meta
+{
+	color: #92A2B5;
+}
+
+html[data-theme="dark"] div.media-strip a
+{
+	color: #E3EBF4;
+}
+
+html[data-theme="dark"] div.media-strip a:hover p.media-title
+{
+	color: #62B9FF;
+}
+
+/*==============================================================================
+  17. MEDIA THUMBNAILS
+==============================================================================*/
+
+html[data-theme="dark"] div.media-thumb
+{
+	border-bottom-color: #27374A;
+}
+
+html[data-theme="dark"] div.media-thumb.icon
+{
+	background-color: #102238;
+}
+
+html[data-theme="dark"] div.media-thumb.icon.quickstart
+{
+	background-color: #10271F;
+	border-bottom-color: #214238;
+}
+
+html[data-theme="dark"] div.media-thumb.motion
+{
+	background-color: #102238;
+}
+
+html[data-theme="dark"] div.media-thumb.motion.steps
+{
+	background-color: #10271F;
+}
+
+/*==============================================================================
+  18. VIDEO MENU / PREVIEW
+==============================================================================*/
+
+html[data-theme="dark"] div.media-menu,
+html[data-theme="dark"] div.media-preview
+{
+	background-color: #121C29;
+	border-color: #2A3B50;
+	box-shadow: 0 18px 44px rgba(0, 0, 0, 0.38);
+}
+
+html[data-theme="dark"] div.media-menu a:hover,
+html[data-theme="dark"] div.media-menu a.is-active
+{
+	background-color: #182A40;
+}
+
+html[data-theme="dark"] p.media-menu-head,
+html[data-theme="dark"] p.media-menu-desc,
+html[data-theme="dark"] p.media-preview-hint
+{
+	color: #91A1B5;
+}
+
+html[data-theme="dark"] p.media-menu-title,
+html[data-theme="dark"] p.media-preview-title
+{
+	color: #E3EBF4;
+}
+
+html[data-theme="dark"] div.media-menu a:hover p.media-menu-title,
+html[data-theme="dark"] div.media-menu a.is-active p.media-menu-title
+{
+	color: #62B9FF;
+}
+
+/*==============================================================================
+  19. INTERACTIVE IFRAME CONTAINER
+==============================================================================*/
+
+html[data-theme="dark"] .container
+{
+	background-color: #111A26;
+	background-image: linear-gradient(
+            180deg,
+            #111A26 0%,
+            #0F1722 100%
+        );
+	border-color: #293A4E;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20), 0 18px 44px -14px rgba(0, 0, 0, 0.50);
+}
+
+html[data-theme="dark"] .container:hover
+{
+	border-color: #365576;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20), 0 26px 60px -16px rgba(0, 0, 0, 0.58);
+}
+
+/*==============================================================================
+  20. GENERAL TABLES
+==============================================================================*/
+
+html[data-theme="dark"] table
+{
+	background-color: #111A26 !important;
+	border-color: #2B3A4D !important;
+}
+
+html[data-theme="dark"] th
+{
+	background-color: #173D5C !important;
+	color: #FFFFFF !important;
+	border-color: #314A61 !important;
+}
+
+html[data-theme="dark"] th p,
+html[data-theme="dark"] th li,
+html[data-theme="dark"] th strong,
+html[data-theme="dark"] th b
+{
+	color: #FFFFFF !important;
+}
+
+html[data-theme="dark"] td
+{
+	background-color: #111A26 !important;
+	color: #D7E0EA !important;
+	border-bottom-color: #28374A !important;
+}
+
+html[data-theme="dark"] tbody tr:nth-child(even) td
+{
+	background-color: #15202E !important;
+}
+
+html[data-theme="dark"] tbody tr:hover td
+{
+	background-color: #192A3D !important;
+}
+
+html[data-theme="dark"] td:first-child
+{
+	color: #BBC8D7 !important;
+}
+
+html[data-theme="dark"] td p,
+html[data-theme="dark"] td li
+{
+	color: #D7E0EA !important;
+}
+
+/*==============================================================================
+  21. PRESIGHTKEY TABLE STYLE
+==============================================================================*/
+
+html[data-theme="dark"] .TableStyle-PresightKey
+{
+	background-color: #111A26 !important;
+	border-left-color: #2B3A4D !important;
+	border-right-color: #2B3A4D !important;
+	border-top-color: #2B3A4D !important;
+	border-bottom-color: #2B3A4D !important;
+}
+
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Body"]
+{
+	background-color: #111A26 !important;
+	color: #D7E0EA !important;
+	border-color: #28374A !important;
+}
+
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Body"] p,
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Body"] li
+{
+	color: #D7E0EA !important;
+}
+
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Head"]
+{
+	background-color: #173D5C !important;
+	color: #FFFFFF !important;
+	border-color: #314A61 !important;
+}
+
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Head"] p,
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Head"] strong,
+html[data-theme="dark"] [class*="TableStyle-PresightKey-Head"] b
+{
+	color: #FFFFFF !important;
+}
+
+/*==============================================================================
+  22. NOTE CALLOUT
+==============================================================================*/
+
+html[data-theme="dark"] p.note,
+html[data-theme="dark"] p.notes,
+html[data-theme="dark"] div.note,
+html[data-theme="dark"] div.notes,
+html[data-theme="dark"] div.notebullets
+{
+	background-color: #12223A !important;
+	border-color: #263B58 !important;
+	border-left-color: #4C8DFF !important;
+	color: #DCE5EF !important;
+}
+
+html[data-theme="dark"] p.note b,
+html[data-theme="dark"] p.note strong,
+html[data-theme="dark"] div.note b,
+html[data-theme="dark"] div.note strong
+{
+	color: #6CA6FF;
+}
+
+/*==============================================================================
+  23. TIP CALLOUT
+==============================================================================*/
+
+html[data-theme="dark"] p.tip,
+html[data-theme="dark"] p.tips,
+html[data-theme="dark"] div.tip,
+html[data-theme="dark"] div.tips,
+html[data-theme="dark"] div.tipbullets
+{
+	background-color: #102923 !important;
+	border-color: #214238 !important;
+	border-left-color: #2CB6A4 !important;
+	color: #DCE5EF !important;
+}
+
+html[data-theme="dark"] p.tip b,
+html[data-theme="dark"] p.tip strong,
+html[data-theme="dark"] div.tip b,
+html[data-theme="dark"] div.tip strong
+{
+	color: #48C8B7;
+}
+
+/*==============================================================================
+  24. EXAMPLE CALLOUT
+==============================================================================*/
+
+html[data-theme="dark"] p.example,
+html[data-theme="dark"] p.examples,
+html[data-theme="dark"] div.example,
+html[data-theme="dark"] div.examples,
+html[data-theme="dark"] div.examplebullets
+{
+	background-color: #211D38 !important;
+	border-color: #393152 !important;
+	border-left-color: #9A7CF0 !important;
+	color: #DCE5EF !important;
+}
+
+html[data-theme="dark"] p.example b,
+html[data-theme="dark"] p.example strong,
+html[data-theme="dark"] div.example b,
+html[data-theme="dark"] div.example strong
+{
+	color: #B49AF5;
+}
+
+/*==============================================================================
+  25. INFO CALLOUT
+==============================================================================*/
+
+html[data-theme="dark"] p.info,
+html[data-theme="dark"] div.info,
+html[data-theme="dark"] div.infobullets,
+html[data-theme="dark"] p.description,
+html[data-theme="dark"] div.description,
+html[data-theme="dark"] p.on-demand-video,
+html[data-theme="dark"] p.video-release-date
+{
+	background-color: #1A212B !important;
+	border-color: #303B48 !important;
+	border-left-color: #8291A3 !important;
+	color: #DCE5EF !important;
+}
+
+/*==============================================================================
+  26. WARNING CALLOUT
+==============================================================================*/
+
+html[data-theme="dark"] p.warning,
+html[data-theme="dark"] p.warnings,
+html[data-theme="dark"] div.warning,
+html[data-theme="dark"] div.warnings,
+html[data-theme="dark"] div.warningbullets
+{
+	background-color: #302316 !important;
+	border-color: #503923 !important;
+	border-left-color: #E6983B !important;
+	color: #E6EAF0 !important;
+}
+
+/*==============================================================================
+  27. CAUTION / IMPORTANT
+==============================================================================*/
+
+html[data-theme="dark"] p.caution,
+html[data-theme="dark"] p.important,
+html[data-theme="dark"] div.caution,
+html[data-theme="dark"] div.important
+{
+	background-color: #301B1D !important;
+	border-color: #51282D !important;
+	border-left-color: #EF6464 !important;
+	color: #E6EAF0 !important;
+}
+
+/*==============================================================================
+  28. DROPDOWNS
+==============================================================================*/
+
+html[data-theme="dark"] .MCDropDownHead
+{
+	color: #C9D9EF;
+}
+
+html[data-theme="dark"] .MCDropDownHotSpot
+{
+	color: #62B9FF;
+}
+
+html[data-theme="dark"] .MCDropDownHotSpot:hover,
+html[data-theme="dark"] .MCDropDownHotSpot:focus
+{
+	color: #8DCEFF;
+}
+
+html[data-theme="dark"] .MCDropDownBody
+{
+	color: #D7E0EA;
+}
+
+/*==============================================================================
+  29. SIDE NAVIGATION — BASE
+  (selected / current states live in section 38)
+==============================================================================*/
+
+html[data-theme="dark"] .sidenav-wrapper
+{
+	background-color: #0E1723;
+	color: #C9D4E0;
+}
+
+html[data-theme="dark"] .sidenav-wrapper a
+{
+	color: #BAC7D6 !important;
+}
+
+html[data-theme="dark"] .sidenav-wrapper a:hover
+{
+	color: #FFFFFF !important;
+	background-color: rgba(98, 185, 255, 0.08) !important;
+}
+
+/*==============================================================================
+  30. HEADER / TITLE BAR
+==============================================================================*/
+
+html[data-theme="dark"] .title-bar-container,
+html[data-theme="dark"] .title-bar,
+html[data-theme="dark"] .navigation-wrapper
+{
+	background-color: #0F1824;
+	border-color: #263445;
+}
+
+html[data-theme="dark"] .title-bar-container a,
+html[data-theme="dark"] .title-bar a,
+html[data-theme="dark"] .navigation-wrapper a
+{
+	color: #D5DFEA;
+}
+
+/*==============================================================================
+  31. FOOTER
+==============================================================================*/
+
+html[data-theme="dark"] div.footer
+{
+	color: #8493A5;
+}
+
+html[data-theme="dark"] p.footer,
+html[data-theme="dark"] p.footertext
+{
+	color: #8493A5;
+}
+
+html[data-theme="dark"] div.footer a
+{
+	color: #AFC0D5;
+}
+
+html[data-theme="dark"] div.footer a:hover
+{
+	color: #62B9FF;
+}
+
+/*==============================================================================
+  32. CAPTIONS / DISCLAIMERS
+==============================================================================*/
+
+html[data-theme="dark"] p.figurecaption,
+html[data-theme="dark"] p.image-disclaimer,
+html[data-theme="dark"] p.video-disclaimer,
+html[data-theme="dark"] caption
+{
+	color: #93A3B6;
+}
+
+/*==============================================================================
+  33. TOPIC IMAGES
+==============================================================================*/
+
+html[data-theme="dark"] div.background img
+{
+	border-color: #314154;
+}
+
+/*==============================================================================
+  34. RESPONSIVE
+==============================================================================*/
+
+@media only screen and (max-width: 1288px)
+{
+	div.nav-search-wrapper
+	{
+		gap: 8px;
+		padding-right: 10px;
+	}
+
+	.theme-toggle
+	{
+		width: 34px;
+		height: 34px;
+		min-width: 34px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.nav-search-wrapper
+	{
+		gap: 7px;
+		padding-right: 8px;
+	}
+
+	.theme-toggle
+	{
+		width: 34px;
+		height: 34px;
+		min-width: 34px;
+		border-radius: 9px;
+	}
+
+	.theme-icon,
+	.theme-icon svg
+	{
+		width: 17px;
+		height: 17px;
+	}
+}
+
+/*==============================================================================
+  MADCAP FLARE OUTER SHELL — DARK MODE
+==============================================================================*/
+
+/*------------------------------------------------------------------------------
+  HEADER / TITLE BAR
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .title-bar-container,
+html[data-theme="dark"] .title-bar,
+html[data-theme="dark"] .title-bar-layout,
+html[data-theme="dark"] .navigation-wrapper,
+html[data-theme="dark"] .nav-search,
+html[data-theme="dark"] .nav-search-wrapper
+{
+	background-color: #0D1521 !important;
+	background-image: none !important;
+	border-color: #263445 !important;
+	color: #D7E0EA !important;
+}
+
+/*------------------------------------------------------------------------------
+  Header links / navigation items
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .title-bar-container a,
+html[data-theme="dark"] .title-bar a,
+html[data-theme="dark"] .navigation-wrapper a
+{
+	color: #D7E0EA !important;
+}
+
+/*------------------------------------------------------------------------------
+  LEFT SIDE NAVIGATION — OUTER CONTAINERS
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper,
+html[data-theme="dark"] .sidenav-container,
+html[data-theme="dark"] .sidenav-layout,
+html[data-theme="dark"] .sidenav,
+html[data-theme="dark"] nav.sidenav
+{
+	background-color: #0E1723 !important;
+	background-image: none !important;
+	border-color: #243346 !important;
+	color: #B9C7D6 !important;
+}
+
+/*------------------------------------------------------------------------------
+  Side navigation lists
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper ul,
+html[data-theme="dark"] .sidenav-wrapper ol,
+html[data-theme="dark"] .sidenav-wrapper li,
+html[data-theme="dark"] .sidenav-container ul,
+html[data-theme="dark"] .sidenav-container li
+{
+	background-color: transparent !important;
+}
+
+/*------------------------------------------------------------------------------
+  Side navigation links
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper a,
+html[data-theme="dark"] .sidenav-container a,
+html[data-theme="dark"] .sidenav a
+{
+	color: #AEBCCD !important;
+	background-color: transparent !important;
+}
+
+/*------------------------------------------------------------------------------
+  Side navigation hover
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper a:hover,
+html[data-theme="dark"] .sidenav-container a:hover,
+html[data-theme="dark"] .sidenav a:hover
+{
+	color: #FFFFFF !important;
+	background-color: rgba(98, 185, 255, 0.08) !important;
+}
+
+/*------------------------------------------------------------------------------
+  Tree navigation text
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .tree-node,
+html[data-theme="dark"] .tree-node-leaf,
+html[data-theme="dark"] .tree-node-collapsed,
+html[data-theme="dark"] .tree-node-expanded
+{
+	color: #AEBCCD !important;
+}
+
+/*------------------------------------------------------------------------------
+  Side navigation separators / borders
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper,
+html[data-theme="dark"] .sidenav-container
+{
+	border-right-color: #243346 !important;
+}
+
+/*------------------------------------------------------------------------------
+  MAIN FLARE OUTER CANVAS
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .off-canvas-wrapper,
+html[data-theme="dark"] .off-canvas-wrapper-inner,
+html[data-theme="dark"] .off-canvas-content,
+html[data-theme="dark"] .main-section,
+html[data-theme="dark"] #contentBody
+{
+	background-color: #0B111B !important;
+}
+
+/*------------------------------------------------------------------------------
+  SEARCH AREA IN HEADER
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .nav-search-wrapper
+{
+	background-color: transparent !important;
+}
+
+/*------------------------------------------------------------------------------
+  SEARCH BAR
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .nav-search-wrapper .search-bar,
+html[data-theme="dark"] .title-bar-container .search-bar
+{
+	background-color: #131E2C !important;
+	border-color: #304158 !important;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24) !important;
+}
+
+/*------------------------------------------------------------------------------
+  Search field
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .nav-search-wrapper .search-field,
+html[data-theme="dark"] .title-bar-container .search-field
+{
+	background-color: transparent !important;
+	color: #E3EBF4 !important;
+}
+
+/*------------------------------------------------------------------------------
+  Search placeholder
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .nav-search-wrapper .search-field::placeholder,
+html[data-theme="dark"] .title-bar-container .search-field::placeholder
+{
+	color: #8F9EAF !important;
+}
+
+/*------------------------------------------------------------------------------
+  Search icon
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .search-submit,
+html[data-theme="dark"] .search-submit-wrapper
+{
+	color: #C8D5E4 !important;
+}
+
+/*==============================================================================
+  THEME BUTTON — ROBUST FLARE VERSION
+==============================================================================*/
+
+.theme-toggle-host
+{
+	position: relative !important;
+	box-sizing: border-box !important;
+	padding-right: 58px !important;
+}
+
+button.theme-toggle
+{
+	position: absolute !important;
+	top: 50% !important;
+	right: 25px !important;
+	width: 32px !important;
+	height: 32px !important;
+	min-width: 32px !important;
+	min-height: 32px !important;
+	max-width: 32px !important;
+	max-height: 32px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	transform: translateY(-50%) !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	box-sizing: border-box !important;
+	overflow: hidden !important;
+	border: 1px solid rgba(15, 42, 91, 0.16) !important;
+	border-radius: 10px !important;
+	background-color: #FFFFFF !important;
+	color: #172331 !important;
+	cursor: pointer !important;
+	z-index: 9999 !important;
+	line-height: 1 !important;
+	font-size: 0 !important;
+	box-shadow: 0 1px 4px rgba(16, 32, 64, 0.10) !important;
+	appearance: none !important;
+	-webkit-appearance: none !important;
+}
+
+button.theme-toggle:hover
+{
+	border-color: #1C5CFC !important;
+	color: #1C5CFC !important;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.12), 0 3px 8px rgba(16, 32, 64, 0.10) !important;
+}
+
+/*------------------------------------------------------------------------------
+  SINGLE SVG
+------------------------------------------------------------------------------*/
+
+button.theme-toggle svg.theme-toggle-svg
+{
+	display: block !important;
+	position: static !important;
+	width: 19px !important;
+	height: 19px !important;
+	min-width: 19px !important;
+	min-height: 19px !important;
+	max-width: 19px !important;
+	max-height: 19px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: visible !important;
+	fill: currentColor !important;
+	stroke: none !important;
+}
+
+/*------------------------------------------------------------------------------
+  Sun requires strokes rather than fill
+------------------------------------------------------------------------------*/
+
+button.theme-toggle svg.theme-toggle-sun-svg
+{
+	fill: none !important;
+	stroke: currentColor !important;
+	stroke-width: 1.8 !important;
+	stroke-linecap: round !important;
+	stroke-linejoin: round !important;
+}
+
+/*------------------------------------------------------------------------------
+  Dark button
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] button.theme-toggle
+{
+	background-color: #172332 !important;
+	border-color: #34465B !important;
+	color: #FFD45C !important;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28) !important;
+}
+
+html[data-theme="dark"] button.theme-toggle:hover
+{
+	background-color: #1C2B3E !important;
+	border-color: #62B9FF !important;
+	color: #FFE27A !important;
+}
+
+/*==============================================================================
+  PREVENT WHITE FLASH WHILE FLARE LOADS ANOTHER TOPIC
+==============================================================================*/
+
+/*
+  Keep all Flare content frames dark while a new topic document is loading.
+*/
+
+html[data-theme="dark"] iframe
+{
+	background-color: #0B111B !important;
+	color-scheme: dark;
+}
+
+/*
+  Flare content containers must also remain dark while the topic frame
+  is temporarily empty/reloading.
+*/
+
+html[data-theme="dark"] .main-section,
+html[data-theme="dark"] .body-container,
+html[data-theme="dark"] #contentBody,
+html[data-theme="dark"] .off-canvas-content,
+html[data-theme="dark"] .off-canvas-wrapper,
+html[data-theme="dark"] .off-canvas-wrapper-inner,
+html[data-theme="dark"] .content-container,
+html[data-theme="dark"] .topic-container
+{
+	background-color: #0B111B !important;
+}
+
+/*
+  Temporary dark loading layer.
+
+  ThemeToggle.js enables this immediately when the user clicks
+  another item in the navigation pane.
+*/
+
+html.theme-topic-loading::after
+{
+	content: '';
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9000;
+	background-color: #0B111B;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/*
+  Never show the loading layer in light mode.
+*/
+
+html.theme-topic-loading[data-theme="light"]::after
+{
+	display: none;
+}
+
+/*==============================================================================
+  HARD ANTI-FLASH PROTECTION FOR NORMAL TOPICS
+==============================================================================*/
+
+/*
+  The browser's root canvas must never fall back to white while dark mode
+  is active.
+*/
+
+html[data-theme="dark"]
+{
+	background: #0B111B !important;
+	background-color: #0B111B !important;
+}
+
+/*
+  Force the complete document body dark before the normal topic background
+  gradient becomes available.
+*/
+
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+/*
+  All primary Flare-generated topic surfaces remain dark if their normal
+  styling has not finished loading yet.
+*/
+
+html[data-theme="dark"] .body-container,
+html[data-theme="dark"] #contentBody,
+html[data-theme="dark"] .main-section,
+html[data-theme="dark"] .outer-row,
+html[data-theme="dark"] .off-canvas-wrapper,
+html[data-theme="dark"] .off-canvas-wrapper-inner,
+html[data-theme="dark"] .off-canvas-content
+{
+	background-color: #0B111B !important;
+}
+
+/*
+  The normal topic card uses its final dark surface immediately.
+*/
+
+html[data-theme="dark"] div.background
+{
+	background-color: #111A26 !important;
+}
+
+/*==============================================================================
+  FIX: HOME-PAGE MOTION GRAPHIC CONTAINERS
+==============================================================================*/
+
+html[data-theme="dark"] .home-tile img,
+html[data-theme="dark"] .tile img,
+html[data-theme="dark"] .home-tiles img,
+html[data-theme="dark"] .tiles img
+{
+	background-color: transparent !important;
+}
+
+/*
+  First two home tiles / graphic containers
+*/
+
+html[data-theme="dark"] .home-tiles > div:nth-child(1),
+html[data-theme="dark"] .home-tiles > div:nth-child(2),
+html[data-theme="dark"] .tiles > div:nth-child(1),
+html[data-theme="dark"] .tiles > div:nth-child(2)
+{
+	background-color: #121D2B !important;
+	background-image: none !important;
+}
+
+/*
+  Common image wrapper possibilities
+*/
+
+html[data-theme="dark"] .home-tiles > div:nth-child(1) .image-container,
+html[data-theme="dark"] .home-tiles > div:nth-child(2) .image-container,
+html[data-theme="dark"] .tiles > div:nth-child(1) .image-container,
+html[data-theme="dark"] .tiles > div:nth-child(2) .image-container,
+html[data-theme="dark"] .home-tiles > div:nth-child(1) .graphic,
+html[data-theme="dark"] .home-tiles > div:nth-child(2) .graphic
+{
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/*==============================================================================
+  35. MOTION POSTER TILES (INTERACTIVE + QUICK START)
+==============================================================================*/
+
+html[data-theme="dark"] div.mp-win
+{
+	background-color: #101A27 !important;
+	border-color: #2A3A4E !important;
+}
+
+html[data-theme="dark"] div.mp-titlebar
+{
+	background-color: #162334 !important;
+}
+
+html[data-theme="dark"] div.mp-rail
+{
+	background-color: #0E1826 !important;
+}
+
+html[data-theme="dark"] div.mp-line
+{
+	background-color: #22303F !important;
+}
+
+html[data-theme="dark"] div.mp-line.dark
+{
+	background-color: #2E3F52 !important;
+}
+
+html[data-theme="dark"] div.mp-btn
+{
+	background-color: #14283C !important;
+	border-color: #2B4258 !important;
+}
+
+html[data-theme="dark"] div.mp-tip
+{
+	background-color: #16222F !important;
+	border-color: #2E3F52 !important;
+}
+
+html[data-theme="dark"] p.mp-tip-t
+{
+	color: #E3EBF4 !important;
+}
+
+html[data-theme="dark"] p.mp-tip-s
+{
+	color: #92A2B5 !important;
+}
+
+html[data-theme="dark"] span.mp-check
+{
+	background-color: #101A27 !important;
+	border-color: #2F4A3D !important;
+}
+
+html[data-theme="dark"] span.mp-check.on
+{
+	background-color: #1F9D6B !important;
+	border-color: #1F9D6B !important;
+}
+
+html[data-theme="dark"] div.mp-progress
+{
+	background-color: #1B2C25 !important;
+}
+
+html[data-theme="dark"] div.mp-progress span
+{
+	background-color: #1F9D6B !important;
+}
+
+html[data-theme="dark"] span.mp-cursor
+{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 20'%3E%3Cpath d='M1 1 L1 18 L5.2 13.8 L7.6 19.6 L10.3 18.4 L7.9 12.8 L13.4 12.6 Z' fill='%23F2F6FB' stroke='%230B111B' stroke-width='1.1' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+}
+
+/*==============================================================================
+  37. SCROLLBARS
+==============================================================================*/
+
+html[data-theme="light"]
+{
+	color-scheme: light;
+}
+
+html[data-theme="light"] *
+{
+	scrollbar-width: thin;
+	scrollbar-color: #C3CEDD #EFF3F8;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar
+{
+	width: 11px;
+	height: 11px;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-track
+{
+	background-color: #EFF3F8;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb
+{
+	background-color: #C3CEDD;
+	border: 2px solid #EFF3F8;
+	border-radius: 8px;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb:hover
+{
+	background-color: #A9B8CC;
+}
+
+html[data-theme="dark"] *
+{
+	scrollbar-width: thin;
+	scrollbar-color: #2E3F52 #0E1723;
+}
+
+html[data-theme="dark"] ::-webkit-scrollbar
+{
+	width: 11px;
+	height: 11px;
+}
+
+html[data-theme="dark"] ::-webkit-scrollbar-track
+{
+	background-color: #0E1723;
+}
+
+html[data-theme="dark"] ::-webkit-scrollbar-thumb
+{
+	background-color: #2E3F52;
+	border: 2px solid #0E1723;
+	border-radius: 8px;
+}
+
+html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover
+{
+	background-color: #3D5470;
+}
+
+html[data-theme="dark"] ::-webkit-scrollbar-corner
+{
+	background-color: #0E1723;
+}
+
+/*==============================================================================
+  38. SIDE NAV — SELECTED / CURRENT ROW (FULL SWEEP)
+
+  Replaces the old section 36 and the earlier
+  "FIX: SELECTED SIDE-NAVIGATION ITEM" block.
+
+  Those rules had the right colours but not enough reach. Flare's Side
+  Navigation skin paints the selected row on more than the <a>: the fill can
+  sit on the <li>, on a wrapper element inside the link, or on an
+  ::before / ::after pseudo-element — and the skin stylesheet is injected
+  AFTER DarkMode.css. Recolouring only the <a> leaves the light fill visible.
+==============================================================================*/
+
+/*------------------------------------------------------------------------------
+  38a. Neutralise every light gradient fill anywhere in the rail.
+  The skin uses background-image, not a flat colour, so background-color
+  alone never wins.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper,
+html[data-theme="dark"] .sidenav-wrapper *,
+html[data-theme="dark"] .sidenav-container *,
+html[data-theme="dark"] nav.sidenav *
+{
+	background-image: none !important;
+}
+
+/*------------------------------------------------------------------------------
+  38b. The selected row — colour on li and a, but the accent bar ONLY on the
+  <a>. Setting it on both drew two bars (rail edge + link edge).
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"],
+html[data-theme="dark"] .sidenav-wrapper li[class*="current"],
+html[data-theme="dark"] .sidenav-wrapper li[class*="active"],
+html[data-theme="dark"] .sidenav-wrapper a[class*="selected"],
+html[data-theme="dark"] .sidenav-wrapper a[class*="current"],
+html[data-theme="dark"] .sidenav-wrapper a[aria-current="page"],
+html[data-theme="dark"] .sidenav-container li[class*="selected"],
+html[data-theme="dark"] .sidenav-container a[class*="selected"],
+html[data-theme="dark"] nav.sidenav li[class*="selected"],
+html[data-theme="dark"] nav.sidenav a[class*="selected"]
+{
+	background-color: rgba(61, 155, 255, 0.13) !important;
+	color: #62B9FF !important;
+	font-weight: 600 !important;
+	border-color: transparent !important;
+}
+
+/* no bar on the li — it would sit at the rail edge, offset from the link */
+
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"],
+html[data-theme="dark"] .sidenav-wrapper li[class*="current"],
+html[data-theme="dark"] .sidenav-wrapper li[class*="active"],
+html[data-theme="dark"] .sidenav-container li[class*="selected"],
+html[data-theme="dark"] nav.sidenav li[class*="selected"]
+{
+	box-shadow: none !important;
+}
+
+/* one bar, on the link itself */
+
+html[data-theme="dark"] .sidenav-wrapper a[class*="selected"],
+html[data-theme="dark"] .sidenav-wrapper a[class*="current"],
+html[data-theme="dark"] .sidenav-wrapper a[aria-current="page"],
+html[data-theme="dark"] .sidenav-container a[class*="selected"],
+html[data-theme="dark"] nav.sidenav a[class*="selected"]
+{
+	box-shadow: inset 3px 0 0 0 #3D9BFF !important;
+}
+
+/*------------------------------------------------------------------------------
+  38c. Children of the selected row must be transparent, not white.
+  This is the part the old rules were missing.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"] > a,
+html[data-theme="dark"] .sidenav-wrapper li[class*="current"] > a,
+html[data-theme="dark"] .sidenav-wrapper a[class*="selected"] > *,
+html[data-theme="dark"] .sidenav-wrapper a[class*="current"] > *,
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"] > a > *,
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"] span,
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"] div,
+html[data-theme="dark"] .sidenav-container li[class*="selected"] span
+{
+	background-color: transparent !important;
+	color: #62B9FF !important;
+}
+
+/*------------------------------------------------------------------------------
+  38d. Pseudo-element fills used by the skin for the selected pill.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"]::before,
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"]::after,
+html[data-theme="dark"] .sidenav-wrapper a[class*="selected"]::before,
+html[data-theme="dark"] .sidenav-wrapper a[class*="selected"]::after,
+html[data-theme="dark"] .sidenav-wrapper a[class*="current"]::before,
+html[data-theme="dark"] .sidenav-wrapper a[class*="current"]::after
+{
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+/*------------------------------------------------------------------------------
+  38e. Expanded submenu under the selected parent.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper ul.is-accordion-submenu,
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"] > ul,
+html[data-theme="dark"] .sidenav-wrapper li[class*="current"] > ul,
+html[data-theme="dark"] .sidenav-wrapper li.tree-node-expanded > ul
+{
+	background-color: #0B131F !important;
+	background-image: none !important;
+}
+
+html[data-theme="dark"] .sidenav-wrapper ul.is-accordion-submenu > li > a
+{
+	background-color: transparent !important;
+	color: #9FB0C4 !important;
+	font-weight: 400 !important;
+}
+
+html[data-theme="dark"] .sidenav-wrapper ul.is-accordion-submenu > li > a[class*="selected"]
+{
+	background-color: rgba(61, 155, 255, 0.13) !important;
+	color: #62B9FF !important;
+	font-weight: 600 !important;
+}
+
+/*------------------------------------------------------------------------------
+  38f. Expand / collapse caret keeps no light chip.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .sidenav-wrapper .submenu-toggle,
+html[data-theme="dark"] .sidenav-wrapper .submenu-toggle-container,
+html[data-theme="dark"] .sidenav-wrapper li[class*="selected"] .submenu-toggle
+{
+	background-color: transparent !important;
+	background-image: none !important;
+	color: #62B9FF !important;
+}
+
+/*==============================================================================
+  39. HEADER LOGO — DARK THEME
+
+  The normal Flare skin continues to display the existing logo in light mode.
+
+  When dark mode is active, replace the header logo background image with the
+  dedicated light-coloured PNG:
+
+      synergy-help-logo-for-dark-theme.png
+
+  The image is stored in:
+      Resources/Images/
+==============================================================================*/
+
+/*------------------------------------------------------------------------------
+  39a. Dark-theme logo image
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .logo-wrapper a.logo,
+html[data-theme="dark"] a.logo,
+html[data-theme="dark"] .logo-wrapper .logo
+{
+	background-image: url('../Images/home-icons/synergy-help-logo-for-dark-theme.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: contain !important;
+	background-color: transparent !important;
+}
+
+/*------------------------------------------------------------------------------
+  39b. Keep the logo wrapper consistent with the dark header
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .logo-wrapper
+{
+	background-color: transparent !important;
+	background-image: none !important;
+	border-color: transparent !important;
+}
+
+/*------------------------------------------------------------------------------
+  39c. Prevent any image filter from affecting the dedicated dark-theme logo
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .logo-wrapper img,
+html[data-theme="dark"] a.logo img
+{
+	filter: none !important;
+}
+
+/*==============================================================================
+  39. HEADER LOGO / WORDMARK
+
+  The wordmark is dark artwork baked into the image file, and CSS cannot
+  recolour image pixels. `filter` can: brightness(0) crushes every pixel to
+  black, invert(1) flips it to white. The wordmark becomes legible and the
+  coloured glyph becomes a clean white silhouette — no second asset to
+  maintain.
+==============================================================================
+
+/*------------------------------------------------------------------------------
+  39a. Force the header logo to flat white in dark mode.
+  Scoped to the header/title bar so topic images are untouched.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .title-bar-container img,
+html[data-theme="dark"] .title-bar img,
+html[data-theme="dark"] .title-bar-layout img,
+html[data-theme="dark"] .navigation-wrapper img,
+html[data-theme="dark"] a.logo-link img,
+html[data-theme="dark"] .logo img,
+html[data-theme="dark"] .logo-container img,
+html[data-theme="dark"] img.logo
+{
+	filter: brightness(0) invert(1) !important;
+}
+
+/*
+  Never let the filter leak into topic content, tiles or callout icons.
+*/
+
+html[data-theme="dark"] div.background img,
+html[data-theme="dark"] div.home-tiles img,
+html[data-theme="dark"] div.media-strip img,
+html[data-theme="dark"] .topic-content img
+{
+	filter: none !important;
+}
+
+/*------------------------------------------------------------------------------
+  39b. If part of the wordmark is real HTML text rather than image, repaint it.
+  -webkit-text-fill-color is needed because some Flare skins clip the title
+  text to a gradient, which ignores plain `color`.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .title-bar-container,
+html[data-theme="dark"] .title-bar-container a,
+html[data-theme="dark"] .title-bar-container p,
+html[data-theme="dark"] .title-bar-container span,
+html[data-theme="dark"] .title-bar a,
+html[data-theme="dark"] .logo-title,
+html[data-theme="dark"] h1.logo-title,
+html[data-theme="dark"] .logo-text
+{
+	color: #E6EDF6 !important;
+	-webkit-text-fill-color: #E6EDF6 !important;
+}
+
+/*------------------------------------------------------------------------------
+  39c. The logo cell background matches the header instead of staying white.
+------------------------------------------------------------------------------*/
+
+html[data-theme="dark"] .logo,
+html[data-theme="dark"] .logo-container,
+html[data-theme="dark"] a.logo-link,
+html[data-theme="dark"] .sidenav-header
+{
+	background-color: #0D1521 !important;
+	background-image: none !important;
+	border-color: #263445 !important;
+}
+

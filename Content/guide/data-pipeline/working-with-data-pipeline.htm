@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Working with Pipelines</title>
+        <!-- ================================================================
+		ANTI-FLASH FOUNDATION
+
+		IMPORTANT:
+		This must be the FIRST style inside <head>.
+
+		Normal topic pages always begin with a dark browser canvas.
+		If light mode is active, the script immediately below changes
+		the canvas to light before the page renders.
+		================================================================ -->
+        <!-- ================================================================
+		APPLY THE SAVED THEME BEFORE ANY EXTERNAL CSS LOADS
+		================================================================ -->
+        <!-- ================================================================
+		NORMAL STYLESHEETS
+		DarkMode.css MUST remain last.
+		================================================================ -->
+        <!-- ================================================================
+		THEME CONTROLLER
+		================================================================ -->
+        <!-- ================================================================
+		RESPONSIVE IMAGE MAPS
+		================================================================ -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>html[data-theme="dark"],
+html[data-theme="dark"] body
+{
+	background-color: #0B111B !important;
+}
+
+</style>
+        <link href="../../resources/Stylesheets/Styles_1.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../resources/TableStylesheets/PresightKey.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">
+			//<![CDATA[
+
+			(function ()
+			{
+			var theme = "light";
+
+			try
+			{
+			var savedTheme =
+			window.localStorage.getItem(
+			"synergy-help-theme"
+			);
+
+			if (
+			savedTheme === "dark" ||
+			savedTheme === "light"
+			)
+			{
+			theme = savedTheme;
+			}
+			}
+			catch (e)
+			{
+			theme = "light";
+			}
+
+
+			/*
+			Apply the theme attribute immediately.
+			*/
+
+			document.documentElement.setAttribute(
+			"data-theme",
+			theme
+			);
+
+
+			/*
+			Set the actual browser document canvas immediately.
+
+			This is particularly important for dark mode because
+			it prevents Chrome from displaying its default white
+			document canvas while a new Flare topic is loading.
+			*/
+
+			if (theme === "dark")
+			{
+			document.documentElement.style.backgroundColor =
+			"#0B111B";
+
+			document.documentElement.style.colorScheme =
+			"dark";
+			}
+			else
+			{
+			document.documentElement.style.backgroundColor =
+			"#EEF2F7";
+
+			document.documentElement.style.colorScheme =
+			"light";
+			}
+
+			})();
+
+			//]]></script>
+        <script src="../../resources/Scripts/ThemeToggle.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/ReadingProgress.js" type="text/javascript">
+        </script>
+        <script src="../../resources/Scripts/jquery.rwdImageMaps.min.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1288px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Try searching for &quot;analysis&quot;" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a name="top"></a>
+                                    <!-- ================================================================
+		TOPIC TOOLBAR
+		================================================================ -->
+                                    <div class="toolbar">
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="  ⦁  " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                            </div>
+                                        </div>
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBarNew mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footertext">&#160;</p>
+                                    <!-- ================================================================
+		TOPIC CONTENT
+		================================================================ -->
+                                    <div class="background">
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Working with Pipelines</h1>
+                                            <p>This section details the features available in the Pipeline and the Analytics Pipeline components.</p>
+                                            <h6 class="reference">In this Topic</h6>
+                                            <ul>
+                                                <li><a href="#Scheduli" class="MCXref xref">Scheduling a Pipeline Execution</a>
+                                                </li>
+                                                <li><a href="#Creating" class="MCXref xref">Configuring Notifications</a>
+                                                </li>
+                                                <li><a href="#Viewing" class="MCXref xref">Viewing the Pipeline Execution Result</a>
+                                                </li>
+                                                <li><a href="#Manually" class="MCXref xref">Manually Executing a Pipeline</a>
+                                                </li>
+                                                <li><a href="#Using" class="MCXref xref">Using Variables in Pipelines</a>
+                                                </li>
+                                            </ul>
+                                            <h2><a name="Scheduli"></a>Scheduling a Pipeline Execution</h2>
+                                            <p>You can schedule a pipeline execution, the frequency of the execution, and the overlap policy if there are any pipelines scheduled to be executed at the same time.</p>
+                                            <p>To schedule a pipeline execution, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Click the pipeline which you want to schedule. The pipeline is displayed in a new tab.</li>
+                                                <li value="4">Click the <b>Edit</b> icon on the right. The Edit mode is enabled.</li>
+                                                <li value="5">In the Pipeline toolbar, click the <b>Settings</b> icon. The Pipeline Settings pop-up is displayed.</li>
+                                                <li value="6">Click the <b>Schedule</b> tab.</li>
+                                                <li value="7">On the Schedule tab, in the <b>Cron expression</b> field, click the <b>three dots menu (...)</b> and select the frequency after which the pipeline steps should be executed. The selected frequency is displayed as a Cron expression in the <b>Cron expression</b> field.<p class="tip" data-mc-autonum="&lt;b&gt;Tip: &lt;/b&gt;"><span class="autonumber"><span><b>Tip: </b></span></span>Click <b>Clear</b> to clear any existing selections.</p></li>
+                                                <li value="8">In the <b>Stop at</b> field, select the date and time when you want the execution to be stopped.</li>
+                                                <li value="9">From the <b>Overlap Policy</b> drop-down, select the required Overlap Policy. The following overlap policies are available:<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../resources/TableStylesheets/PresightKey.css');" class="TableStyle-PresightKey" cellspacing="0"><col class="TableStyle-PresightKey-Column-Column1" style="width: 25%;" /><col class="TableStyle-PresightKey-Column-Column1" style="width: 75%;" /><thead><tr class="TableStyle-PresightKey-Head-HeaderInk"><th class="TableStyle-PresightKey-HeadE-Column1-HeaderInk"><p>Overlap Policy</p></th><th class="TableStyle-PresightKey-HeadD-Column1-HeaderInk"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Skip</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Skips the execution of the pipeline steps.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Buffer One</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Executes the step as soon as the current step is completed. This will buffer only one existing pipeline.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Buffer All</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Executes the steps after all the scheduled pipelines are executed sequentially.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyE-Column1-RowLight">Cancel Other</td><td class="TableStyle-PresightKey-BodyD-Column1-RowLight">Cancels the already running pipelines and then executes the current pipeline after the cancellation is completed.</td></tr><tr class="TableStyle-PresightKey-Body-RowLight"><td class="TableStyle-PresightKey-BodyB-Column1-RowLight">Allow All</td><td class="TableStyle-PresightKey-BodyA-Column1-RowLight">Executes all the pipelines simultaneously.</td></tr></tbody></table></li>
+                                                <li value="10">(Optional) To stop executing the transformation steps when it fails, enable the <b>Stop on failure</b> toggle icon.</li>
+                                                <li value="11">(Optional) To pause the execution until further action, enable the <b>Paused</b> toggle icon.</li>
+                                                <li value="12">(Optional) To specify an invocation limit, enable the <b>Invocation limit</b> toggle icon and in the <b>Max Invocations</b> field, specify the invocation value.<p class="info" data-mc-autonum="&lt;b&gt;Info: &lt;/b&gt;"><span class="autonumber"><span><b>Info: </b></span></span>An invocation limit refers to the maximum number of times a pipeline can be executed within the specified time.</p></li>
+                                                <li value="13">Click <b>Save</b> to save the scheduler.</li>
+                                            </ol>
+                                            <h2><a name="Creating"></a>Configuring Notifications</h2>
+                                            <p>To receive notifications whenever a schedule pipeline is executed, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Click the pipeline which you want to configure notifications. The pipeline is displayed in a new tab.</li>
+                                                <li value="4">Click the <b>Edit</b> icon on the right. The Edit mode is enabled.</li>
+                                                <li value="5">In the Pipeline toolbar, click the <b>Settings</b> icon. The Pipeline Settings pop-up is displayed.</li>
+                                                <li value="6">Click the <b>Notifications</b> tab.</li>
+                                            </ol>
+                                            <ol data-mc-continue="true">
+                                                <li value="7">From the <b>Notification Condition</b> drop-down, do one of the following:<ul><li>If you do not want to be notified, select <b>Never</b>.</li><li>If you want to be notified whenever a pipeline is executed, select <b>Always</b>.</li><li>To specify a condition for the notification based on step results, select <b>Step results</b> and do the following:<ol style="list-style-type: lower-alpha;"><li value="1">From the <b>Step condition</b> drop-down, select the pipeline steps for which you want to be notified.</li><li value="2">From the <b>Operator</b> drop-down, select <b>And</b> or <b>OR</b>. This specifies whether you want to be notified when all selected steps are executed or when any step is executed.</li></ol></li></ul></li>
+                                                <li value="8">(Optional) In the <b>Labels</b> field, enter the text and select it to add it as a label. Labels are displayed in the Notification alert pop-ups and help in quickly identifying the notification.</li>
+                                                <li value="9">From the <b>Severity</b> drop-down, select one of the following severity levels based on the severity of the notification:<ul><li>Normal</li><li>Medium</li><li>Critical</li></ul></li>
+                                                <li value="10">From the <b>Destination</b> drop-down, select the destination from where you want to host the notification.<p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Destinations are interfaces that receive notifications from rules. Only the users with Administrator privileges can create Destinations.</p></li>
+                                                <li value="11">(Optional) In the <b>Subject template</b> field, enter a subject for the notification.</li>
+                                                <li value="12">(Optional) In the <b>Message template</b> field, enter a message for the notification.</li>
+                                                <li value="13">Click <b>Save</b>. The notification is saved and a confirmation message is displayed.</li>
+                                            </ol>
+                                            <h2><a name="Viewing"></a>Viewing the Pipeline Execution Result</h2>
+                                            <p>To view a pipelines execution result, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Click the pipeline for which you want to view the pipeline execution results. The pipeline is displayed in a new tab. All the past executions for the selected pipeline are displayed in the <b>All</b> tab.</li>
+                                                <li value="4">Select the relevant execution. The results of the selected execution are displayed on the right.<ul><li>If the pipeline is executed successfully, the results are updated in the output table. You can create a schema or update an existing one.</li><li>If the step fails, the system displays an error with the reason for the failure.</li></ul></li>
+                                            </ol>
+                                            <h2><a name="Manually"></a>Manually Executing a Pipeline</h2>
+                                            <p>To manually execute a data pipeline, do the following:</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Click the pipeline which you want to execute. The data pipeline is displayed in a new tab.</li>
+                                                <li value="4">In the Pipeline toolbar, click <b>Run</b>. The pipeline execution process starts and is displayed in the Execution tab.<p class="tip" data-mc-autonum="&lt;b&gt;Tip: &lt;/b&gt;"><span class="autonumber"><span><b>Tip: </b></span></span>To stop an execution that is in progress, in the <b>Execution</b> tab for that pipeline, click <b>Stop</b>.</p></li>
+                                            </ol>
+                                            <h2><a name="Using"></a>Using Variables in Pipelines</h2>
+                                            <p>Variables enable you to parameterize pipeline configurations and reuse pipelines across different environments or execution contexts without modifying the pipeline logic. Synergy supports defining variables at both the workspace level and the pipeline level.
+</p>
+                                            <p>Variables can be referenced within pipeline steps, queries, and configurations during execution.
+</p>
+                                            <h3>Defining Workspace-level Variables</h3>
+                                            <p>Workspace&#8209;level variables are shared across all pipelines within a workspace. These variables are typically used to store environment&#8209;specific or common configuration values such as data source names, database names, or environment identifiers.
+</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">In the Workspace panel, click the <b>Settings</b> icon. The General tab is displayed in the Settings page. </li>
+                                                <li value="4">Click <b>Variables</b>. The workspace variables page is displayed.
+</li>
+                                                <li value="5">Enter the following details:
+
+
+<ul><li><b>Variable key</b>: Enter the name of the variable.
+</li><li><b>Variable value</b>: Enter the value associated with the variable.
+</li></ul></li>
+                                                <li value="6">Click <b>+&#160;Add variable</b>.
+The variable is added to the Variables page.
+
+
+</li>
+                                            </ol>
+                                            <h3>Defining Pipeline-level Variables
+</h3>
+                                            <p>Pipeline&#8209;level variables are specific to a single pipeline. These variables are useful when a value is relevant only to a particular pipeline and should not be shared across the workspace.
+</p>
+                                            <ol>
+                                                <li value="1">Log in to <span class="mc-variable General.ProdTitle variable">Synergy</span>.</li>
+                                                <li value="2">From the <b>Open Workspace</b> drop-down, select the relevant workspace. All available workspace components are displayed.</li>
+                                                <li value="3">Open the required pipeline.
+</li>
+                                                <li value="4">On the pipeline toolbar, click <b>Settings</b>.
+ The Pipeline settings pop&#8209;up is displayed.
+
+
+</li>
+                                                <li value="5">
+Click the <b>Variables</b> tab.
+
+
+</li>
+                                                <li value="6">Enter the following details:
+
+
+<ul><li><b>Variable key</b>: Enter the name of the variable.
+</li><li><b>Variable value</b>: Enter the value associated with the variable.
+</li></ul></li>
+                                                <li value="7">Click <b>Add variable</b> to include the variable.
+</li>
+                                                <li value="8">Click <b>Save</b> to apply the changes.
+
+
+
+
+
+
+
+
+</li>
+                                            </ol>
+                                            <h3>Referencing a Variables</h3>
+                                            <p>You can reference variables when configuring pipeline steps, queries, or expressions by using the appropriate variable notation.
+</p>
+                                            <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                <div class="codeSnippetCaption">Variable in an SQL Step</div>
+                                                <div style="mc-code-lang: SQL;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+</span><code><span style="color: #a71d5d; ">SELECT</span> <span style="color: #0086b3; ">*</span><br /><span style="color: #a71d5d; ">FROM</span>&#160;&#160;&#160;$db.analytics.events<br /><span style="color: #a71d5d; ">WHERE</span>&#160;&#160;region <span style="color: #0086b3; ">=</span> <span style="color: #df5000; ">'{$var.workspace.region}'</span><br />&#160;&#160;<span style="color: #0086b3; ">AND</span>&#160;&#160;created_at <span style="color: #0086b3; ">&gt;=</span> <span style="color: #df5000; ">'{$var.pipeline.target_date}'</span><br />&#160;&#160;<span style="color: #0086b3; ">AND</span>&#160;&#160;run_by <span style="color: #0086b3; ">=</span> <span style="color: #df5000; ">'{$var.system.user}'</span></code></pre>
+                                                </div>
+                                            </div>
+                                            <p>&#160;</p>
+                                            <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                <div class="codeSnippetCaption">Referencing a Variable in Python</div>
+                                                <div style="mc-code-lang: Python;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+</span><code>region = synergy.variables.<span style="color: #6f42c1; ">get</span>(<span style="color: #df5000; ">'workspace.region'</span>)<br />target = synergy.variables.<span style="color: #6f42c1; ">get</span>(<span style="color: #df5000; ">'pipeline.target_date'</span>)<br />task_id = synergy.variables.<span style="color: #6f42c1; ">get</span>(<span style="color: #df5000; ">'system.taskId'</span>)</code></pre>
+                                                </div>
+                                            </div>
+                                            <p>&#160;</p>
+                                            <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                <div class="codeSnippetCaption">Referencing a Variable in a (iterator) Step</div>
+                                                <div style="mc-code-lang: SQL;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+</span><code><span style="color: #969896; ">-- inside a step downstream of (or nested in) an iterator named "Daily"</span><br /><span style="color: #a71d5d; ">WHERE</span> <span style="color: #a71d5d; ">day</span> <span style="color: #0086b3; ">=</span> <span style="color: #df5000; ">'{$var.step.Daily.iter}'</span></code></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ================================================================
+		BACK TO TOP
+		================================================================ -->
+                                    <div class="btn-back-to-top">
+                                        <p style="text-align: right"><a href="#top"><img src="../../resources/Images/Arrows/back-to-top-circle_25x25.png" style="width: 25;height: 25;" /></a>
+                                        </p>
+                                    </div>
+                                    <!-- ================================================================
+		FOOTER
+		================================================================ -->
+                                    <div class="footer">
+                                        <p class="footertext">
+				Copyright © – All rights reserved
+			</p>
+                                    </div>
+                                    <!-- ================================================================
+		RESPONSIVE IMAGE MAP INITIALIZATION
+		================================================================ -->
+                                    <script type="text/javascript">
+			//<![CDATA[
+
+			if (
+			window.jQuery &&
+			typeof jQuery.fn.rwdImageMaps === "function"
+			)
+			{
+			jQuery(
+			"img[usemap]"
+			).rwdImageMaps();
+			}
+
+			//]]></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

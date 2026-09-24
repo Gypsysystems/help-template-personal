@@ -1,0 +1,2075 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom. 
+
+===========================================================================================================================================================*/
+
+/*==Home Page General Styles==*/
+
+body
+{
+	font-family: Aptos;
+	line-height: 1.5em;
+	background-color: #F1F4F5;
+	/* Synergy page background */
+}
+
+h1
+{
+	font-size: 2em;
+	color: #3B454C;
+	line-height: 1.5em;
+	margin-top: 5px;
+}
+
+h2
+{
+	font-size: 1.6785em;
+	color: #3B454C;
+}
+
+p
+{
+	color: #5a5a5a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/*==Mad Cap proxy/editor assigned styles==*/
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: none;
+	width: 50%;
+	/*display: none;*/
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+html.home-page
+{
+	mc-community-features: disabled;
+}
+
+/*==Responsive Header Styles==*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+/*==Home Page Hero Section==*/
+
+div.topic-hero	/*This is the first Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
+{
+	/*height: 250px;
+	padding-bottom: 240px;*/
+	padding-top: 10px;
+	background: linear-gradient(360deg, #2c2c2c 0.01%, #2c2c2c 100.01%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center 0;
+}
+
+div.cta	/*Call to action button on the Home Page*/
+{
+	color: #FFF;
+	background-color: #7469b9;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 14px 20px;
+	width: 200px;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin-top: 50px;
+}
+
+div.cta:hover	/*When hovering over the CTA button the following properties apply*/
+{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transform: scale(1.01);
+}
+
+a.cta:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.cta:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*==Search bar elements==*/
+
+.search-field	/*The box-shadow property is applied to style to provide shadow on the search bar*/
+{
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*div.search-container
+{
+	margin-top: -120px;
+	margin-bottom: 100px;
+	width: 52%;
+	display: none;
+}*/
+
+/*==Home Tiles section==*/
+
+div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	display: flex;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	/*Adds transition animation when switching between screen sizes*/
+	-moz-border-radius: 20x;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #F7F8F9;
+	padding: 14px 14px;
+	overflow: hidden;
+	gap: 8px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 8px 16px rgba(20, 30, 40, 0.08);
+}
+
+div.home-tiles > div:hover	/*When hovering over a home-tile, these properties apply*/
+{
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+	border-color: #1c5cfc;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.18), 0 10px 26px rgba(28, 92, 252, 0.20);
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 24%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	text-align: left;
+	color: #000000;
+	font-size: 1em;
+	font-family: Aptos;
+	font-weight: 600;
+}
+
+p.tile-content
+{
+	text-align: center;
+	color: #7E8890;
+	font-size: 0.8em;
+}
+
+p.tile-items
+{
+	color: #7E8890;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+div.home-tiles a	/*Complex Selector: Any anchor (links) tags that are within div.home-tiles will have the following properties*/
+{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.35;
+	letter-spacing: -0.01em;
+	color: #1F2933;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #404040;
+}
+
+div.home-tiles a:hover	/*Complex Selector: When hovering over links within the home tiles the following properties will apply.*/
+{
+	color: #1c5cfc;
+}
+
+div.home-tiles a:hover
+{
+	color: #1c5cfc;
+	/* Synergy primary blue */
+}
+
+div.media-strip-head a:hover
+{
+	color: #007BFF;
+}
+
+div.hub-links a:hover
+{
+	color: #1c5cfc;
+}
+
+/*=Info-container section=*/
+
+div.info-container	/*div.info-container contains the first Hero/Banner on the Home Page - To replace the banner image with your own, point the background-image property to your own image.*/
+{
+	margin-left: auto;
+	margin-top: 100px;
+	margin-right: auto;
+	padding-bottom: 75px;
+	padding-top: 100px;
+	box-shadow: inset -1px 1px 17px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	color: #fff;
+	/*background-color: #292f42;*/
+	background: linear-gradient(360deg, #2c2c2c 0.01%, #2c2c2c 100.01%);
+	/*Create the parallax scrolling effect*/
+	background-attachment: fixed;
+	background-position: center 0;
+	/*background-image: url('../Images/Assets/HeroImages/HeroImage-2.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.info-section	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-section::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.info-section::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.info-section > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.info-section > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 16.667%;
+}
+
+div.info-section > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 6%;
+}
+
+div.info-section > div:nth-child(3)	/*Div that contains "Tips"*/
+{
+	width: 33.333%;
+	margin-left: 5%;
+}
+
+div.info-container p	/*Complex Selector: Any <p> that is contained within div.info-container will have the following properties*/
+{
+	color: #fff;
+}
+
+/*=Elements for content contained within each info section=*/
+
+p.info-title
+{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+p.info-content
+{
+	font-size: 0.8em;
+}
+
+p.tip	/*Paragraph style used for the Tips */
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Tips-white.png');
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: solid 1px #fff;
+	border-radius: 6px;
+	line-height: 1em;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	text-align: left;
+	margin: 5px 30px;
+}
+
+/*==Home Page Footer Section==*/
+
+div.footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.footer a	/*Complex Selector: Any anchor (links) tags that are within div.footer will have the following properties */
+{
+	text-decoration: none;
+	color: #DADADA;
+}
+
+div.footer > div.outer-row
+{
+	line-height: 30px;
+	padding: 0;
+}
+
+div.home-master-page-footer	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+div.home-master-page-footer::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-master-page-footer::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-master-page-footer > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-master-page-footer > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.footer p	/*Complex Selector: Any <p> that is contained within div.footer will have the following properties*/
+{
+	text-align: center;
+	font-size: 0.6em;
+	margin: 0.8em;
+	line-height: 0.8em;
+	color: #798597;
+}
+
+/*This is used as a fix for an issue in Chrome regarding the parallax effect and foundation*/
+
+.off-canvas-content,
+.off-canvas-wrapper
+{
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+}
+
+a
+{
+	color: #404040;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1288px)
+{
+	#content-section .right-section,
+	#content-section .left-section
+	{
+		padding: 0;
+	}
+
+	p.info-title
+	{
+		font-size: 2em;
+	}
+
+	p.info-content
+	{
+		font-size: 1em;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div
+	{
+		float: left;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: transparent;
+		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+		/*Adds transition animation when switching between screen sizes*/
+		-moz-border-radius: 20x;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		border: 1px solid #d3d3d3;
+		padding: 60px 10px;
+		box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 8px 16px rgba(20, 30, 40, 0.08);
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	div.search-container
+	{
+		margin-bottom: 50px;
+	}
+
+	p.tile-title
+	{
+		font-size: 1.2em;
+	}
+
+	p.info-title
+	{
+		font-size: 2em;
+	}
+
+	p.info-content
+	{
+		font-size: 1em;
+	}
+
+	div.home-tiles > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div	/* Adds separators to the footer items when in mobile layout */
+	{
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 100%;
+	}
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 100%;
+}
+
+/*.sidenav-wrapper
+{
+	display: none;
+}*/
+
+.body-container
+{
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.search-bar .search-field:focus-within
+{
+	outline: none;
+	box-shadow: 10px 15px 25px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*.nav-search-wrapper
+{
+	display: none;
+}*/
+
+div.footer
+{
+	margin: 0;
+	padding: 20px;
+	padding-top: 20px;
+	color: #333333;
+}
+
+p.footertext
+{
+	text-align: center;
+	font-size: 0.6em;
+	margin: 0.8em;
+	line-height: 0.8em;
+	color: #798597;
+}
+
+/*.off-canvas-wrapper-inner .title-bar-container
+{
+	display: none;
+}
+
+.title-bar-container
+{
+	display: none;
+}*/
+
+.off-canvas-content,
+.off-canvas-wrapper,
+.body-container,
+#contentBody,
+#content-section
+{
+	background-color: #F1F4F5;
+}
+
+/*==Hero removed – keeps the logo, drops the dark banner==*/
+
+div.topic-hero
+{
+	background: none;
+	background-color: transparent;
+	background-attachment: scroll;
+	box-shadow: none;
+	padding-top: 24px;
+	padding-bottom: 16px;
+	min-height: 0;
+	height: auto;
+}
+
+/* Heading text was white for the dark banner – make it readable on the light background */
+
+h1
+{
+	font-size: 2em;
+	color: #202224;
+	line-height: 1em;
+	margin-top: 5px;
+}
+
+h2
+{
+	font-size: 1.6785em;
+	color: #202224;
+}
+
+/* The search bar was pulled up into the hero – reset that offset */
+
+div.search-container
+{
+	margin-top: 24px;
+	margin-bottom: 48px;
+	width: 52%;
+}
+
+/* Optional: also remove the second dark band lower on the page */
+
+div.info-container
+{
+	display: none;
+}
+
+div.home-tiles > div
+{
+	background-color: #ffffff;
+	border: 1px solid #E4E7E9;
+	border-radius: 20px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 8px 16px rgba(20, 30, 40, 0.08);
+}
+
+div.home-tiles a
+{
+	color: #1F2933;
+}
+
+body,
+.off-canvas-content,
+.off-canvas-wrapper,
+.body-container,
+#contentBody,
+#content-section
+{
+	background-color: #F1F4F5;
+	background-image: radial-gradient(ellipse 900px 500px at 50% 0%, rgba(180, 210, 245, 0.55), rgba(241, 244, 245, 0) 70%);
+	background-repeat: no-repeat;
+}
+
+/*.container { position: relative; overflow: hidden; width: 100%; padding-top: 51.25%; }
+.responsive-iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; }*/
+
+/*==Interactive wireframe frame (home page)==*/
+
+.container
+{
+	position: relative;
+	overflow: hidden;
+	width: calc(100% - 96px);
+	/* 48px of breathing room on each side */
+	max-width: 1240px;
+	margin: 34px auto 44px;
+	padding-top: 51.25%;
+	/* keeps the 16:8.2 aspect ratio */
+	background-color: #ffffff;
+	background-image: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+	border: 1px solid #e7edf4;
+	border-radius: 22px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.05), 0 18px 44px -14px rgba(20, 40, 70, 0.22);
+	transition: box-shadow 0.35s cubic-bezier(.25,.8,.25,1), border-color 0.35s;
+}
+
+.container:hover
+{
+	border-color: #d7e3f5;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.05), 0 26px 60px -16px rgba(20, 40, 70, 0.28);
+}
+
+/* thin blue accent line across the top of the frame */
+
+.container::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-image: linear-gradient(90deg, #00A3FF 0%, #007BFF 50%, rgba(0, 163, 255, 0) 100%);
+	z-index: 2;
+}
+
+.responsive-iframe
+{
+	position: absolute;
+	top: 3px;
+	/* clears the accent line */
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: calc(100% - 3px);
+	border: 0;
+	display: block;
+	border-radius: 0 0 22px 22px;
+}
+
+@media only screen and (max-width: 1288px)
+{
+	.container
+	{
+		width: calc(100% - 48px);
+		margin: 24px auto 32px;
+		border-radius: 18px;
+		padding-top: 62%;
+	}
+
+	.responsive-iframe
+	{
+		border-radius: 0 0 18px 18px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.container
+	{
+		width: calc(100% - 24px);
+		margin: 16px auto 24px;
+		border-radius: 14px;
+		padding-top: 96%;
+	}
+
+	.responsive-iframe
+	{
+		border-radius: 0 0 14px 14px;
+	}
+}
+
+/*===========================================================================================================================================================
+  START HERE — MEDIA STRIP
+  Geometry is deliberately IDENTICAL to div.home-tiles (same flex row, same
+  16.667% / 24% / 1% column maths), so the strip and the tile grid share the
+  same left and right edges and render the same way in Flare's XML editor.
+  Header, logo bar and side navigation are untouched by everything below.
+===========================================================================================================================================================*/
+
+/*=Section heading row=*/
+
+div.media-strip-head
+{
+	margin-left: 24%;
+	width: 52%;
+	margin-top: 26px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+p.media-strip-title
+{
+	float: left;
+	margin: 0;
+	font-size: 1.05em;
+	font-weight: 700;
+	color: #101725;
+}
+
+p.media-strip-link
+{
+	float: right;
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+div.media-strip-head a
+{
+	color: #00A3FF;
+	text-decoration: none;
+}
+
+/*=The card row — same column maths as div.home-tiles=*/
+
+div.media-strip
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 2%;
+	display: flex;
+}
+
+div.media-strip::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.media-strip::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.media-strip > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border: 1px solid #E4E7E9;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 8px 16px rgba(20, 30, 40, 0.08);
+}
+
+div.media-strip > div:hover
+{
+	border-color: #00A3FF;
+	box-shadow: 0 0 0 3px rgba(0, 163, 255, 0.16), 0 12px 28px rgba(20, 40, 70, 0.18);
+}
+
+div.media-strip > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 24%;
+}
+
+div.media-strip > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+div.media-strip > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+div.media-strip a
+{
+	display: block;
+	text-decoration: none;
+	color: #1F2933;
+}
+
+/*=Preview clip in the card header (16:9 box, so the cards stay level
+  even before the previews exist)=*/
+
+div.media-thumb
+{
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 56.25%;
+	overflow: hidden;
+	background-color: #0f1a24;
+	border-bottom: 1px solid #E4EEF7;
+}
+
+div.media-thumb video,
+div.media-thumb img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+/*=Icon-only header, for cards that are not video (walkthrough, quick start)=*/
+
+div.media-thumb.icon
+{
+	padding-top: 0;
+	padding: 22px 14px 18px;
+	text-align: center;
+	background-color: #F4FAFF;
+}
+
+div.media-thumb.icon img
+{
+	position: static;
+	width: 40px;
+	height: auto;
+	display: inline-block;
+	object-fit: fill;
+}
+
+div.media-thumb.icon.quickstart
+{
+	background-color: #F1FAF6;
+	border-bottom-color: #DDEFE7;
+}
+
+/*=Play affordance=*/
+
+span.media-play
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 46px;
+	height: 46px;
+	margin: -23px 0 0 -23px;
+	z-index: 2;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.92);
+	box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+	transition: transform 0.25s cubic-bezier(.25,.8,.25,1);
+}
+
+span.media-play::after
+{
+	content: '';
+	position: absolute;
+	top: 14px;
+	left: 18px;
+	border-left: 14px solid #101725;
+	border-top: 9px solid transparent;
+	border-bottom: 9px solid transparent;
+}
+
+div.media-strip > div:hover span.media-play
+{
+	transform: scale(1.12);
+}
+
+/*=Badge sits inside the band, top-right=*/
+
+span.media-badge
+{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	left: auto;
+	bottom: auto;
+	z-index: 3;
+	font-size: 0.62em;
+	font-weight: 700;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	line-height: 1.6;
+	padding: 3px 8px;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: #00A3FF;
+}
+
+span.media-badge.video
+{
+	background-color: #0700C4;
+}
+
+span.media-badge.quickstart
+{
+	background-color: #007646;
+}
+
+/*=Card text=*/
+
+div.media-body
+{
+	padding: 13px 14px 16px;
+}
+
+p.media-title
+{
+	margin: 0;
+	font-size: 0.88em;
+	font-weight: 600;
+	line-height: 1.35;
+	color: #1F2933;
+}
+
+div.media-strip a:hover p.media-title
+{
+	color: #007BFF;
+}
+
+p.media-meta
+{
+	margin: 4px 0 0;
+	font-size: 0.75em;
+	color: #7E8890;
+	line-height: 1.5;
+}
+
+/*=Lightbox — the pop-up player. Lives in the master page, hidden until used.=*/
+
+div.media-lightbox
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: rgba(10, 16, 26, 0.72);
+	padding: 40px 24px;
+	text-align: center;
+	overflow-y: auto;
+}
+
+div.media-lightbox.is-open
+{
+	display: block;
+}
+
+div.media-lightbox-inner
+{
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	max-width: 960px;
+	background-color: #ffffff;
+	border-radius: 18px;
+	overflow: hidden;
+	box-shadow: 0 30px 70px rgba(0,0,0,0.45);
+}
+
+div.media-lightbox-inner video
+{
+	display: block;
+	width: 100%;
+	background-color: #000000;
+}
+
+div.media-lightbox-copy
+{
+	padding: 18px 22px 22px;
+}
+
+p.media-lightbox-title
+{
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #101725;
+}
+
+p.media-lightbox-desc
+{
+	margin: 6px 0 0;
+	font-size: 0.85em;
+	line-height: 1.6;
+	color: #5a5a5a;
+}
+
+button.media-lightbox-close
+{
+	position: absolute;
+	top: 18px;
+	right: 22px;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.16);
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 38px;
+	cursor: pointer;
+}
+
+button.media-lightbox-close:hover
+{
+	background-color: rgba(255,255,255,0.3);
+}
+
+/*=Mediums — mirror the div.home-tiles breakpoints=*/
+
+@media only screen and (max-width: 1288px)
+{
+	div.media-strip-head
+	{
+		margin-left: 1%;
+		width: 98%;
+	}
+
+	div.media-strip > div:nth-child(1),
+	div.media-strip > div:nth-child(2),
+	div.media-strip > div:nth-child(3)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.media-strip-head
+	{
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	div.media-strip
+	{
+		display: block;
+	}
+
+	div.media-strip > div:nth-child(1),
+	div.media-strip > div:nth-child(2),
+	div.media-strip > div:nth-child(3)
+	{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 2%;
+		float: none;
+	}
+
+	div.media-lightbox
+	{
+		padding: 20px 12px;
+	}
+}
+
+/*===========================================================================================================================================================
+  VIDEO MENU CARD
+  One card on the strip stands for ALL videos. Hovering it opens a menu of the
+  available videos; hovering a menu item plays a muted preview beside it;
+  clicking an item opens that video in a new window.
+  Add class="has-menu" to the card div and put div.media-menu inside it.
+===========================================================================================================================================================*/
+
+div.media-strip > div.has-menu
+{
+	position: relative;
+	/*anchors the menu and the preview to this card*/
+	overflow: visible;
+	/*the menu has to escape the card*/
+}
+
+div.media-strip > div.has-menu:hover,
+div.media-strip > div.has-menu.is-open
+{
+	z-index: 60;
+}
+
+div.media-strip > div.has-menu > a > div.media-thumb
+{
+	border-radius: 19px 19px 0 0;
+	/*card corners, now that the card no longer clips*/
+}
+
+/*=The flyout menu=*/
+
+div.media-menu
+{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: -1px;
+	width: 300px;
+	margin-top: 6px;
+	padding: 6px;
+	background-color: #ffffff;
+	border: 1px solid #E4E7E9;
+	border-radius: 16px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 18px 44px -12px rgba(20, 40, 70, 0.32);
+	text-align: left;
+	z-index: 61;
+}
+
+div.media-strip > div.has-menu.is-open div.media-menu
+{
+	display: block;
+}
+
+p.media-menu-head
+{
+	margin: 0;
+	padding: 8px 12px 6px;
+	font-size: 0.62em;
+	font-weight: 700;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: #7E8890;
+}
+
+div.media-menu a
+{
+	display: block;
+	padding: 9px 12px;
+	border-radius: 11px;
+	text-decoration: none;
+	transition: background-color 0.15s;
+}
+
+div.media-menu a:hover,
+div.media-menu a.is-active
+{
+	background-color: #F1F8FF;
+}
+
+p.media-menu-title
+{
+	margin: 0;
+	font-size: 0.85em;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #1F2933;
+}
+
+div.media-menu a:hover p.media-menu-title,
+div.media-menu a.is-active p.media-menu-title
+{
+	color: #007BFF;
+}
+
+p.media-menu-desc
+{
+	margin: 2px 0 0;
+	font-size: 0.72em;
+	line-height: 1.45;
+	color: #7E8890;
+}
+
+/*=The preview window that opens beside the menu=*/
+
+div.media-preview
+{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 308px;
+	width: 340px;
+	margin-top: 6px;
+	padding: 8px;
+	background-color: #ffffff;
+	border: 1px solid #E4E7E9;
+	border-radius: 16px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 18px 44px -12px rgba(20, 40, 70, 0.32);
+	text-align: left;
+	z-index: 62;
+}
+
+div.media-preview.is-open
+{
+	display: block;
+}
+
+div.media-preview-frame
+{
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #0f1a24;
+}
+
+div.media-preview-frame video,
+div.media-preview-frame img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+p.media-preview-title
+{
+	margin: 8px 4px 0;
+	font-size: 0.85em;
+	font-weight: 600;
+	color: #1F2933;
+}
+
+p.media-preview-hint
+{
+	margin: 2px 4px 4px;
+	font-size: 0.72em;
+	color: #7E8890;
+}
+
+div.media-preview.flip	/*added by the script when there is no room on the right*/
+{
+	left: auto;
+	right: 308px;
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.media-menu
+	{
+		width: 100%;
+		left: 0;
+	}
+
+	div.media-preview
+	{
+		display: none !important;
+		/*no hover on touch — tapping opens the video*/
+	}
+}
+
+/*===========================================================================================================================================================
+  MOTION POSTERS (no image files, no GIFs)
+  A miniature UI drawn with plain divs and animated by CSS. Sits inside
+  div.media-thumb in place of an <img>. Two variants: .mp-tour and .mp-steps.
+===========================================================================================================================================================*/
+
+div.media-thumb.motion
+{
+	background-color: #F4FAFF;
+}
+
+div.media-thumb.motion.steps
+{
+	background-color: #F1FAF6;
+}
+
+div.mp
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+div.mp-win	/*the little app window*/
+{
+	position: absolute;
+	left: 5.5%;
+	top: 9%;
+	right: 5.5%;
+	bottom: 9%;
+	background-color: #ffffff;
+	border: 1px solid #DCE6F2;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+div.media-thumb.motion.steps div.mp-win
+{
+	border-color: #D9EAE1;
+}
+
+div.mp-titlebar
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 13%;
+	background-color: #E9F1FA;
+}
+
+div.mp-rail
+{
+	position: absolute;
+	left: 0;
+	top: 13%;
+	width: 20%;
+	bottom: 0;
+	background-color: #F2F7FC;
+}
+
+div.mp-line	/*generic grey text line*/
+{
+	position: absolute;
+	height: 5%;
+	border-radius: 3px;
+	background-color: #E6EDF6;
+}
+
+div.mp-line.dark
+{
+	background-color: #D7E3F0;
+}
+
+div.mp-btn
+{
+	position: absolute;
+	height: 13%;
+	border-radius: 4px;
+	background-color: #E9F4FF;
+	border: 1px solid #CFE4F7;
+}
+
+/*=Numbered markers=*/
+
+span.mp-pin
+{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin: -7.5px 0 0 -7.5px;
+	border-radius: 50%;
+	background-color: #00A3FF;
+	color: #ffffff;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 15px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+span.mp-pin.one
+{
+	animation: mpPin 5s ease-in-out infinite;
+}
+
+span.mp-pin.two
+{
+	animation: mpPulse 5s ease-in-out infinite;
+}
+
+span.mp-pin.three
+{
+	animation: mpPulse 5s ease-in-out infinite;
+	animation-delay: 1s;
+}
+
+@keyframes mpPin
+{
+	0%, 28%
+	{
+		opacity: 0.5;
+		transform: scale(0.92);
+	}
+
+	38%, 70%
+	{
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	82%, 100%
+	{
+		opacity: 0.5;
+		transform: scale(0.92);
+	}
+} 
+
+@keyframes mpPulse
+{
+	0%, 100%
+	{
+		opacity: 0.4;
+	}
+
+	50%
+	{
+		opacity: 0.85;
+	}
+} 
+
+span.mp-ripple
+{
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	margin: -13px 0 0 -13px;
+	border-radius: 50%;
+	border: 2px solid #00A3FF;
+	opacity: 0;
+	animation: mpRipple 5s ease-out infinite;
+}
+
+@keyframes mpRipple
+{
+	0%, 28%
+	{
+		opacity: 0;
+		transform: scale(0.35);
+	}
+
+	34%
+	{
+		opacity: 0.6;
+		transform: scale(1);
+	}
+
+	48%, 100%
+	{
+		opacity: 0;
+		transform: scale(1.6);
+	}
+} 
+
+/*=Tooltip that appears after the click=*/
+
+div.mp-tip
+{
+	position: absolute;
+	left: 40%;
+	top: 12%;
+	width: 46%;
+	padding: 5px 7px;
+	background-color: #ffffff;
+	border: 1px solid #D7E3F0;
+	border-radius: 5px;
+	opacity: 0;
+	animation: mpTip 5s ease-out infinite;
+}
+
+p.mp-tip-t
+{
+	margin: 0;
+	font-size: 8.5px;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #1F2933;
+}
+
+p.mp-tip-s
+{
+	margin: 1px 0 0;
+	font-size: 7.5px;
+	line-height: 1.3;
+	color: #8492A6;
+}
+
+@keyframes mpTip
+{
+	0%, 32%
+	{
+		opacity: 0;
+		transform: translateY(3px);
+	}
+
+	42%, 68%
+	{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	78%, 100%
+	{
+		opacity: 0;
+		transform: translateY(3px);
+	}
+} 
+
+/*=The mouse pointer=*/
+
+span.mp-cursor
+{
+	position: absolute;
+	left: 72%;
+	top: 70%;
+	width: 13px;
+	height: 19px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 20'%3E%3Cpath d='M1 1 L1 18 L5.2 13.8 L7.6 19.6 L10.3 18.4 L7.9 12.8 L13.4 12.6 Z' fill='%23101725' stroke='%23ffffff' stroke-width='1.1' stroke-linejoin='round'/%3E%3C/svg%3E");
+	animation: mpTour 5s cubic-bezier(.4,0,.2,1) infinite;
+}
+
+@keyframes mpTour
+{
+	0%, 6%
+	{
+		left: 72%;
+		top: 70%;
+	}
+
+	24%, 66%
+	{
+		left: 31%;
+		top: 24%;
+	}
+
+	86%, 100%
+	{
+		left: 72%;
+		top: 70%;
+	}
+} 
+
+span.mp-cursor.steps
+{
+	animation: mpSteps 6s cubic-bezier(.4,0,.2,1) infinite;
+}
+
+@keyframes mpSteps
+{
+	0%, 3%
+	{
+		left: 66%;
+		top: 74%;
+	}
+
+	14%, 26%
+	{
+		left: 11%;
+		top: 27%;
+	}
+
+	40%, 52%
+	{
+		left: 11%;
+		top: 47%;
+	}
+
+	66%, 78%
+	{
+		left: 11%;
+		top: 67%;
+	}
+
+	92%, 100%
+	{
+		left: 66%;
+		top: 74%;
+	}
+} 
+
+/*=Checklist variant=*/
+
+span.mp-check
+{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin-top: -7.5px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: 1.6px solid #BEDDCD;
+}
+
+span.mp-check.on
+{
+	background-color: #007646;
+	border-color: #007646;
+	opacity: 0;
+	animation: mpOn 6s ease-out infinite;
+}
+
+span.mp-check.on::after
+{
+	content: '';
+	position: absolute;
+	left: 3px;
+	top: 3.5px;
+	width: 5px;
+	height: 2.5px;
+	border-left: 1.8px solid #ffffff;
+	border-bottom: 1.8px solid #ffffff;
+	transform: rotate(-45deg);
+}
+
+span.mp-check.on.two
+{
+	animation-delay: 1.55s;
+}
+
+span.mp-check.on.three
+{
+	animation-delay: 3.1s;
+}
+
+@keyframes mpOn
+{
+	0%, 13%
+	{
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	21%, 88%
+	{
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	96%, 100%
+	{
+		opacity: 0;
+		transform: scale(0.6);
+	}
+} 
+
+div.mp-progress
+{
+	position: absolute;
+	left: 12%;
+	bottom: 10%;
+	width: 62%;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #E3F1EA;
+}
+
+div.mp-progress span
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 0;
+	border-radius: 2px;
+	background-color: #007646;
+	animation: mpGrow 6s ease-in-out infinite;
+}
+
+@keyframes mpGrow
+{
+	0%, 10%
+	{
+		width: 0;
+	}
+
+	30%
+	{
+		width: 33%;
+	}
+
+	56%
+	{
+		width: 66%;
+	}
+
+	82%, 100%
+	{
+		width: 100%;
+	}
+} 
+
+div.nav-search-wrapper
+{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding-right: 16px;
+}
+
+div.nav-search-wrapper .search-bar
+{
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+div.nav-search-wrapper .theme-toggle
+{
+	flex: 0 0 36px;
+	margin-left: 0;
+}
+
+div.hub-grid
+{
+	width: 52%;
+	margin-left: 24%;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-gap: 18px;
+	gap: 18px;
+}
+
+div.hub-grid > div
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border: 1px solid #E4E7E9;
+	border-radius: 20px;
+	padding: 20px 22px 16px;
+	box-shadow: 0 1px 2px rgba(20, 30, 40, 0.06), 0 8px 16px rgba(20, 30, 40, 0.08);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.hub-grid > div:hover
+{
+	border-color: #1c5cfc;
+	box-shadow: 0 0 0 3px rgba(28, 92, 252, 0.18), 0 10px 26px rgba(28, 92, 252, 0.20);
+}
+
+/*=Card heading: icon and label on one line=*/
+
+p.hub-title
+{
+	margin: 0;
+	font-size: 1.05em;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #1F2933;
+}
+
+p.hub-title img
+{
+	width: 34px;
+	height: auto;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+p.hub-desc
+{
+	margin: 6px 0 0;
+	font-size: 0.78em;
+	line-height: 1.5;
+	color: #7E8890;
+}
+
+/*=Child topic links=*/
+
+div.hub-links
+{
+	margin-top: 14px;
+	padding-top: 10px;
+	border-top: 1px solid #EDF1F7;
+}
+
+div.hub-links a
+{
+	display: block;
+	padding: 6px 0;
+	font-size: 0.85em;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #1F2933;
+	text-decoration: none;
+}
+
+/*=Mediums - mirror the div.media-strip breakpoints=*/
+
+@media only screen and (max-width: 1288px)
+{
+	div.hub-grid
+	{
+		width: 98%;
+		margin-left: 1%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.hub-grid
+	{
+		width: 90%;
+		margin-left: 5%;
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	p.hub-title
+	{
+		font-size: 1.1em;
+	}
+}
+
+html[data-theme="dark"] div.hub-grid > div
+{
+	background-color: #121C29;
+	border-color: #27374A;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.20), 0 10px 24px rgba(0,0,0,0.20);
+}
+
+html[data-theme="dark"] div.hub-grid > div:hover
+{
+	border-color: #3D9BFF;
+	box-shadow: 0 0 0 3px rgba(61,155,255,0.14), 0 14px 32px rgba(0,0,0,0.28);
+}
+
+html[data-theme="dark"] p.hub-title
+{
+	color: #EDF3F9;
+}
+
+html[data-theme="dark"] p.hub-desc
+{
+	color: #98A8BA;
+}
+
+html[data-theme="dark"] div.hub-links
+{
+	border-top-color: #22303F;
+}
+
+html[data-theme="dark"] div.hub-links a
+{
+	color: #C6D3E2;
+}
+
+html[data-theme="dark"] div.hub-links a:hover
+{
+	color: #62B9FF;
+}
+

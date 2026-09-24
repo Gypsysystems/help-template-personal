@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="92">
+    <TocEntry Title="Home" Link="/Content/home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+    <TocEntry Title="About this User Manual" Link="/Content/guide/about-users.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Introduction" Link="/Content/guide/introduction/introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="About Synergy" Link="/Content/guide/introduction/about.htm" MadCap:generatedToc="true" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Getting Started" Link="/Content/guide/introduction/getting-started.htm" MadCap:generatedToc="true" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Exploring Synergy" Link="/Content/guide/interactive-walkthrough.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Working with Workspaces" Link="/Content/guide/workspaces/working-with-workspaces.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Exploring a Workspace" Link="/Content/guide/workspaces/exploring-workspace-ui.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating a Workspace" Link="/Content/guide/workspaces/create-workspace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Viewing a Workspace" Link="/Content/guide/workspaces/viewing-a-workspace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating a Folder in a Workspace" Link="/Content/guide/workspaces/create-workspace-folder.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating a Document" Link="/Content/guide/documentation/create-a-document.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using All Search" Link="/Content/guide/workspaces/all-search.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Managing Workspaces" Link="/Content/guide/managing-workspaces/manage-workspaces.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="8">
+        <TocEntry Title="Modifying Workspace Details" Link="/Content/guide/managing-workspaces/modifying-workspace-details.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Managing Members in a Workspace" Link="/Content/guide/managing-workspaces/manage-members-of-workspace.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Managing Data in a Workspace" Link="/Content/guide/managing-workspaces/managing-workspace-data.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Configuring Data Catalog in a Workspace" Link="/Content/guide/managing-workspaces/configuring-data-catalog.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Managing Workspace Executors" Link="/Content/guide/managing-workspaces/executors.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Viewing Data Sources in a Workspace" Link="/Content/guide/workspaces/managing-data.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Viewing Activities in a Workspace" Link="/Content/guide/workspaces/viewing-activities.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Deleting  a Workspace" Link="/Content/guide/managing-workspaces/delete-workspace.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="AI&#160;Assistant" Link="/Content/guide/AI-assistant/ai-assistant.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Configuring Entities" Link="/Content/guide/entity-config/entity-config.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="4">
+        <TocEntry Title="Creating an Identifier Type" Link="/Content/guide/entity-config/identifier-type.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating a Profile Type" Link="/Content/guide/entity-config/profile-type.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating a Relation Type" Link="/Content/guide/entity-config/relation-type.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating a Profile Involvement Type" Link="/Content/guide/entity-config/profile-involvement-type.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Managing Data in Synergy" Link="/Content/guide/managing-data/managing-data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="5">
+        <TocEntry Title="Data Management" Link="/Content/guide/managing-data/data-management/data-management.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Working with Data Sources" Link="/Content/guide/managing-data/data-management/working-with-datasource.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Working with a ClickHouse Data Source" Link="/Content/guide/managing-data/data-management/clickhouse-data-source.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Working with a Minio and an S3 Data Source" Link="/Content/guide/managing-data/data-management/s3-minio-datasource.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Working with Data Catalog" Link="/Content/guide/managing-data/data-catalog/data-catalog.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Code Editor" Link="/Content/guide/sql-editor/code-editor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Transforming Data using Pipelines" Link="/Content/guide/data-pipeline/data-pipeline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="19">
+        <TocEntry Title="Exploring the Data Pipeline UI" Link="/Content/guide/data-pipeline/exploring-datapipeline-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating Pipelines" Link="/Content/guide/data-pipeline/creating-pipelines.htm" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="Creating an SQL&#160;Query Pipeline" Link="/Content/guide/data-pipeline/creating-SQL-query-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Creating a Mirror Pipeline" Link="/Content/guide/data-pipeline/create-mirror-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Creating a Python Pipeline" Link="/Content/guide/data-pipeline/creating-python-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Ingesting Profiles" Link="/Content/guide/data-pipeline/ingesting-profiles-entities.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Ingesting Identifiers" Link="/Content/guide/data-pipeline/ingesting-identifiers.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Ingesting Images and Audio" Link="/Content/guide/data-pipeline/ingesting-image-audio.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Vectorizing Images and Audio" Link="/Content/guide/data-pipeline/vectorizing-image-audio.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Adding a Data Quality Step" Link="/Content/guide/data-pipeline/creating-DQ-step.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Using the Iterator Step in Pipelines" Link="/Content/guide/data-pipeline/creating-iterator-step.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Creating an Execute Pipeline Step" Link="/Content/guide/data-pipeline/creating-execute-pipeline-step.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Creating Analytics Pipelines" Link="/Content/guide/analytics-pipeline/creating-analytics-pipelines.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Creating a Search Pipeline" Link="/Content/guide/analytics-pipeline/creating-search-pipeline.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Creating Explorer Search Pipeline" Link="/Content/guide/analytics-pipeline/creating-explorer-search-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Creating Query Search Pipeline" Link="/Content/guide/analytics-pipeline/creating-query-search-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Creating a Condition Step in an Analytics Pipeline" Link="/Content/guide/analytics-pipeline/creating-condition-step.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Creating an Iterator Step" Link="/Content/guide/analytics-pipeline/creating-iterator-step.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Working with Pipelines" Link="/Content/guide/data-pipeline/working-with-data-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Explorer" Link="/Content/guide/data-explorer-schema-search/database-schema-search.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="Exploring the Data Explorer UI" Link="/Content/guide/data-explorer-schema-search/exploring-explorer-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Searching for and Analyzing Data in Data Explorer" Link="/Content/guide/data-explorer-schema-search/search-data-explorer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Collections" Link="/Content/guide/record-collection/record-collection.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="3">
+        <TocEntry Title="Exploring the Collections UI" Link="/Content/guide/record-collection/exploring-collections-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Working with Collections" Link="/Content/guide/record-collection/working-with-collections.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Working with Records in a Collection" Link="/Content/guide/record-collection/working-with-records-in-collection.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Data Monitors" Link="/Content/guide/monitors/monitors.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="Exploring Data Monitors UI" Link="/Content/guide/monitors/exploring-monitors-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Working with Data Monitors" Link="/Content/guide/monitors/working-with-monitors.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Link Analysis" Link="/Content/guide/graph-analysis/graph-analysis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="3">
+        <TocEntry Title="Exploring Link Analysis UI" Link="/Content/guide/graph-analysis/exploring-graph-analysis-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Viewing and Analyzing Relationships" Link="/Content/guide/graph-analysis/viewing-analyzing-relationships.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Data Quality" Link="/Content/guide/data-quality/data-quality.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Map Explorer" Link="/Content/guide/map-explorer/map-explorer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="7">
+        <TocEntry Title="Exploring the Map Explorer UI" Link="/Content/guide/map-explorer/exploring-map-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using Map Toolbar" Link="/Content/guide/map-explorer/using-map-toolbar.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Viewing and Analyzing Data on the Map" Link="/Content/guide/map-explorer/view-analyze-data-on-map.htm" ComputedFirstTopic="false" DescendantCount="4">
+            <TocEntry Title="Adding a Point Layer" Link="/Content/guide/map-explorer/adding-point-layer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Adding a Path Layer" Link="/Content/guide/map-explorer/adding-path-layer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Adding a Heatmap Layer" Link="/Content/guide/map-explorer/adding-heatmap-layer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Adding a Cluster Layer" Link="/Content/guide/map-explorer/adding-cluster-layer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Profile Search" Link="/Content/guide/profile-search/profile-search.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="3">
+        <TocEntry Title="Searching for Profiles" Link="/Content/guide/profile-search/searching-for-profiles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Viewing and Analyzing Profiles" Link="/Content/guide/profile-search/viewing-and-analyzing-profiles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Managing a Profile Set" Link="/Content/guide/workspaces/managing-profile-set.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Reports" Link="/Content/guide/reports/reports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="Exploring Reports UI" Link="/Content/guide/reports/exploring-reports-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Working with Reports" Link="/Content/guide/reports/working-with-reports.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Dashboards" Link="/Content/guide/dashboards/dashboards.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="Exploring the Dashboard UI" Link="/Content/guide/dashboards/exploring-dashboard-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Creating Dashboard" Link="/Content/guide/dashboards/create-dashboard.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Standard Operating Procedures" Link="/Content/SOPs/SOPs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="4">
+        <TocEntry Title="WS&#160;01:&#160;Creating Workspace" Link="/Content/SOPs/create-workspace.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="WS&#160;02:&#160;Managing Existing Workspace" Link="/Content/SOPs/manage-existing-workspace.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="DC&#160;01:&#160;Creating an Analytical Schema" Link="/Content/SOPs/create-anlytical-schema.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="DP 01:&#160;Creating and Running a Mirror Pipeline" Link="/Content/SOPs/create-run-mirror-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+</CatapultToc>
