@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1" DescendantCount="92">
+<CatapultToc Version="1" DescendantCount="87">
     <TocEntry Title="Home" Link="/Content/home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
     <TocEntry Title="About this User Manual" Link="/Content/guide/about-users.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="0" />
     <TocEntry Title="Introduction" Link="/Content/guide/introduction/introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="2">
@@ -106,10 +106,10 @@
         <TocEntry Title="Exploring the Dashboard UI" Link="/Content/guide/dashboards/exploring-dashboard-ui.htm" ComputedFirstTopic="false" DescendantCount="0" />
         <TocEntry Title="Creating Dashboard" Link="/Content/guide/dashboards/create-dashboard.htm" ComputedFirstTopic="false" DescendantCount="0" />
     </TocEntry>
-    <TocEntry Title="Standard Operating Procedures" Link="/Content/SOPs/SOPs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="4">
-        <TocEntry Title="WS&#160;01:&#160;Creating Workspace" Link="/Content/SOPs/create-workspace.htm" ComputedFirstTopic="false" DescendantCount="0" />
-        <TocEntry Title="WS&#160;02:&#160;Managing Existing Workspace" Link="/Content/SOPs/manage-existing-workspace.htm" ComputedFirstTopic="false" DescendantCount="0" />
-        <TocEntry Title="DC&#160;01:&#160;Creating an Analytical Schema" Link="/Content/SOPs/create-anlytical-schema.htm" ComputedFirstTopic="false" DescendantCount="0" />
-        <TocEntry Title="DP 01:&#160;Creating and Running a Mirror Pipeline" Link="/Content/SOPs/create-run-mirror-pipeline.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="[[[Missing Linked File System.LinkedTitle]]]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0">
+        <TocEntry Title="[[[Missing Linked File System.LinkedTitle]]]" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="[[[Missing Linked File System.LinkedTitle]]]" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="[[[Missing Linked File System.LinkedTitle]]]" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="[[[Missing Linked File System.LinkedTitle]]]" ComputedFirstTopic="false" DescendantCount="0" />
     </TocEntry>
 </CatapultToc>
