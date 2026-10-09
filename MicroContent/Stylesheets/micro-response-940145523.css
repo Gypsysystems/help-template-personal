@@ -1,0 +1,1075 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the search-bar is at the top of the topic page, it will be listed closer to the top of this stylesheet.
+
+===========================================================================================================================================================*/
+
+/*==Topic General Styles==*/
+
+.micro-response-940145523
+{
+	color: #24292F;
+	line-height: 1.7em;
+	background-color: #fff;
+	font-family: Helvetica;
+}
+
+.micro-response-940145523 h1
+{
+	margin-bottom: 8px;
+	margin-top: 16px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 2.0em;
+	page-break-after: avoid;
+	page-break-before: inherit;
+	color: #0B2A5B;
+}
+
+.micro-response-940145523 h2
+{
+	margin-bottom: 4px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 1.8em;
+	page-break-after: avoid;
+	page-break-before: inherit;
+	color: #1C5CFC;
+}
+
+.micro-response-940145523 h3
+{
+	margin-bottom: 4px;
+	margin-top: 16px;
+	font-size: 1.6em;
+	font-weight: bold;
+	page-break-after: avoid;
+	page-break-before: inherit;
+	color: #23407A;
+}
+
+.micro-response-940145523 h4
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	page-break-after: avoid;
+	color: #475569;
+}
+
+.micro-response-940145523 h5
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	mc-heading-level: 0;
+	color: #04A2FF;
+}
+
+.micro-response-940145523 h6
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	mc-heading-level: 0;
+	color: #04A2FF;
+}
+
+.micro-response-940145523 li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.micro-response-940145523 p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 1em;
+	font-family: Helvetica;
+	color: #404040;
+}
+
+.micro-response-940145523 p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: #fff;
+}
+
+.micro-response-940145523 ol,
+.micro-response-940145523 ul
+{
+	letter-spacing: .25;
+	line-height: 20pt;
+}
+
+.micro-response-940145523 img
+{
+	border: none;
+	padding: 0px 0px 0px 0px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.micro-response-940145523 img.Thumbnail
+{
+	mc-thumbnail: none;
+}
+
+.micro-response-940145523 .center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.micro-response-940145523 a.MCBreadcrumbsLink
+{
+	font-style: normal;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 1em;
+	color: #6b6b6b;
+}
+
+.micro-response-940145523 a.MCBreadcrumbsLink:visited
+{
+	color: #6b6b6b;
+}
+
+.micro-response-940145523 a.MCBreadcrumbsLink:hover
+{
+	color: #6b6b6b;
+}
+
+.micro-response-940145523 MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-style: normal;
+	font-family: Helvetica;
+	mc-breadcrumbs-prefix: ' ';
+	display: inline;
+	mc-breadcrumbs-divider: '  ⦁  ';
+	font-size: 0.8em;
+	color: #798597;
+	frame-break-after: avoid;
+	page-break-after: avoid;
+}
+
+.micro-response-940145523 MadCap|xref
+{
+	color: #2c2c2c;
+	/*font-weight: bold;*/
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+/*MadCap|xref:hover
+{
+	color: #7469b9;
+}*/
+
+.micro-response-940145523 MadCap|dropDownHotspot
+{
+	color: #404040;
+}
+
+.micro-response-940145523 MadCap|dropDownBody
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.micro-response-940145523 MadCap|dropDown	/*Change the "mc-open-image" and "mc-closed-image" properties to change the icons used in drop-downs*/
+{
+	mc-open-image: url('../../Content/resources/Images/Arrows/Arrow_Down.png');
+	mc-closed-image: url('../../Content/resources/Images/Arrows/Arrow_Up.png');
+}
+
+/*==Master Page Topic Layout==*/
+
+.micro-response-940145523 nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 0px solid #d3d3d3;
+}
+
+.micro-response-940145523 div.top-bar	/*Contains the breadcrumbs and toolbar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+	min-height: 50px;
+	/*Min-height is necessary for topics that are not included in a TOC*/
+}
+
+.micro-response-940145523 div.search-container
+{
+	padding-bottom: 20px;
+}
+
+/*==Elements for the left side of Master Page layout==*/
+
+.micro-response-940145523 div.side-menu	/*This is the div that the menu proxy is contained in*/
+{
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+.micro-response-940145523 div.side-content	/*This is the div for the side-content containing "Search Tips" and the "Contact Support" button*/
+{
+	padding-top: 10px;
+}
+
+.micro-response-940145523 MadCap|dropDownHead.side-content	/*Font properties for the "Search Tips" drop-down head */
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.micro-response-940145523 div.cta	/*Call to action button/Contact Support button*/
+{
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	padding: 2px 0px;
+	border: 1px solid #7469b9;
+	width: 162px;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	margin-top: 20px;
+	color: #404040;
+}
+
+.micro-response-940145523 div.cta:hover	/*When hovering over the CTA button the following properties will apply*/
+{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transform: scale(1.01);
+	color: #404040;
+}
+
+.micro-response-940145523 a.cta:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.micro-response-940145523 a.cta:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.micro-response-940145523 a
+{
+	color: #404040;
+}
+
+.micro-response-940145523 a:link
+{
+	color: #2c2c2c;
+}
+
+.micro-response-940145523 a:visited
+{
+	color: #6b6b6b;
+}
+
+.micro-response-940145523 a:focus
+{
+	
+}
+
+.micro-response-940145523 ote a:hover
+{
+	color: #00d2aa;
+}
+
+.micro-response-940145523 a:hover
+{
+	
+}
+
+.micro-response-940145523 a:active
+{
+	color: #6b6b6b;
+}
+
+.micro-response-940145523 black
+{
+	color: #000000;
+}
+
+.micro-response-940145523 MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+	page-break-after: avoid;
+	page-break-before: avoid;
+}
+
+.micro-response-940145523 MadCap|dropDown
+{
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	padding: 10px 0;
+	mc-open-image: url('../../Content/resources/Images/Arrows/Arrow_Up.png');
+	min-height: 8px;
+	min-width: 8px;
+	page-break-before: avoid;
+	page-break-after: avoid;
+	mc-closed-image: url('../../Content/resources/Images/Arrows/Arrow_Down.png');
+	mc-closed-image-alt-text: url('../../Content/resources/Images/Arrows/Arrow_Up.png');
+}
+
+.micro-response-940145523 div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.micro-response-940145523 div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+.micro-response-940145523 div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.micro-response-940145523 div.topic-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.micro-response-940145523 div.topic-layout > div:nth-child(1)	/*Menu Proxy container*/
+{
+	width: 100%;
+	margin-left: 0%;
+	/*border-right: 1px solid #d3d3d3;*/
+	padding-top: 50px;
+	padding-left: 10px;
+}
+
+.micro-response-940145523 div.topic-layout > div:nth-child(2)
+{
+	width: 73%;
+	margin-left: 2%;
+}
+
+.micro-response-940145523 a.cta
+{
+	
+}
+
+.micro-response-940145523 a.Popup
+{
+	background-color: #f0f8ff;
+}
+
+.micro-response-940145523 a.GlossaryPageTerm
+{
+	color: #404040;
+}
+
+.micro-response-940145523 MadCap|conceptLink
+{
+	color: #404040;
+}
+
+.micro-response-940145523 MadCap|dropDownHead
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14pt;
+}
+
+.micro-response-940145523 MadCap|popupHead
+{
+	text-decoration: none;
+	border-bottom: 1px dotted #404040;
+	color: #404040;
+}
+
+.micro-response-940145523 MadCap|popupBody
+{
+	font-size: small;
+}
+
+.micro-response-940145523 MadCap|glossaryTerm.Popup
+{
+	font-weight: normal;
+	text-decoration: none;
+	mc-closed-image: none;
+	mc-closed-image-alt-text: none;
+}
+
+.micro-response-940145523 MadCap|glossaryTerm.Expanding
+{
+	color: #404040;
+	mc-closed-image: none;
+	mc-closed-image-alt-text: none;
+}
+
+.micro-response-940145523 MadCap|glossaryTerm.Hyperlink
+{
+	mc-closed-image: none;
+	mc-closed-image-alt-text: none;
+}
+
+.micro-response-940145523 MadCap|glossaryTerm
+{
+	mc-closed-image: none;
+	mc-closed-image-alt-text: none;
+	mc-image-position: none;
+	mc-image-spacing: none;
+	mc-open-image: none;
+	mc-open-image-alt-text: none;
+	color: #404040;
+}
+
+.micro-response-940145523 .MCTextPopup_Closed.MCTextPopupHotSpot_.MCTextPopupHotSpot_Popup
+{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1288px)
+{
+	.micro-response-940145523 div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	.micro-response-940145523 div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.micro-response-940145523 div.top-bar
+	{
+		min-height: 0;
+	}
+
+	.micro-response-940145523 div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	.micro-response-940145523 div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+.micro-response-940145523 p.note
+{
+	font-style: italic;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Note: {/b}';
+	/*border-bottom: solid 3px #79d3fc;
+	border-top: solid 0px #9adefc;
+	border-left: solid 3px #79d3fc;
+	border-right: solid 0px #9adefc;*/
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f0f8ff;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #add8e6;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #9adefc;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #9adefc;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #add8e6;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 div.notebullets
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f0f8ff;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #add8e6;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #9adefc;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #9adefc;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #add8e6;
+	overflow: hidden;
+	mc-auto-number-format: '{b}Notes: {/b}';
+}
+
+.micro-response-940145523 p.example
+{
+	font-style: italic;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Example: {/b}';
+	border-bottom: solid 3px #bfbfbf;
+	border-top: solid 0px #bfbfbf;
+	border-left: solid 3px #bfbfbf;
+	border-right: solid 0px #bfbfbf;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f5f5f5;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #c0c0c0;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #bfbfbf;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #bfbfbf;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #c0c0c0;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 div.examplebullets
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Example: {/b}';
+	border-bottom: solid 3px #bfbfbf;
+	border-top: solid 0px #bfbfbf;
+	border-left: solid 3px #bfbfbf;
+	border-right: solid 0px #bfbfbf;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+
+.micro-response-940145523 p.tip
+{
+	font-style: italic;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Tip: {/b}';
+	/*border-bottom: solid 3px #83fc83;
+	border-top: solid 0px #83fc83;
+	border-left: solid 3px #83fc83;
+	border-right: solid 0px #83fc83;*/
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #8fbc8b;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #83fc83;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #83fc83;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #8fbc8b;
+	background-color: #f0fff0;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 div.tipbullets
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Tips: {/b}';
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #8fbc8b;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #83fc83;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #83fc83;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #8fbc8b;
+	background-color: #f0fff0;
+	overflow: hidden;
+}
+
+.micro-response-940145523 p.info
+{
+	font-style: italic;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Info: {/b}';
+	/*border-bottom: solid 3px #fcfc6a;
+	border-top: solid 0px #fcfc6a;
+	border-left: solid 3px #fcfc6a;
+	border-right: solid 0px #fcfc6a;*/
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eee8aa;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #fcfc6a;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #fcfc6a;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eee8aa;
+	background-color: #ffffe0;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 div.infobullets
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Info: {/b}';
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eee8aa;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #fcfc6a;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #fcfc6a;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eee8aa;
+	background-color: #ffffe0;
+	overflow: hidden;
+}
+
+.micro-response-940145523 p.warning
+{
+	font-style: italic;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Warning: {/b}';
+	/*border-bottom: solid 3px #ff8787;
+	border-top: solid 0px #ff8787;
+	border-left: solid 3px #ff8787;
+	border-right: solid 0px #ff8787;*/
+	border-radius: 5px 5px 5px 5px;
+	background-color: #ffe4e1;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eba58d;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #ff8787;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #ff8787;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eba58d;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 div.warningbullets
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: '{b}Warnings: {/b}';
+	border-radius: 5px 5px 5px 5px;
+	background-color: #ffe4e1;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eba58d;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #ff8787;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #ff8787;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eba58d;
+	overflow: hidden;
+}
+
+.micro-response-940145523 p.numList
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 1em;
+	mc-auto-number-offset: 15px;
+	padding-left: 10px;
+	mc-auto-number-class: ;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{n=1}.  ';
+	margin-left: 25px;
+	text-indent: -25px;
+}
+
+.micro-response-940145523 p.numListSeq
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 1em;
+	mc-auto-number-offset: 15px;
+	padding-left: 10px;
+	mc-auto-number-class: ;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{n+}.  ';
+	text-indent: -25px;
+	margin-left: 25px;
+}
+
+.micro-response-940145523 b.path
+{
+	font-style: italic;
+}
+
+.micro-response-940145523 ol.NumCont
+{
+	list-style-type: decimal;
+	list-style-image: none;
+}
+
+.micro-response-940145523 ol.NumCont > li::marker
+{
+	content: '{n+}.';
+}
+
+.micro-response-940145523 MadCap|tocProxy.main-section
+{
+	
+}
+
+.micro-response-940145523 p.product-title
+{
+	margin-top: 8px;
+	text-align: left;
+	margin-bottom: 2px;
+	font-family: Helvetica;
+	font-size: 64pt;
+	font-weight: bold;
+	color: #2c2c2c;
+}
+
+.micro-response-940145523 h6.reference
+{
+	margin-bottom: 4px;
+	margin-top: 16px;
+	mc-heading-level: 0;
+	color: #366DAF;
+}
+
+.micro-response-940145523 p.on-demand-video
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	mc-auto-number-format: 'Looking for a video from an earlier package? Raise a request specifying the SOP title and we will create and publish the SOP video for you.';
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eee8aa;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #fcfc6a;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #fcfc6a;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eee8aa;
+	background-color: #ffffe0;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 p.video-release-date
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eee8aa;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #fcfc6a;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #fcfc6a;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eee8aa;
+	background-color: #ffffe0;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	mc-auto-number-format: 'This video is for illustrative purposes only and may not capture all the application features. This video was last updated for Package ';
+}
+
+.micro-response-940145523 p.image-disclaimer
+{
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-top: 1em;
+	mc-auto-number-format: 'This image is for illustrative purposes only and does not represent real data.';
+	padding-left: 12px;
+	color: #5d5d5d;
+	font-style: italic;
+	font-size: 10pt;
+	page-break-after: avoid;
+}
+
+.micro-response-940145523 p.video-disclaimer
+{
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-top: 1em;
+	mc-auto-number-format: 'This video is for illustrative purposes only and does not represent real data.';
+	padding-left: 12px;
+	color: #5d5d5d;
+	font-style: italic;
+	font-size: 10pt;
+	page-break-after: avoid;
+}
+
+.micro-response-940145523 p.description
+{
+	font-style: italic;
+	margin: 10px;
+	line-height: 1.5em;
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eee8aa;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #fcfc6a;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #fcfc6a;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eee8aa;
+	background-color: #ffffe0;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.micro-response-940145523 div.description
+{
+	font-style: italic;
+	padding: 16px;
+	margin: 10px;
+	line-height: 1.5em;
+	border-radius: 5px 5px 5px 5px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #eee8aa;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #fcfc6a;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #fcfc6a;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #eee8aa;
+	background-color: #ffffe0;
+	overflow: hidden;
+}
+
+.micro-response-940145523 .btn-back-to-top
+{
+	text-align: right;
+	position: sticky;
+	bottom: 20px;
+	opacity: 0.5;
+}
+
+.micro-response-940145523 div.footer
+{
+	margin: 0;
+	padding: 20px;
+	padding-top: 20px;
+	color: #333333;
+}
+
+.micro-response-940145523 p.footertext
+{
+	text-align: center;
+	font-size: 0.6em;
+	margin: 0.8em;
+	line-height: 0.8em;
+	color: #798597;
+}
+
+.micro-response-940145523 :focus
+{
+	outline: none;
+	/*box-shadow: 10px 15px 25px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
+
+.micro-response-940145523 div.MCMiniTocBox_0
+{
+	display: none;
+}
+
+.micro-response-940145523 div.popupHead:link
+{
+	color: #f0f8ff;
+}
+
+.micro-response-940145523 .container
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 51.25%;
+	/* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.micro-response-940145523 .responsive-iframe
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.micro-response-940145523 .sidenav a.selected,
+.micro-response-940145523 li.tree-node-selected > .tree-link
+{
+	font-weight: 700;
+	color: #ffffff;
+	background: #151a21;
+	border-left: 3px solid #1c5cfc;
+}
+
+.micro-response-940145523 ul.sidenav li a.selected
+{
+	border-left: 3px solid #1c5cfc;
+	border-bottom: 0 solid transparent;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #151a21;
+}
+
+.micro-response-940145523 ul.sidenav li.tree-node-selected > a.selected
+{
+	border-left: 3px solid #1c5cfc !important;
+}
+
+.micro-response-940145523 ul.sidenav li a
+{
+	border-left: 3px solid transparent;
+	padding-left: 17px;
+}
+
+.micro-response-940145523 ul.sidenav li a.selected
+{
+	padding-left: 17px;
+}
+
