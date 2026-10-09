@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_synergy_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-conditions="Roles.User" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_master_data_um_side_navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-conditions="Roles.User" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
@@ -286,8 +286,6 @@ html[data-theme="dark"] body
                                     <div class="background">
                                         <div role="main" id="mc-main-content">
                                             <h1>About <span class="mc-variable General.ProdTitle variable">Synergy</span></h1>
-                                            <p><span class="mc-variable General.ProdTitle variable">Synergy</span> is an integrated AI data management platform designed to handle data-related tasks, including ETL (Extract, Transform, Load) and AI transformations, which enables you to apply complex business logic to your data. Additionally, it enables users across your organization to search, access, and analyze the same data and collaborate as a team.</p>
-                                            <p><span class="mc-variable General.ProdTitle variable">Synergy</span> includes a mass profiling framework that enables deeper analysis than a table-only view by consolidating entity information (for example, employees, customers, or digital identities) into unified Profiles and connecting those Profiles using identifiers, relationships, and involvement types.</p>
                                             <h2><span class="mc-variable General.ProdTitle variable">Synergy</span> Components</h2>
                                             <p>Following are the core components of <span class="mc-variable General.ProdTitle variable">Synergy</span>:</p>
                                             <ul>
@@ -321,119 +319,28 @@ html[data-theme="dark"] body
                                                 </li>
                                             </ul>
                                             <h3><a name="Data"></a>Data Management</h3>
-                                            <p>The Data Management component enables you to organize and analyze data from various sources associated with a workspace. </p>
-                                            <p>In the Data Management component, you can:</p>
-                                            <ul>
-                                                <li>Query data sources.</li>
-                                                <li>Create schemas.</li>
-                                                <li>Synchronize data sources with the workspace.</li>
-                                                <li>Manage analytical schemas within schemas.</li>
-                                                <li>View and manage database tables and columns.</li>
-                                            </ul>
-                                            <p><span class="mc-variable General.ProdTitle variable">Synergy</span> supports data sources stored in different types of databases such as ClickHouse, S3 file storage, Minio, postgres, and so on.</p>
                                             <p>For more information, see <a href="../managing-data/data-management/data-management.htm" class="MCXref xref">Data Management</a>.</p>
                                             <h3><a name="ETL&#160;Pipe"></a>ETL&#160;Pipeline</h3>
-                                            <p> You can transform data from various structured and unstructured sources following best ETL practices using the Pipelines component. This component lets you define parameters, conditions, and dependencies for each step. It also enables you to write and execute custom SQL queries and use Python to create and run ML models based on existing data. For example, you can set a condition to run an ML step only if the previous SQL or Explorer step returns search results, or if the ML model finds any expected values.</p>
                                             <p>For more information, see Searching for Data using Pipeline.</p>
                                             <h3><a name="Data2"></a>Data Catalog</h3>
-                                            <p>Data Catalog enables you to store and organize analytical data, such as schemas, within the platform and its workspaces. It enables you to view and modify the schemas. You can query schemas and create dashboards for them.</p>
                                             <p>For more information, see <a href="../managing-data/data-catalog/data-catalog.htm" class="MCXref xref">Working with Data Catalog</a>.</p>
                                             <h3><a name="Explorer"></a>Explorer</h3>
-                                            <p>Explorer enables you to search for data using database schema. A Schema in <span class="mc-variable General.ProdTitle variable">Synergy</span> is a logical view of a data source table. <MadCap:conditionalText data-mc-conditions="Clients.Fahad,Clients.Khazakgp,Clients.Product Help,Clients.Vantage">For example, a Calls schema only consists data related to call records.</MadCap:conditionalText></p>
-                                            <p>The schemas are available to a workspace depending on the data source assigned to the workspace. </p>
-                                            <p>Data Explorer enables you to:</p>
-                                            <ul>
-                                                <li>View the search results in a grid, <MadCap:conditionalText data-mc-conditions="Clients.Fahad,Clients.Khazakgp,Clients.Product Help,Clients.Vantage">map, </MadCap:conditionalText>or on a timeline.</li>
-                                                <li>Aggregate, apply metrics, and group and sort data without any programming knowledge.</li>
-                                                <li>Explore schema data in grid and chart formats.</li>
-                                                <li>Apply filters, sort data, and save Explorer configurations for reuse.</li>
-                                            </ul>
                                             <p>For more information, see <a href="../data-explorer-schema-search/database-schema-search.htm" class="MCXref xref">Explorer</a>.</p>
                                             <h3><a name="Map"></a>Map Explorer</h3>
-                                            <p>Map Explorer enables you to visualize, analyze, and interact with geospatial data directly on an interactive map. You can also plot location&#8209;based datasets, overlay multiple layers from different schemas, define geographic areas, and analyze movement patterns.</p>
                                             <p>For more information, see <a href="../map-explorer/map-explorer.htm" class="MCXref xref">Map Explorer</a>.</p>
                                             <h3><a name="Profile"></a>Profile Search</h3>
-                                            <p>Profile Search is a search engine that enables you to search for Profiles across various data sources. You can enter names and/or identifiers, and/or use advanced filtering to define your search scope. You can also load a previously-saved set and search within the set.</p>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span> A Profile can be a person, organization, or any type of entity whose data and identifiers derived from different data sources are collated, organized meaningfully, and presented conveniently in its respective Profile Details tab.</p>
-                                            <p>After you perform a search, the search results are displayed as Profile Cards. Each Profile Card displays the summary of the details of the Profile. You can click any Profile Card to view and analyze the Profile's details and behavior from the Profile Details tab. You can also save the Profile Search configurations even if no results are returned. Saved searches can be reused later with the same search criteria.</p>
                                             <p>For more information, see <a href="../profile-search/profile-search.htm" class="MCXref xref">Profile Search</a>.</p>
                                             <h3><a name="Link"></a>Link Analysis</h3>
-                                            <p>Link Analysis enables you to visually explore relationships between Profiles, identifiers, and events. It allows you to build and analyze networks by adding nodes to a graph, expanding connections, and performing relationship&#8209;based analysis.
-</p>
-                                            <p>You can load a previously-saved Profile sets and analyze connections between Profiles and identifiers represented as Nodes and Edges.</p>
                                             <p>For more information, see <a href="../graph-analysis/graph-analysis.htm" class="MCXref xref">Link Analysis</a>.</p>
                                             <h3><a name="Dashboar"></a>Dashboard</h3>
-                                            <p>A dashboard is an information aggregation and visualization  platform that enables you explore and analyze different kinds of data. Dashboards enable you to create visualizations using schema and interact with them. These visualizations are in the form of <MadCap:conditionalText data-mc-conditions="Clients.Fahad,Clients.Khazakgp,Clients.Product Help,Clients.Vantage">chart, data, and map</MadCap:conditionalText>. It helps you to investigate and analyze relevant data.</p>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Dashboards are created using schema-level data only.</p>
                                             <p>For more information, see <a href="../dashboards/dashboards.htm" class="MCXref xref">Dashboards</a>.</p>
                                             <h3><a name="Executor"></a>Executors</h3>
-                                            <p>The Executors component automates task execution in a data pipeline by monitoring specific events, such as the arrival of new data files, and triggering the appropriate tasks to maintain a smooth data flow. It enables you to register the existing executors already deployed in your environment.</p>
-                                            <p>You can create ETL Executors or modify the existing code executors.</p>
-                                            <p>Executors provide the execution environments that <span class="mc-variable General.ProdTitle variable">Synergy</span> uses to run data processing tasks and custom code. The Executors page contains two tabs:</p>
-                                            <ul>
-                                                <li><b>ETL Executors:</b> You can manage executors used for ETL processes.</li>
-                                                <li><b>Code Executors:</b> You can view, modify, or remove code executors used for script and code execution.</li>
-                                            </ul>
-                                            <p>Administrators can configure and manage executors based on operational requirements.</p>
                                             <p>For more information, see <a href="../executors/adding-executors.htm" class="MCXref xref">Using the Executors Component</a>.</p>
                                             <h3><a name="Collecti"></a>Collections</h3>
-                                            <p>The Collections component enables you to group selected records retrieved from the Explorer into a reusable collection for in-depth investigation and analysis.</p>
-                                            <p>It enables you to organize relevant records, review their associated profiles, and compare collections using set operations.</p>
-                                            <p>Once your data is prepared and published, you can utilize the Collections to gather useful records, examine related entities, and maintain a working set focused on your investigation.</p>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>You can use Collections only when the selected schema has a primary key defined in the catalog.</p>
                                             <h3><a name="Data3"></a>Data Monitors</h3>
-                                            <p>Data Monitors enable you to create scheduled searches within a case and automatically identify new records that match defined criteria. Each monitor runs at the configured interval, compares the results against records identified in previous runs, and surfaces only new matches.</p>
-                                            <p>You can configure a monitor to:</p>
-                                            <ul>
-                                                <li>Search one or more schemas within the case.</li>
-                                                <li>Apply profile, date, keyword, geographic, and schema-specific filters.</li>
-                                                <li>Run automatically based on a predefined or custom schedule.</li>
-                                                <li>Search data within a defined lookback period.</li>
-                                                <li>Route new matches to an existing collection or create a new collection for each run.</li>
-                                                <li>Notify selected users or groups when the monitor identifies new matches.</li>
-                                                <li>Preview the results using a dry run before activating the monitor.</li>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Data Monitors operate within the workspace where you create them and search only data in that workspace.</p>
                                             <h3><a name="Data4"></a>Data Quality</h3>
-                                            <p>The Data Quality (DQ)&#160;component enables you to evaluate the accuracy, completeness, consistency, and validity of data stored in <span class="mc-variable General.ProdTitle variable">Synergy</span>. You can define reusable data quality rules and apply them to tables or include them as steps within data pipelines.</p>
-                                            <p>You can use the following DQ features to ensure data quality:</p>
-                                            <ul>
-                                                <li><b>DQ Rule:</b>&#160;Defines the condition that <span class="mc-variable General.ProdTitle variable">Synergy</span> evaluates against a table column.</li>
-                                                <li><b>DQ Check:</b> Applies the configured rules to a table and provides data quality results.</li>
-                                            </ul>
-                                            <p>Data Quality enables you to:</p>
-                                            <ul>
-                                                <li>Create reusable DQ Rules that define business or technical expectations for data.</li>
-                                                <li>Configure DQ Checks that apply one or more rules to a selected table.</li>
-                                                <li>Run checks to assess whether table data meets the defined quality requirements.</li>
-                                                <li>Review data quality scores, statuses, and records that require attention.</li>
-                                                <li>Apply DQ Rules within pipeline steps to validate data during pipeline execution.</li>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Create the required DQ Rules before configuring a DQ Check or adding data quality step to a pipeline.</p>
                                             <h3><a name="AI&#160;Assis"></a>AI&#160;Assistant</h3>
-                                            <p>The AI Assistant component enables you to ask questions in natural language and analyze data available within a case. It uses the current case context to search profiles, query data, generate charts, display media and conversations, and provide actions that open the relevant <span class="mc-variable General.ProdTitle variable">Synergy</span> components.</p>
-                                            <p>The AI Assistant also considers the content that you are currently viewing. For example, when you open a profile, dashboard, or Link Analysis graph, the assistant provides starter prompts and responses related to that content.</p>
-                                            <p>You can use the AI Assistant to:</p>
-                                            <ul>
-                                                <li>Search for profiles and records.</li>
-                                                <li>Query case data.</li>
-                                                <li>Generate charts and data grids.</li>
-                                                <li>Review media and conversations.</li>
-                                                <li>Open profiles, schemas, collections, dashboards, and other supported components.</li>
-                                                <li>Navigate to related documentation topics.</li>
-                                                <li>Continue an investigation by using suggested follow-up questions.</li>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The AI Assistant is available only within a case. It uses the data, permissions, and context associated with the current case.</p>
                                             <h3><a name="Reports"></a>Reports</h3>
-                                            <p>Reports enable you to transform investigative information available within a Case into a structured intelligence report. You can create and format report content, add supporting evidence, apply classification markings, submit the report for review, export the approved report, and release it to selected recipients.</p>
-                                            <p>Reports supports a controlled workflow that helps ensure that:</p>
-                                            <ul>
-                                                <li>Report content is classified before review.</li>
-                                                <li>A different user reviews the report.</li>
-                                                <li>Only approved reports are exported and released.</li>
-                                                <li>Released reports have a traceable chain of custody.</li>
-                                            </ul>
-                                            <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Reports are available only within a case.</p>
                                         </div>
                                     </div>
                                     <!-- ================================================================
